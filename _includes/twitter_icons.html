@@ -1,0 +1,10 @@
+{% if include.accounts %}
+{% assign accounts = include.accounts | split: "," %}
+{% for account in accounts %}
+{% if account contains 'http' %}{% include __fail.html %}{% endif %} <!-- httpの文字列が入っていると、エラーに -->
+<a class="btn btn-social-icon btn-twitter btn-xs"
+   href="https://twitter.com/{{ account | strip }}" target="_blank">
+  <i class="fa fa-twitter"></i>
+</a>
+{% endfor %}
+{% endif %}

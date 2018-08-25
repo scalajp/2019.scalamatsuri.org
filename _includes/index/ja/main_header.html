@@ -1,0 +1,26 @@
+<header class="mainHeader">
+
+  <nav class="gnav pcVer">
+    <ul class="clearfix">
+      <li><a href="#top">トップ</a></li>
+      {% for item in site.data.nav_ja %}
+      <li><a href="{{ item.href }}">{{ item.title }}</a></li>
+      {% endfor %}
+      <li><a href="/index_en.html">English</a></li>
+    </ul>
+  </nav>
+
+  <!-- for smart phone -->
+  <nav class="gnav smVer">
+    <p class="gnavSmClick"><img src="/img/common/icon_menu.png"></p>
+
+    <ul class="clearfix smVerGnav">
+      <li><a href="#top">トップ</a></li>
+      {% for item in site.data.nav_ja %}
+      <li><a href="{{ item.href }}">{{ item.title }}</a></li>
+      {% endfor %}
+      <li><a href="/index_en.html">English</a></li>
+    </ul>
+  </nav>
+
+</header>

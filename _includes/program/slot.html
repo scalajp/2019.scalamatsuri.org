@@ -1,0 +1,21 @@
+{% assign title     = include.title  %}
+{% assign speaker   = include.speaker  %}
+{% assign slide_url = include.slide_url  %}
+{% assign youtube   = include.youtube  %}
+
+{{ title }}
+{% if speaker.size > 0 %}&nbsp;-&nbsp;{{ speaker }}{% endif %}
+<div>
+  <ul>
+    {% if slide_url.size > 0 %}
+    <li>
+      <a href="{{ slide_url }}">slide</a>
+    </li>
+    {% endif %}
+    {% if youtube.size > 0 %}
+    <li>
+      {% include youtube.html url=youtube %}
+    </li>
+    {% endif %}
+  </ul>
+</div>

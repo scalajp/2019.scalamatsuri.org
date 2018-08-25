@@ -1,0 +1,34 @@
+---
+title: commercial list
+---
+
+<div class="commercial-list">
+  <h2>{{ site.data.commercial.shogun.nameEn }}</h2>
+  <div class="row shuffle">
+    {% for sponsor in site.data.commercial.shogun.sponsors %}
+    {% include commercial_en.html sponsor=sponsor %}
+    {% endfor %}
+  </div>
+
+  <h2>{{ site.data.commercial.tairo.nameEn }}</h2>
+  <div class="row shuffle">
+    {% for sponsor in site.data.commercial.tairo.sponsors %}
+    {% include commercial_en.html sponsor=sponsor %}
+    {% endfor %}
+  </div>
+
+  <h2>{{ site.data.commercial.daimyo.nameEn }}</h2>
+  <div class="row shuffle">
+    {% for sponsor in site.data.commercial.daimyo.sponsors %}
+    {% include commercial_en.html sponsor=sponsor %}
+    {% endfor %}
+  </div>
+
+  <h2>{{ site.data.commercial.samurai.nameEn }}</h2>
+  <div class="row shuffle">
+    {% for sponsor in site.data.commercial.samurai.sponsors %}
+    {% include commercial_en.html sponsor=sponsor %}
+    {% endfor %}
+  </div>
+
+</div>

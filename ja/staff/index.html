@@ -1,0 +1,16 @@
+---
+title: ScalaMatsuri スタッフ
+---
+
+
+<h2 class="text-center">スタッフ</h2>
+<div class="row shuffle">
+  {% for entry in site.data.staff.member %}
+  {% include staff_entry_ja.html entry=entry %}
+  {% endfor %}
+</div>
+
+<script src="/js/grids.min.js"></script>
+<script>
+  $('.staff-entry').height("16em");
+</script>

@@ -1,0 +1,65 @@
+exclude:
+  - "README.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - ".gitignore"
+  - ".editorconfig"
+  - "vendor"
+  - "docker-compose.yml"
+  - "Dockerfile"
+  - "script"
+  - ".git"
+  - ".idea"
+  - "Makefile"
+
+defaults:
+  - values:
+      layout: "default_ja"
+  - scope:
+      path: ""
+      type: candidates_ja
+    values:
+      layout: candidates_ja
+  - scope:
+      path: ""
+      type: candidates_en
+    values:
+      layout: candidates_en
+  - scope:
+      path: ""
+      type: notice
+    values:
+      layout: notice
+
+collections:
+  candidates_ja:
+    output: true
+    permalink: /ja/candidates/:path/
+  candidates_en:
+    output: true
+    permalink: /en/candidates/:path/
+  notice:
+    output: true
+    permalink: /notice/:path/
+
+safe: true
+lsi: false
+
+# Custom variables
+url: "http://2019.scalamatsuri.org"
+ja:
+  twitter: scala_jp
+en:
+  twitter: scalamatsuri
+plans:
+  - shogun
+  - tairo
+  - daimyo
+  - samurai
+  - ninja
+
+doorkeeper:
+  event:
+    id: ""
+  day0:
+    id: ""

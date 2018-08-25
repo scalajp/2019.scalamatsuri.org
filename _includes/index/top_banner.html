@@ -1,0 +1,11 @@
+<section class="sectionStyle7 smVer topBannerArea">
+  <div class="sectionStyle7Inner">
+    <article class="spBox">
+      <ul class="clearfix shuffle">
+        {% for logo in site.data.logos.shogun %}
+        <li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}"/></a></li>
+        {% endfor %}
+      </ul>
+    </article>
+  </div>
+</section>

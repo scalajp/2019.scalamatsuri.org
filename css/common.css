@@ -1,0 +1,1316 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.4
+2009-07-27
+Author: Richard Clark - http://richclarkdesign.com
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, dialog, figure, footer, header,
+hgroup, menu, nav, section,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+  font-family: "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+article, aside, dialog, figure, footer, header,
+hgroup, nav, section {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted #000;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+.clearfix:after {
+  content: "."; /* 新しい要素を作る */
+  display: block; /* ブロックレベル要素に */
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+}
+
+.clearfix {
+  min-height: 1px;
+}
+
+* html .clearfix {
+  height: 1px;
+  /*\*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+
+/*スタイルシート
+*******************************************/
+
+.mainHeader {
+  position: fixed;
+  width: 100%;
+  padding: 15px 0 15px 0;
+  background-color: rgba(0, 0, 0, 0.80);
+  z-index: 9999;
+}
+
+.mainHeader ul {
+  text-align: center;
+}
+
+.mainHeader ul li {
+  font-size: 12px;
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.mainHeader ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.mainHeader ul li a:hover {
+  color: #cf293b;
+}
+
+.mainVis {
+  background-size: cover;
+  background: url(../img/common/2018_main_img_1280_2.jpg) no-repeat center top;
+  position: relative;
+  z-index: 0;
+}
+
+.mainVis::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  bottom: -5px;
+  left: -5px;
+  right: -5px;
+  background: inherit;
+  filter: blur(2px);
+  z-index: -1;
+}
+
+.mainVisInner {
+  text-align: center;
+  color: #fff;
+  background: url(../img/common/bg_main_black.png) repeat-x center bottom;
+}
+
+.mainVisInner .timeData {
+  font-size: 42px;
+  padding-top: 20px;
+  text-shadow: 0 0 5px rgba(63, 68, 70, 1);
+  font-weight: bold;
+}
+
+.mainVisInner .timeData span {
+  font-size: 24px;
+}
+
+.mainVisInner .txtData {
+  font-size: 22px;
+  padding-top: 25px;
+  line-height: 32px;
+  text-shadow: 0 0 5px rgba(63, 68, 70, 1);
+}
+
+.mainVisInner .txtHeader {
+  padding-bottom: 4em;
+}
+
+.logoArea {
+  width: 885px;
+  margin: 0 auto 0 auto;
+  padding-bottom: 60px;
+  padding-top: 125px;
+  position: relative;
+}
+
+.logoArea ul li {
+  float: left;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+  width: 31%;
+}
+
+.logoArea ul li img {
+  width: 100%;
+  background-color: #fff;
+}
+
+.logoArea h2 img {
+  width: 100%;
+}
+
+.logoArea h2 {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logoArea h2 span.ttlSpAreaTop {
+  width: 20%;
+  display: block;
+  left: 50%;
+  margin-left: -10%;
+  position: absolute;
+}
+
+.logoArea h2 span.linelSpAreaTop {
+  width: 40%;
+  float: left;
+}
+
+.logoArea h2 span.linerSpAreaTop {
+  width: 40%;
+  float: right;
+}
+
+.sectionHeadArea {
+  text-align: center;
+  font-size: 42px;
+  padding-top: 80px;
+}
+
+.sectionHeadArea .subTtlSm {
+  font-size: 16px;
+  padding-top: 15px;
+  padding-bottom: 60px;
+}
+
+.sectionStyle1Inner .txtBlock {
+  padding-top: 20px;
+}
+
+.sectionStyle1Inner .txtBlock p {
+  width: 865px;
+  margin: 0 auto 0 auto;
+  font-size: 16px;
+  line-height: 28px;
+  padding-bottom: 20px;
+}
+
+.sectionStyle2 {
+  background: url(../img/common/2018_sub_img_1280.jpg) no-repeat;
+  background-size: cover;
+  margin-top: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+  z-index: 0;
+}
+
+.sectionStyle2::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  bottom: -5px;
+  left: -5px;
+  right: -5px;
+  background: inherit;
+  filter: blur(2px);
+  z-index: -1;
+}
+
+.sectionStyle2Inner {
+  width: 912px;
+  margin: 0 auto 0 auto;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+}
+
+.sectionStyle2Inner .sectionHeadArea {
+  padding-top: 20px;
+}
+
+.sectionStyle2Inner .contArea p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+  padding-bottom: 35px;
+}
+
+.sectionStyle2Inner .contArea table {
+  border-right: solid #d1d1d1 1px;
+  border-bottom: solid #d1d1d1 1px;
+  width: 100%;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.sectionStyle2Inner .contArea table th {
+  border-left: solid #d1d1d1 1px;
+  border-top: solid #d1d1d1 1px;
+  background: #f8f8f8;
+  padding: 20px;
+  text-align: left;
+  font-weight: normal;
+}
+
+.sectionStyle2Inner .contArea table td {
+  border-left: solid #d1d1d1 1px;
+  border-top: solid #d1d1d1 1px;
+  padding: 20px;
+}
+
+.isList article {
+  float: left;
+  width: 214px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.isList {
+  width: 973px;
+  margin: 0 auto 0 auto;
+}
+
+.isList article {
+  text-align: center;
+}
+
+.isList article h3 {
+  font-size: 24px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  line-height: 30px;
+}
+
+.isList article p {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.sectionStyle4 {
+  background: url(../img/common/bg_sc1.png) no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  padding-bottom: 80px;
+}
+
+.sectionStyle4 h2 {
+  color: #fff;
+}
+
+.sectionStyle4 .subTtlSm {
+  color: #fff;
+  padding-bottom: 60px;
+}
+
+.sectionStyle4 .contTxtArea {
+  color: #fff;
+  display: block;
+  width: 600px;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  padding-bottom: 60px;
+}
+
+.sectionStyle4 .contTxtArea a {
+  color: #fff;
+}
+
+.programTableArea {
+  width: 1024px;
+  margin: 0 auto 0 auto;
+}
+
+.programTableArea .btnLeftPg {
+  display: block;
+  float: left;
+  line-height: 0;
+  font-size: 0;
+  width: 50%;
+}
+
+.programTableArea .btnrightPg {
+  display: block;
+  float: left;
+  width: 50%;
+}
+
+.programTableArea .btnLeftPg img {
+  width: 100%;
+}
+
+.programTableArea .btnrightPg img {
+  width: 100%;
+}
+
+.sectionStyle5 .sectionHeadArea {
+  width: 100%;
+}
+
+.programDailyTable h3 {
+  padding: 1em;
+  margin-top: 2em;
+}
+
+.programDailyTable .txtAbstract {
+  padding-top: 0;
+}
+
+.programDailyTable .txtUnconference {
+  padding-top: 0;
+  font-size: 1em;
+}
+
+.programTableOutSide {
+  background: #fff;
+  clear: both;
+}
+
+.programTableOutSide p {
+  font-size: 12px;
+  padding: 20px;
+  line-height: 20px;
+}
+
+.programTable {
+  border-right: solid #d1d1d1 1px;
+  border-bottom: solid #d1d1d1 1px;
+  font-size: 12px;
+  line-height: 24px;
+  width: 96%;
+  margin: 0 auto 0 auto;
+}
+
+.programTableOutSide {
+  padding-bottom: 20px;
+}
+
+.programTable td {
+  border-left: solid #d1d1d1 1px;
+  border-top: solid #d1d1d1 1px;
+  padding: 20px;
+}
+
+.programTable th {
+  border-left: solid #d1d1d1 1px;
+  border-top: solid #d1d1d1 1px;
+  background: #f8f8f8;
+  padding: 20px;
+  text-align: left;
+  font-weight: normal;
+}
+
+.programTable .sectionTimeWidth {
+  width: 130px;
+}
+
+.programTable .day0RoomWidth {
+  width: 350px;
+}
+
+.programTable .day1RoomWidth {
+  width: 350px;
+}
+
+.programTable .day2RoomWidth {
+  width: 200px;
+}
+
+.sectionTicket {
+  padding-bottom: 20px;
+}
+
+.sectionTicket .sectionTicketInner {
+  margin: 0 auto 0 auto;
+  padding-bottom: 40px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.sectionTicket .sectionTicketInner p {
+  font-size: 20px;
+}
+
+.sectionTicketInner .txtBlock {
+  margin-bottom: 40px;
+  line-height: 28px;
+}
+
+.sectionStyle2Inner .sectionHeadArea {
+  width: 400px;
+}
+
+.sectionHeadArea {
+  width: 1024px;
+  margin: 0 auto 0 auto;
+  position: relative;
+}
+
+.sectionHeadArea .ttlSubLLeft {
+  display: block;
+  float: left;
+}
+
+.sectionHeadArea .ttlSubLCenter {
+  display: block;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  line-height: 36px;
+}
+
+.sectionHeadArea .ttlSubLRight {
+  display: block;
+  float: right;
+}
+
+.sectionStyle1Inner .sectionHeadArea {
+  width: 420px;
+}
+
+.sectionStyle3 .sectionHeadArea {
+  width: 700px;
+}
+
+.cfp-link {
+  font-size: x-large;
+  text-align: center;
+}
+
+.sectionStyle4 .sectionHeadArea {
+  width: 500px;
+}
+
+.sectionStyle5 .sectionHeadArea {
+  width: 760px;
+}
+
+.sectionTicket .sectionHeadArea {
+  width: 500px;
+}
+
+.sectionStyle7 .sectionHeadArea, .sectionInquiry .sectionHeadArea {
+  width: 500px;
+}
+
+.sectionStyleCoC {
+  margin-top: 80px;
+}
+
+.sectionStyle7Inner {
+  width: 882px;
+  margin: 0 auto 0 auto;
+  padding-bottom: 40px;
+}
+
+.sectionStyle7Inner .ttlspBox1 {
+  width: 100%;
+  background: #d30101;
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0 auto 20px;
+}
+
+.sectionStyle7Inner ul li {
+  width: 23%;
+  margin-right: 1%;
+  margin-left: 1%;
+  float: left;
+}
+
+.sectionStyle7Inner .shogunLogo {
+  width: 31%;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+  float: left;
+}
+
+.sectionStyle7Inner ul li img {
+  width: 100%;
+  border: 1px solid #dedede;
+  background-color: #fff;
+}
+
+.sectionStyle7Inner ul {
+  margin-bottom: 40px;
+}
+
+.sectionStyle7Inner .bugyoLogo {
+  text-align: center;
+  font-weight: bold;
+}
+
+.sectionStyle7Inner .bugyoLogo p {
+  margin: 1%;
+}
+
+.sectionStyleDay0 .sectionHeadArea {
+  width: 820px;
+}
+
+.sectionStyleDay0 h3 {
+  text-align: center;
+}
+
+.sectionStyleDay0 .sectionTicketInner {
+  margin: 0 auto;
+  padding-bottom: 40px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.sectionUtage {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.sectionUtage .sectionHeadArea {
+  padding-top: 40px;
+}
+
+.sectionUtage h3 {
+  color: black;
+}
+
+.sectionUtage h4 {
+  color: black;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.sectionUtage .subTtlSm {
+  color: black;
+  padding-bottom: 15px;
+}
+
+.sectionUtage ul li {
+  width: 48%;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-top: 20px;
+  float: left;
+}
+
+.sectionUtage .utagePanelBody {
+  text-align: center;
+}
+
+.sectionUtage .utagePanelBody p {
+  padding: 0.5em 0;
+}
+
+.spLv2 {
+  background: #d84c4c !important;
+}
+
+.spLv3 {
+  background: #e07171 !important;
+}
+
+.spLv4 {
+  background: #e7a2a2 !important;
+}
+
+.spLv5 {
+  background: #eecbcb !important;
+}
+
+.spLv6 {
+  background: #64b9ac !important;
+}
+
+.mainFooter {
+  background: #393939;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+
+.mainFooter a {
+  color: #fff;
+}
+
+.mainFooter ul {
+  margin-bottom: 10px;
+}
+
+.pdb10px {
+  padding-bottom: 10px;
+}
+
+.smVer {
+  display: none;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+
+.pcVer {
+  display: block;
+}
+
+.smVerGnav {
+  display: none;
+}
+
+.gnav .smVerGnav li {
+  display: block;
+  padding: 3%;
+  width: 94%;
+  border-top: 1px solid #3d3d3d;
+}
+
+.smVer .sectionStyle7Inner {
+  padding-bottom: 0;
+}
+
+.smVer .sectionStyle7Inner ul {
+  margin-bottom: 0;
+}
+
+.smVer .sectionStyle7Inner .ttlspBox1 {
+  background: #262626;
+  font-weight: normal;
+}
+
+.sectionInquiry .txtBlock {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  line-height: 28px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.navLinks ul li {
+  width: 33.3%;
+  float: left;
+  color: #fff;
+  text-align: center;
+}
+
+.navLinks ul li span {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-right: 1px solid #b82f2f;
+  border-bottom: #700c0c solid 3px;
+  background: #ce3535;
+  cursor: pointer;
+}
+
+.navLinks ul li span:hover {
+  border-bottom: none;
+  margin-top: 3px;
+  background: #a41212;
+}
+
+.navLinks ul {
+  width: 96%;
+  margin: 0 auto 0 auto;
+  padding-top: 20px;
+}
+
+.navLinksBig ul {
+  width: 100%;
+}
+
+.navLinksBig ul li {
+  width: 50%;
+}
+
+.onNavLink span {
+  border-bottom: none !important;
+  margin-top: 3px !important;
+  background: #a41212 !important;
+}
+
+.space2area {
+  display: none;
+}
+
+.space3area {
+  display: none;
+}
+
+.pdogTop {
+  font-size: 12px;
+  text-align: center;
+}
+
+.pdogTop a {
+  color: #2b2b2b;
+  text-decoration: none;
+}
+
+.snsBtnArea {
+  width: 1024px;
+  margin: 0 auto 0 auto;
+  padding-top: 60px;
+  clear: both;
+}
+
+.snsBtnArea li {
+  display: block;
+  float: right;
+  padding-left: 10px;
+}
+
+.gplusBtn {
+  width: 30px;
+}
+
+.btnpocket {
+  width: 100px;
+  overflow: hidden;
+}
+
+.snsBtnAreaMiddle {
+  padding: 0 0 40px 0 !important;
+  width: 400px !important;
+  margin: 0 auto 0 auto !important;
+}
+
+.snsBtnAreaMiddle li {
+  padding-right: 5px !important;
+  padding-left: 5px !important;
+  float: left !important;
+}
+
+.linkLang {
+  font-size: 10px;
+  text-align: right;
+  padding-right: 7px;
+  position: relative;
+  z-index: 9999;
+  right: 0;
+  float: right;
+}
+
+.linkLang a {
+  color: #000;
+  text-decoration: none;
+  background: #fff;
+  padding: 5px 10px 5px 10px;
+  margin-top: 5px;
+  display: inline-block;
+  border: #000 solid 1px;
+}
+
+.widgets {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.widgets > .widget {
+  display: inline-block;
+  width: 360px;
+  margin: 0 10px;
+}
+
+span.session_id {
+  font-size: 50%;
+  color: gray;
+  display: none;
+}
+
+span.session_title {
+  display: block;
+  font-size: 110%;
+  font-weight: bold;
+  color: black;
+}
+
+span.session_title a {
+  color: black;
+}
+
+h1.session_title {
+  display: block;
+  font-size: 150%;
+  font-weight: bold;
+  color: black;
+}
+
+.icon-mini {
+  height: 30px;
+  width: 30px;
+}
+
+.icon-medium {
+  height: 50px;
+  width: 50px;
+}
+
+#dialog_contents {
+  width: 100%;
+  height: 8em;
+  line-height: 1.1em;
+  font-size: 70%;
+  font-family: "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+#dialog_contents p {
+  padding-bottom: 0.9em
+}
+
+#dialog_contents h1 {
+  padding-bottom: 0.4em;
+  line-height: 1.0em;
+}
+
+#dialog_contents .session_content {
+  margin: 1em 0;
+}
+
+.w700 {
+  width: 700px;
+}
+
+.broadcastArea {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.utageLogo {
+  width: 200px;
+  height: 70px;
+}
+
+.gmap-wrap {
+  position: relative;
+  padding-bottom: 56.25%;
+  max-width: 100%;
+  height: 0;
+}
+
+.gmap-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .snsBtnArea {
+    width: 100%;
+  }
+
+  .logoArea h2 {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .logoArea {
+    width: 100%;
+  }
+
+  .logoArea h2 span.linelSpAreaTop {
+    width: 30%;
+  }
+
+  .logoArea h2 span.linerSpAreaTop {
+    width: 30%;
+  }
+
+  .logoArea h2 span.ttlSpAreaTop {
+    width: 30%;
+    margin-left: -15%;
+  }
+
+  .sectionStyle2Inner {
+    width: 96%;
+    padding: 40px 2%;
+  }
+
+  .isList {
+    width: 100%;
+  }
+
+  .isList article {
+    width: 23%;
+    padding-right: 1%;
+    padding-left: 1%;
+  }
+
+  .isList article img {
+    width: 100%;
+  }
+
+  .programTableArea {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 882px) {
+
+  .sectionStyle7Inner {
+    width: 100%;
+  }
+
+  .sectionStyle1Inner .txtBlock p {
+    width: 96%;
+    margin: 0 auto 0 auto;
+  }
+
+}
+
+@media screen and (max-width: 860px) {
+
+  .programTableArea {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 760px) {
+
+  .ttlSubLCenter {
+    font-size: 28px;
+    padding-top: 10px;
+  }
+
+  .sectionStyle5 .sectionHeadArea {
+    width: 96%;
+    margin: 0 auto 0 auto;
+  }
+
+  .sectionStyle4 .contTxtArea {
+    width: 96%;
+    margin: 0 auto 0 auto;
+  }
+
+  .sectionStyleDay0 .sectionHeadArea {
+    width: 96%;
+    margin: 0 auto 0 auto;
+  }
+
+  .sectionUtage ul li {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .dl-horizontal dt {
+    float: left;
+    width: 13em;
+    clear: left;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .dl-horizontal dd {
+    margin-left: 15em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  .logoArea {
+    width: 100%;
+  }
+
+  .sectionStyle3 .sectionHeadArea {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+
+  .logoArea {
+    width: 100%;
+  }
+
+  .mainVisInner h1 img {
+    width: 90%;
+  }
+
+  .sectionStyle5 h2 {
+    position: relative;
+    height: 76px;
+  }
+
+  .sectionTicket h2 {
+    position: relative;
+    height: 76px;
+  }
+
+  .sectionStyle5 .sectionHeadArea .ttlSubLLeft {
+    width: 12%;
+  }
+
+  .sectionStyle5 .sectionHeadArea .ttlSubLLeft img {
+    width: 100%;
+  }
+
+  .sectionStyle5 .sectionHeadArea .ttlSubLRight {
+    width: 12%;
+  }
+
+  .sectionStyle5 .sectionHeadArea .ttlSubLRight img {
+    width: 100%;
+  }
+
+  .sectionStyle5 .sectionHeadArea .ttlSubLCenter {
+    width: 66%;
+    left: 50%;
+    margin-left: -33%;
+  }
+
+  .sectionStyleDay0 h2 {
+    position: relative;
+    height: 76px;
+  }
+
+  .sectionStyleDay0 .sectionHeadArea {
+    width: 100%;
+  }
+
+  .sectionStyleDay0 .sectionHeadArea .ttlSubLCenter {
+    width: 66%;
+    left: 50%;
+    margin-left: -33%;
+  }
+
+}
+
+@media screen and (max-width: 530px) {
+
+  .logoArea {
+    display: none;
+  }
+
+  .mainVisInner {
+    background: none;
+    padding-bottom: 20px;
+  }
+
+  .smVer {
+    display: block;
+  }
+
+  .pcVer {
+    display: none;
+  }
+
+  .mainHeader {
+    background: none;
+    padding: 1% 1% 0;
+    width: 97%;
+  }
+
+  .mainHeader .gnavSmClick {
+    width: 19px;
+    background-color: rgba(0, 0, 0, 0.80);
+    padding: 8px !important;
+    line-height: 0;
+    font-size: 0;
+  }
+
+  .mainHeader .gnavSmClick img {
+    width: 100%;
+  }
+
+  .mainHeader .smVerGnav {
+    background-color: rgba(0, 0, 0, 0.80);
+  }
+
+  .snsBtnArea {
+    padding-top: 5px;
+  }
+
+  .snsBtnArea li:first-child {
+    width: auto;
+  }
+
+  .gnav p {
+    padding-bottom: 15px;
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  }
+
+  .sectionStyle1Inner .sectionHeadArea {
+    padding-top: 40px;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  .sectionStyle3 .sectionHeadArea {
+    width: 96%;
+    margin: 0 auto 0 auto;
+  }
+
+  .sectionStyle4 .sectionHeadArea {
+    width: 96%;
+    margin: 0 auto 0 auto;
+  }
+
+  .isList article {
+    width: 46%;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 40px;
+  }
+
+  .sectionStyle4 {
+    margin-top: 40px;
+  }
+
+  .sectionStyle7 .sectionHeadArea, .sectionInquiry .sectionHeadArea, .sectionTicket .sectionHeadArea {
+    width: 96%;
+    margin: 0 auto 0 auto;
+  }
+
+  .sectionStyleDay0 .sectionHeadArea {
+    width: 96%;
+    margin: 0 auto 0 auto;
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+
+  .sectionStyle2Inner .sectionHeadArea {
+    width: 96%;
+  }
+
+  .sectionStyle1Inner .sectionHeadArea {
+    width: 96%;
+  }
+
+  .sectionTicket .inqBox {
+    width: 100%;
+  }
+
+  .sectionHeadArea .ttlSubLLeft {
+    width: 15%;
+  }
+
+  .sectionHeadArea .ttlSubLLeft img {
+    width: 100%;
+  }
+
+  .sectionHeadArea .ttlSubLRight {
+    width: 15%;
+  }
+
+  .sectionHeadArea .ttlSubLRight img {
+    width: 100%;
+  }
+
+  .sectionStyle7Inner ul li {
+    width: 46%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 4%;
+    margin: 0;
+  }
+
+  .sectionStyle7Inner .shogunLogo {
+    width: 46%;
+    margin: 0 2% 4%;
+  }
+
+  .snsBtnArea {
+    width: 96%;
+    padding-bottom: 20px;
+  }
+
+  .widgets {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+}

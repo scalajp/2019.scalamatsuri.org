@@ -1,0 +1,147 @@
+---
+layout: default_ja
+---
+<div class="alert alert-info" role="alert">
+  これは応募いただいたセッションです。
+  開催されるセッションは後日、参加者の投票を参考に決定されます。
+</div>
+
+<div class="clearfix">
+{% capture enUrl %}{{ page.url | replace_first:'/ja/','/en/' }}{% endcapture %}
+{% for entry in site.candidates_en %}
+  {% if entry.url == enUrl %}
+    <span class="pull-right">
+      <a class="small" href="{{ entry.url }}">English</a>
+    </span>
+  {% endif %}
+{% endfor %}
+</div>
+
+<h1 class="session_title">{{ page.title }}
+<span class="cfp-voting-required-signin">
+  <button type="button" class="btn btn-default add-favorites-btn" id="add-favorites-btn" title="ピン止め"><i class="fa fa-2x fa-thumb-tack" aria-hidden="true"></i></button>
+  <button type="button" class="btn btn-default remove-favorites-btn" id="remove-favorites-btn" title="ピン止め解除"><i class="fa fa-2x fa-thumb-tack" aria-hidden="true"></i></button>
+</span>
+</h1>
+
+{{content}}
+
+
+<dl class="dl-horizontal">
+  <dt>トークの長さ</dt>
+  <dd>
+    {% case page.length %}
+    {% when 10 %} 10分
+    {% when 40 %} 40分
+    {% when 90 %} 90分
+    {% else %} {% include __fail.html %} <!-- 空欄になるような場合、エラーに -->
+    {% endcase %}
+  </dd>
+
+  <dt>発表言語</dt>
+  <dd>
+    {% case page.language %}
+    {% when "Japanese" %} 日本語
+    {% when "English" %} 英語
+    {% when "English/Japanese" %} 英語/日本語
+    {% else %} {% include __fail.html %} <!-- 空欄になるような場合、エラーに -->
+    {% endcase %}
+  </dd>
+
+  <dt>聴衆の対象</dt>
+  <dd>
+    {% case page.audience %}
+    {% when "Beginner" %} 初心者: 分野の事前知識を必要としない
+    {% when "Intermediate" %} 中級者: 分野の基礎は分かるが、細かい所は不安
+    {% when "Advanced" %} 上級者: 分野に精通している人向けでトークでは入門の話は少なめ
+    {% else %} {% include __fail.html %} <!-- 空欄になるような場合、エラーに -->
+    {% endcase %}
+  </dd>
+
+  <dt>こんな人におすすめ</dt>
+  <dd>
+    {% for suggestion in page.suggestions %}
+      {{ suggestion }}</br>
+    {% endfor %}        
+  </dd>
+
+  <dt>発表者</dt>
+  <dd>
+    {% if page.icon %}
+      <img src="{{page.icon}}" class="icon-mini">
+    {% endif %}
+
+    {{ page.name }}
+
+    {% if page.organization %}
+    ({{ page.organization }})
+    {% endif %}
+
+    {% include twitter_icons.html accounts=page.twitter %}
+    {% include github_icons.html accounts=page.github %}
+  </dd>
+</dl>
+
+<div class="text-center">
+  <ul class="sns-button-list">
+    <li>
+      <a class="twitter-share-buttoon"
+        href="https://twitter.com/intent/tweet"
+        data-url="{{ site.url }}{{ page.url }}"
+        data-via="{{ site.ja.twitter }}"
+        data-hashtags="ScalaMatsuri"
+        data-count="vertical"
+        data-lang="ja"
+        data-text="{{ page.title }}">
+        ツイート
+      </a>
+    </li>
+    <li>
+      <div class="fb-like" 
+        data-href="{{ entry.url }}" 
+        data-layout="box_count" 
+        data-action="like" 
+        data-size="small" 
+        data-show-faces="false" 
+        data-share="false">
+      </div>        
+    </li>
+    <li>
+      <div class="fb-share-button" 
+        data-href="{{ entry.url }}" 
+        data-layout="box_count" 
+        data-size="small">
+      </div>
+    </li>
+    <li>
+      <a href="http://b.hatena.ne.jp/entry/" 
+        class="hatena-bookmark-button" 
+        data-hatena-bookmark-layout="vertical-normal" 
+        data-hatena-bookmark-lang="ja" 
+        title="このエントリーをはてなブックマークに追加">
+        <img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" 
+          alt="このエントリーをはてなブックマークに追加" 
+          width="20" 
+          height="20" 
+          style="border: none;" />
+      </a>
+    </li>
+  </ul> 
+</div>
+<div class="text-center" style="margin-top: 30px;">
+	<!-- <a class="btn btn-info btn-lg" href="/ja/cfp/">私も何か話したい</a> -->
+  <span class="cfp-voting-required-signin">
+    <button type="submit" class="btn btn-success btn-lg btn-lnk" id="vote-btn" data-language="{{ page.language }}" data-length="{{ page.length }}">このセッションに投票する </button>
+    <button type="submit" class="btn btn-danger btn-lg btn-lnk" id="unvote-btn">このセッションへの投票を取消す</button>
+  </span> 
+</div>
+<hr>
+<div class="cfp-voting-required-signin pull-right text-right">
+  <p>
+    <span class="badge" id="max-voting"></span> 票中 <span class="badge" id="voted-count"></span> 票投票済み<br />
+  </p>
+</div>
+<a class="btn btn-default" href="/ja/candidates/">
+  <span class="glyphicon glyphicon-chevron-left"></span>
+  応募一覧
+</a>

@@ -1,0 +1,28 @@
+shogun:
+  name: 将軍スポンサー
+  nameEn: Shogun sponsor
+  sponsors:
+    - name: sample
+      nameEn: sample
+      youtube: https://www.youtube.com/embed/sample
+tairo:
+  name: 大老スポンサー
+  nameEn: Tairo sponsor
+  sponsors:
+    - name: sample
+      nameEn: sample
+      youtube: https://www.youtube.com/embed/sample
+daimyo:
+  name: 大名スポンサー
+  nameEn: Daimyo sponsor
+  sponsors:
+    - name: sample
+      nameEn: sample
+      youtube: https://www.youtube.com/embed/sample
+samurai:
+  name: 侍スポンサー
+  nameEn: Samurai sponsor
+  sponsors:
+    - name: sample
+      nameEn: sample
+      youtube: https://www.youtube.com/embed/sample

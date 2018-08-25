@@ -1,0 +1,20 @@
+---
+title: スポンサーからのお知らせ
+---
+<h1>スポンサーからのお知らせ</h1>
+<div class="notice">
+  {% for plan in site.plans %}
+  <span class="shuffle">
+    {% for sponsor in site.notice %}
+      {% if sponsor.plan == plan %}
+    <a
+      class="notice-img-link"
+      href="{% if sponsor.direct_link %}{{ sponsor.direct_link}}{% else %}{{ sponsor.url }}{% endif %}"
+    >
+      <img class="logo" src="{{ sponsor.logo }}">
+    </a>
+      {% endif %}
+    {% endfor %}
+  </span>
+  {% endfor %}
+</div>

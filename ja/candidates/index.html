@@ -1,0 +1,130 @@
+---
+title: 応募セッション一覧
+---
+
+<div class="alert alert-info" role="alert">
+  これは応募いただいたセッションです。
+  開催されるセッションは後日、参加者の投票を参考に決定されます。
+</div>
+<div class="alert alert-info" role="alert">
+  セッションの応募・投票は終了しております。集計・発表をお待ち下さい。
+</div>
+<div class="text-right">
+<a class="twitter-share-button"
+  href="https://twitter.com/intent/tweet"
+  data-via="{{ site.ja.twitter }}"
+  data-related="{{ site.ja.twitter }}"
+  data-hashtags="ScalaMatsuri">Tweet</a>
+</div>
+
+<div class="cfp-tag-list"></div>
+
+<div class="cfp-voting-required-signin text-right">
+  <p>
+    <button id="filter-favorites" type="button" class="btn btn-default"><i class="fa fa-thumb-tack" style="color: #000099;" title="ピン止め"></i> ピン止めだけ表示</button>
+    <button id="unfilter-favorites" type="button" class="btn btn-default active"><i class="fa fa-thumb-tack" style="color: #000099;" title="ピン止め"></i> ピン止めだけ表示</button>
+    <button id="filter-voted" type="button" class="btn btn-default"><i class="fa fa-star" style="color: #eedd00;" title="投票済み"></i> 投票済みだけ表示</button>
+    <button id="unfilter-voted" type="button" class="btn btn-default active"><i class="fa fa-star" style="color: #eedd00;" title="投票済み"></i> 投票済みだけ表示</button>
+  </p>
+  <p>
+    <span class="badge" id="max-voting"></span> 票中 <span class="badge" id="voted-count"></span> 票投票済み<br />
+  </p>
+</div>
+
+<h2>90分英語</h2>
+<div class="shuffle-session">
+	{% assign has_90en = false %}
+	{% for candidate in site.candidates_ja %}
+	  {% if candidate.length == 90 and candidate.language == "English" %}
+	      {% include_relative element.html candidate=candidate %}
+	          {% assign has_90en = true %}
+		    {% endif %}
+		    {% endfor %}
+</div>
+{% unless has_90en %}
+  <div class="text-muted">まだ応募がありません。</div>
+  {% endunless %}
+
+  <h2>90分日本語</h2>
+  <div class="shuffle-session">
+	  {% assign has_90ja = false %}
+	  {% for candidate in site.candidates_ja %}
+	    {% if candidate.length == 90 and candidate.language != "English" %}
+	        {% include_relative element.html candidate=candidate %}
+		    {% assign has_90ja = true %}
+		      {% endif %}
+		      {% endfor %}
+  </div>
+  {% unless has_90ja %}
+    <div class="text-muted">まだ応募がありません。</div>
+    {% endunless %}
+
+
+<h2>40分英語</h2>
+<div class="shuffle-session">
+{% assign has_40en = false %}
+{% for candidate in site.candidates_ja %}
+  {% if candidate.length == 40 and candidate.language == "English" %}
+    {% include_relative element.html candidate=candidate %}
+    {% assign has_40en = true %}
+  {% endif %}
+{% endfor %}
+</div>
+{% unless has_40en %}
+  <div class="text-muted">まだ応募がありません。</div>
+{% endunless %}
+
+<h2>40分日本語</h2>
+<div class="shuffle-session">
+{% assign has_40ja = false %}
+{% for candidate in site.candidates_ja %}
+  {% if candidate.length == 40 and candidate.language != "English" %}
+    {% include_relative element.html candidate=candidate %}
+    {% assign has_40ja = true %}
+  {% endif %}
+{% endfor %}
+</div>
+{% unless has_40ja %}
+  <div class="text-muted">まだ応募がありません。</div>
+{% endunless %}
+
+<h2>10分英語</h2>
+<div class="shuffle-session">
+{% assign has10_en = false %}
+{% for candidate in site.candidates_ja %}
+  {% if candidate.length == 10 and candidate.language == "English" %}
+    {% include_relative element.html candidate=candidate %}
+    {% assign has10_en = true %}
+  {% endif %}
+{% endfor %}
+</div>
+{% unless has10_en %}
+  <div class="text-muted">まだ応募がありません。</div>
+{% endunless %}
+
+<h2>10分日本語</h2>
+<div class="shuffle-session">
+{% assign has10_ja = false %}
+{% for candidate in site.candidates_ja %}
+  {% if candidate.length == 10 and candidate.language != "English" %}
+    {% include_relative element.html candidate=candidate %}
+    {% assign has10_ja = true %}
+  {% endif %}
+{% endfor %}
+</div>
+{% unless has10_ja %}
+  <div class="text-muted">まだ応募がありません。</div>
+{% endunless %}
+
+<!--
+<div class="text-center" style="margin-top: 30px;">
+  <a class="btn btn-info btn-lg" href="/ja/cfp/">私も何か話したい</a>
+</div>
+-->
+
+<hr>
+<!--{% include voting_ja.html %}-->
+
+<script src="/js/lodash.min.js"></script>
+<script src="/js/cfp-tag.js"></script>
+

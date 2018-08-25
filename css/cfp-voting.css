@@ -1,0 +1,67 @@
+ul#cfp-voting-navi {
+  padding: 0;
+}
+
+.pageHeader ul#cfp-voting-navi ul li {
+  padding: 0;
+}
+
+.pageHeader ul#cfp-voting-navi ul li a {
+  padding: 0 !important;
+}
+
+.pageHeader .dropdown-menu {
+  padding: 0;
+}
+
+.pageHeader ul li ul.dropdown-menu li {
+  display: list-item;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+
+.pageHeader ul.dropdown-menu li button {
+  color: #fff;
+  text-decoration: none;
+}
+
+.pageHeader ul.dropdown-menu li span.text {
+  padding: 10px 10px;
+}
+
+.pageHeader ul#cfp-voting-navi .btn-social {
+  padding: 6px 12px 6px 44px;
+}
+
+.cfp-voting-required-signin, #add-favorites-btn, #remove-favorites-btn, #unfilter-favorites, #unfilter-voted, #vote-btn, #unvote-btn {
+  display: none;
+}
+
+.candidate-row .add-favorites-btn, .candidate-row .vote-btn {
+  display: none;
+}
+
+.candidate-row .remove-favorites-btn, .candidate-row .unvote-btn {
+  display: none;
+}
+
+button.add-favorites-btn i.fa, button.vote-btn i.fa {
+  color: #aaaaaa !important;
+}
+
+button.remove-favorites-btn i.fa {
+  color: #000099 !important;
+}
+
+button.unvote-btn i.fa {
+  color: #eedd00 !important;
+}
+
+button.add-favorites-btn:hover i.fa {
+  color: #000099 !important;
+}
+
+button.vote-btn:hover i.fa {
+  color: #eedd00 !important;
+}

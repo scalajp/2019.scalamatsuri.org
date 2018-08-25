@@ -1,0 +1,36 @@
+---
+layout: default_ja
+---
+<div class="notice">
+  <div class="pull-right">
+    <a class="twitter-share-button"
+      href="https://twitter.com/intent/tweet"
+      data-via="{{ site.ja.twitter }}"
+      data-hashtags="ScalaMatsuri"
+      data-related="{{ site.ja.twitter }}">
+      Tweet</a>
+  </div>
+
+  <h1>
+    {% if page.titleLink %}<a href="{{ page.titleLink }}">{% endif %}
+    {{ page.title }}
+    {% if page.titleLink %}</a>{% endif %}
+  </h1>
+
+  {{ content }}
+
+  {% if page.link %}
+  <div class="text-center">
+    <a class="btn btn-primary btn-lg text-center notice-link-btn"
+      href="{{ page.link }}"
+      data-gaaction="click-job">
+      {% if page.linkTitle %}
+        {{ page.linkTitle }}
+      {% else %}
+        応募する
+      {% endif %}
+    </a>
+  </div>
+  {% endif %}
+
+</div>

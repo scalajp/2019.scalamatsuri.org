@@ -1,0 +1,17 @@
+# メンバー毎に次の内容を埋めます。
+# いずれも optional です。
+#
+# nameJa: 日本語名
+# nameEn: 英語名
+# handle: ハンドルネーム
+# twitter: twitter アカウント名
+# github: github アカウント名
+# gravatar: gravatar メールアドレスのハッシュ。
+#   gravatar 登録後、
+#   https://ja.gravatar.com/site/check/ここにメールアドレス
+#   から確認可能。
+# note: 何か一言 (担当したこととか)
+# NoteEn: 英語で一言
+
+# 運営メンバー
+member:

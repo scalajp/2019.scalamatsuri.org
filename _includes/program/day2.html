@@ -1,0 +1,404 @@
+{% assign template = include.program.schedule.template %}
+{% assign day2 = include.program.day2 %}
+
+<div class="programDailyTable" id="day2table">
+  <h3 id="day2">{{ day2.date }}</h3>
+  <p class="txtAbstract">
+    {{ day2.abstract }}
+  </p>
+  <p class="txtUnconference">
+    <a href="{{ day2.explanation }}">{{ day2.about }}</a>
+  </p>
+  <nav class="navLinks day2roomswitch" style="display: none;">
+    <ul class="clearfix">
+      <li id="day2Switch1"><span>{{ day2.rooms.a.abbr }}</span></li>
+      <li id="day2Switch2"><span>{{ day2.rooms.b.abbr }}</span></li>
+      <li id="day2Switch3"><span>{{ day2.rooms.c.abbr }}</span></li>
+      <li id="day2Switch4"><span>{{ day2.rooms.d.abbr }}</span></li>
+      <li id="day2Switch5"><span>{{ day2.rooms.e.abbr }}</span></li>
+      <li id="day2Switch6"><span>{{ day2.rooms.f.abbr }}</span></li>
+    </ul>
+  </nav>
+  <table class="programTable space1area">
+    <tr>
+      <th class="sectionTimeWidth">{{ section.time }}</th>
+      <th class="day2RoomA day2RoomWidth">{{ day2.rooms.a.name }}</th>
+      <th class="day2RoomB day2RoomWidth">{{ day2.rooms.b.name }}</th>
+      <th class="day2RoomC day2RoomWidth">{{ day2.rooms.c.name }}</th>
+      <th class="day2RoomD day2RoomWidth">{{ day2.rooms.d.name }}</th>
+      <th class="day2RoomE day2RoomWidth">{{ day2.rooms.e.name }}</th>
+      <th class="day2RoomF day2RoomWidth">{{ day2.rooms.f.name }}</th>
+    </tr>
+    <!--slot0-->
+    <tr>
+      <th>{{ day2.slots[0].time }}</th>
+      <td colspan="6">{{ day2.slots[0].rooms.a.title }}</td>
+    </tr>
+    <!--slot1-->
+    <tr>
+      <th>{{ day2.slots[1].time }}</th>
+      <td class="day2RoomA">
+        {{ day2.slots[1].rooms.a.title }}
+      </td>
+      <td class="day2RoomB">&nbsp;</td>
+      <td class="day2RoomC">&nbsp;</td>
+      <td class="day2RoomD">&nbsp;</td>
+      <td class="day2RoomE">&nbsp;</td>
+      <td class="day2RoomF">&nbsp;</td>
+    </tr>
+    <!--slot2-->
+    <tr>
+      <th>{{ day2.slots[2].time }}</th>
+      <td class="day2RoomA" >
+        {% capture title %}{{ day2.slots[2].rooms.a.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[2].rooms.a.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[2].rooms.a.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[2].rooms.a.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <td class="day2RoomB" >
+        {% capture title %}{{ day2.slots[2].rooms.b.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[2].rooms.b.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[2].rooms.b.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[2].rooms.b.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <td class="day2RoomC" >
+        {% capture title %}{{ day2.slots[2].rooms.c.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[2].rooms.c.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[2].rooms.c.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[2].rooms.c.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <td class="day2RoomD" >
+        {% capture title %}{{ day2.slots[2].rooms.d.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[2].rooms.d.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[2].rooms.d.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[2].rooms.d.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <td class="day2RoomE" >
+        {% capture title %}{{ day2.slots[2].rooms.e.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[2].rooms.e.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[2].rooms.e.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[2].rooms.e.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <td class="day2RoomF" >
+        {% capture title %}{{ day2.slots[2].rooms.f.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[2].rooms.f.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[2].rooms.f.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[2].rooms.f.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+    </tr>
+    <!--slot3-->
+    <tr>
+      <th>{{ day2.slots[3].time }}</th>
+      <td colspan="6">{{ day2.slots[3].rooms.a.title }}</td>
+    </tr>
+    <!--slot4-->
+    <tr>
+      <th>{{ day2.slots[4].time }}</th>
+      <td class="day2RoomA" >
+        {% capture title %}{{ day2.slots[4].rooms.a.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[4].rooms.a.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[4].rooms.a.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[4].rooms.a.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <td class="day2RoomB" >
+        {% capture speaker %}{{ day2.slots[4].rooms.b.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
+      <td class="day2RoomC" >
+        {% capture speaker %}{{ day2.slots[4].rooms.c.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
+      <td class="day2RoomD" >
+        {% capture title %}{{ day2.slots[4].rooms.d.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[4].rooms.d.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[4].rooms.d.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[4].rooms.d.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <td class="day2RoomE" >
+        {% capture title %}{{ day2.slots[4].rooms.e.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[4].rooms.e.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[4].rooms.e.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[4].rooms.e.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <td class="day2RoomF" >
+        {% capture title %}{{ day2.slots[4].rooms.f.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[4].rooms.f.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[4].rooms.f.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[4].rooms.f.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+    </tr>
+    <!--slot5-->
+    <tr>
+      <th>{{ day2.slots[5].time }}</th>
+      <td colspan="6">{{ day2.slots[5].rooms.a.title }}</td>
+    </tr>
+    <!--slot6-->
+    <tr>
+      <th>{{ day2.slots[6].time }}</th>
+      <td class="day2RoomA">
+        {% capture title %}{{ day2.slots[6].rooms.a.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[6].rooms.a.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[6].rooms.a.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[6].rooms.a.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <td class="day2RoomB">
+        {% capture title %}{{ day2.slots[6].rooms.b.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[6].rooms.b.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[6].rooms.b.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[6].rooms.b.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <td class="day2RoomC" rowspan="3">
+        {% capture speaker %}{{ day2.slots[6].rooms.c.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
+      <td class="day2RoomD">
+        {% capture title %}{{ day2.slots[6].rooms.d.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[6].rooms.d.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[6].rooms.d.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[6].rooms.d.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <td class="day2RoomE">
+        {% capture title %}{{ day2.slots[6].rooms.e.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[6].rooms.e.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[6].rooms.e.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[6].rooms.e.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <td class="day2RoomF">
+        {% capture title %}{{ day2.slots[6].rooms.f.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[6].rooms.f.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[6].rooms.f.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[6].rooms.f.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+    </tr>
+    <!--slot7-->
+    <tr>
+      <th>{{ day2.slots[7].time }}</th>
+      <td class="day2RoomA" colspan="2">{{ day2.slots[7].rooms.a.title }}</td>
+      <td class="day2RoomD" colspan="3">{{ day2.slots[7].rooms.a.title }}</td>
+    </tr>
+    <!--slot8-->
+    <tr>
+      <th>{{ day2.slots[8].time }}</th>
+      <td class="day2RoomA">
+        {% capture title %}{{ day2.slots[8].rooms.a.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[8].rooms.a.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[8].rooms.a.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[8].rooms.a.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <td class="day2RoomB">
+        {% capture title %}{{ day2.slots[8].rooms.b.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[8].rooms.b.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[8].rooms.b.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[8].rooms.b.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <!--<td class="day2RoomC">-->
+        <!--{% capture title %}{{ day2.slots[8].rooms.c.title }}{% endcapture %}-->
+        <!--{% capture speaker %}{{ day2.slots[8].rooms.c.speaker }}{% endcapture %}-->
+        <!--{% capture slide %}{{ day2.slots[8].rooms.c.slide }}{% endcapture %}-->
+        <!--{% capture youtube %}{{ day2.slots[8].rooms.c.youtube }}{% endcapture %}-->
+        <!--{% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}-->
+      <!--</td>-->
+      <td class="day2RoomD">
+        {% capture title %}{{ day2.slots[8].rooms.d.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[8].rooms.d.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[8].rooms.d.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[8].rooms.d.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <td class="day2RoomE">
+        {% capture title %}{{ day2.slots[8].rooms.e.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[8].rooms.e.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[8].rooms.e.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[8].rooms.e.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <td class="day2RoomF">
+        {% capture title %}{{ day2.slots[8].rooms.f.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[8].rooms.f.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[8].rooms.f.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[8].rooms.f.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+    </tr>
+    <!--slot9-->
+    <tr>
+      <th>{{ day2.slots[9].time }}</th>
+      <td colspan="6">{{ day2.slots[9].rooms.a.title }}</td>
+    </tr>
+    <!--slot10-->
+    <tr>
+      <th>{{ day2.slots[10].time }}</th>
+      <td class="day2RoomA">
+        {% capture title %}{{ day2.slots[10].rooms.a.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[10].rooms.a.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[10].rooms.a.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[10].rooms.a.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <td class="day2RoomB">
+        {% capture title %}{{ day2.slots[10].rooms.b.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[10].rooms.b.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[10].rooms.b.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[10].rooms.b.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <td class="day2RoomC" rowspan="3">
+        {% capture speaker %}{{ day2.slots[10].rooms.c.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
+      <td class="day2RoomD">
+        {% capture title %}{{ day2.slots[10].rooms.d.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[10].rooms.d.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[10].rooms.d.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[10].rooms.d.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <td class="day2RoomE">
+        {% capture title %}{{ day2.slots[10].rooms.e.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[10].rooms.e.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[10].rooms.e.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[10].rooms.e.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <td class="day2RoomF">
+        {% capture title %}{{ day2.slots[10].rooms.f.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[10].rooms.f.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[10].rooms.f.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[10].rooms.f.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+    </tr>
+    <!--slot11-->
+    <tr>
+      <th>{{ day2.slots[11].time }}</th>
+      <td class="day2RoomA" colspan="2">{{ day2.slots[11].rooms.a.title }}</td>
+      <td class="day2RoomD" colspan="3">{{ day2.slots[11].rooms.a.title }}</td>
+    </tr>
+    <!--slot12-->
+    <tr>
+      <th>{{ day2.slots[12].time }}</th>
+      <td class="day2RoomA">
+        {% capture title %}{{ day2.slots[12].rooms.a.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[12].rooms.a.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[12].rooms.a.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[12].rooms.a.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <td class="day2RoomB">
+        {% capture title %}{{ day2.slots[12].rooms.b.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[12].rooms.b.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[12].rooms.b.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[12].rooms.b.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <!--<td class="day2RoomC">-->
+        <!--{% capture title %}{{ day2.slots[12].rooms.c.title }}{% endcapture %}-->
+        <!--{% capture speaker %}{{ day2.slots[12].rooms.c.speaker }}{% endcapture %}-->
+        <!--{% capture slide %}{{ day2.slots[12].rooms.c.slide }}{% endcapture %}-->
+        <!--{% capture youtube %}{{ day2.slots[12].rooms.c.youtube }}{% endcapture %}-->
+        <!--{% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}-->
+      <!--</td>-->
+      <td class="day2RoomD">
+        {% capture title %}{{ day2.slots[12].rooms.d.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[12].rooms.d.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[12].rooms.d.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[12].rooms.d.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <td class="day2RoomE">
+        {% capture title %}{{ day2.slots[12].rooms.e.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[12].rooms.e.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[12].rooms.e.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[12].rooms.e.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <td class="day2RoomF">
+        {% capture title %}{{ day2.slots[12].rooms.f.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[12].rooms.f.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[12].rooms.f.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[12].rooms.f.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+    </tr>
+    <!--slot13-->
+    <tr>
+      <th>{{ day2.slots[13].time }}</th>
+      <td colspan="6">{{ day2.slots[13].rooms.a.title }}</td>
+    </tr>
+    <!--slot14-->
+    <tr>
+      <th>{{ day2.slots[14].time }}</th>
+      <td class="day2RoomA">
+        {% capture title %}{{ day2.slots[14].rooms.a.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[14].rooms.a.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[14].rooms.a.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[14].rooms.a.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <td class="day2RoomB">
+        {% capture title %}{{ day2.slots[14].rooms.b.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[14].rooms.b.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[14].rooms.b.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[14].rooms.b.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <td class="day2RoomC">
+        {% capture title %}{{ day2.slots[14].rooms.c.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[14].rooms.c.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[14].rooms.c.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[14].rooms.c.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <td class="day2RoomD">
+        {% capture title %}{{ day2.slots[14].rooms.d.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[14].rooms.d.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[14].rooms.d.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[14].rooms.d.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <td class="day2RoomE">
+        {% capture title %}{{ day2.slots[14].rooms.e.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[14].rooms.e.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[14].rooms.e.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[14].rooms.e.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+      <td class="day2RoomF">
+        {% capture title %}{{ day2.slots[14].rooms.f.title }}{% endcapture %}
+        {% capture speaker %}{{ day2.slots[14].rooms.f.speaker }}{% endcapture %}
+        {% capture slide %}{{ day2.slots[14].rooms.f.slide }}{% endcapture %}
+        {% capture youtube %}{{ day2.slots[14].rooms.f.youtube }}{% endcapture %}
+        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+      </td>
+    </tr>
+    <!--slot15-->
+    <tr>
+      <th>{{ day2.slots[15].time }}</th>
+      <td class="day2RoomA">
+        {{ day2.slots[15].rooms.a.title }}
+      </td>
+      <td class="day2RoomB">&nbsp;</td>
+      <td class="day2RoomC">&nbsp;</td>
+      <td class="day2RoomD">&nbsp;</td>
+      <td class="day2RoomE">&nbsp;</td>
+      <td class="day2RoomF">&nbsp;</td>
+    </tr>
+  </table>
+</div>

@@ -1,0 +1,100 @@
+{% capture relative_path %}_candidates_en/{{include.id}}.md{% endcapture %}
+{% for candidate in site.candidates_en %}
+{% if candidate.relative_path == relative_path %}
+<span class="session_id">{{ candidate.session_id }}</span>
+<span class="session_title">
+  <a href="javascript:void(0);" onclick="scalamatsuri.displayDescription('{{include.id}}',
+     (function() {/*
+<h1 class='session_title'>{{ candidate.title }}</h1>
+<div class='session_content'>{{ candidate.content | replace: '"','&quot;' }}</div>
+<dl class='dl-horizontal'>
+  <dt>Session length</dt>
+  <dd>
+    {% case candidate.length %}
+    {% when 10 %} 10 minutes
+    {% when 40 %} 40 minutes
+    {% when 90 %} 90 minutes
+    {% endcase %}
+  </dd>
+  <dt>Presented in</dt>
+  <dd>
+    {% case candidate.language %}
+    {% when 'Japanese' %} Japanese
+    {% when 'English' %} English
+    {% when 'English/Japanese' %} English/Japanese
+    {% endcase %}
+  </dd>
+  <dt>Target audience</dt>
+  <dd>
+    {% case candidate.audience %}
+    {% when 'Beginner' %} Beginner: No need to have prior knowledge
+    {% when 'Intermediate' %} Intermediate: Requires a basic knowledge of the area
+    {% when 'Advanced' %} Advanced: For those who are experts in the field
+    {% endcase %}
+  </dd>
+  <dt>Who is your session intended to</dt>
+  <dd>
+    {% for suggestion in candidate.suggestions %}
+      {{ suggestion | replace: '"','&quot;' }}</br>
+    {% endfor %}
+  </dd>
+  <dt>Speaker</dt>
+  <dd>
+    {% if candidate.icon %}
+      <img src='{{candidate.icon}}' class='icon-mini'>
+    {% endif %}
+    {{ candidate.name }}
+    {% if candidate.organization %}
+    ({{ candidate.organization }})
+    {% endif %}
+    {% if candidate.twitter %}
+    <a class='btn btn-social-icon btn-twitter btn-xs'
+     href='https://twitter.com/{{ candidate.twitter }}' target='_blank'>
+      <i class='fa fa-twitter'></i>
+    </a>
+    {% endif %}
+    {% if candidate.github %}
+    <a class='btn btn-social-icon btn-github btn-xs'
+     href='https://github.com/{{ candidate.github }}' target='_blank'>
+      <i class='fa fa-github'></i>
+    </a>
+    {% endif %}
+  </dd>
+</dl>
+*/}).toString().match(/(\{\/\*)([^]*)(\*\/\})/)[2].replace(/\n|\r/g, ''));">{{ candidate.title }}</a>
+</span>
+<span class="session_name">
+  {% if candidate.icon %}
+    <img src="{{ candidate.icon }}" class="icon-mini">
+  {% endif %}
+  {{ candidate.name }}
+</span>
+{% if candidate.twitter %}
+<a href="https://twitter.com/{{ candidate.twitter }}">@{{ candidate.twitter }}</a>
+{% endif %}
+<span class="session_details">
+  {% if candidate.language == "Japanese" %}J
+  {% elsif candidate.language == "English" %}E
+  {% else %}E/J
+  {% endif %}
+  {% if candidate.audience == "Beginner" %}+
+  {% elsif candidate.audience == "Intermediate" %}++
+  {% else %}+++
+  {% endif %}
+</span>
+<div>
+  <ul>
+    {% if candidate.slide_url %}
+    <li>
+      <a href="{{ candidate.slide_url }}">slide</a>
+    </li>
+    {% endif %}
+    {% if candidate.youtube %}
+    <li>
+      {% include youtube.html url=candidate.youtube %}
+    </li>
+    {% endif %}
+  </ul>
+</div>
+{% endif %}
+{% endfor %}

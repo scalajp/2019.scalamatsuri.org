@@ -1,0 +1,12 @@
+.idea
+_site/
+.sass-cache/
+.jekyll-metadata
+
+/.bundle/
+/vendor/bundle
+
+.rbenv-gemsets
+.ruby-version
+
+.DS_Store

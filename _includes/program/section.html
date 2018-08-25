@@ -1,0 +1,84 @@
+<section class="sectionStyle4" id="schedule">
+  <header class="sectionHeadArea">
+    <h2 class="clearfix">
+      <span class="ttlSubLCenter">{{ include.program.section.title }}</span>
+      <span class="ttlSubLLeft"><img src="img/common/ttl_dotsw_left.png"></span>
+      <span class="ttlSubLRight"><img src="img/common/ttl_dotsw_right.png"></span>
+    </h2>
+    <p class="subTtlSm">Program</p>
+  </header>
+  <div class="contTxtArea">
+    <p>{{ include.program.section.text }}</p>
+    <div>
+      <p>
+        <a href="#day0">
+          <i class="fa fa-arrow-down" aria-hidden="true"></i>&nbsp;{{ include.program.day0.date }}
+        </a>
+      </p>
+      <p>
+        <a href="#day1">
+          <i class="fa fa-arrow-down" aria-hidden="true"></i>&nbsp;{{ include.program.day1.date }}
+        </a>
+      </p>
+      <p>
+        <a href="#utage">
+          <i class="fa fa-arrow-down" aria-hidden="true"></i>&nbsp;{{ include.program.schedule.party.title }}
+        </a>
+      </p>
+      <p>
+        <a href="#day2">
+          <i class="fa fa-arrow-down" aria-hidden="true"></i>&nbsp;{{ include.program.day2.date }}
+        </a>
+      </p>
+    </div>
+  </div>
+  <div class="programTableArea">
+    <div class="programTableOutSide">
+
+      {% include program/day0.html %}
+
+      <div>
+        <p class="pdogTop">
+          <a href="#day0">
+            <i class="fa fa-arrow-up" aria-hidden="true"></i>&nbsp;{{ include.program.day0.date }}
+          </a>
+        </p>
+      </div>
+
+      {% include program/day1.html %}
+
+      <div>
+        <p class="pdogTop">
+          <a href="#day1">
+            <i class="fa fa-arrow-up" aria-hidden="true"></i>&nbsp;{{ include.program.day1.date }}
+          </a>
+        </p>
+      </div>
+
+      {% include program/utage.html %}
+
+      {% include program/day2.html %}
+
+      <div>
+        <p class="pdogTop">
+          <a href="#day0">
+            <i class="fa fa-arrow-up" aria-hidden="true"></i>&nbsp;{{ include.program.day0.date }}
+          </a>
+          <a href="#day1">
+            <i class="fa fa-arrow-up" aria-hidden="true"></i>&nbsp;{{ include.program.day1.date }}
+          </a>
+          <a href="#day2">
+            <i class="fa fa-arrow-up" aria-hidden="true"></i>&nbsp;{{ include.program.day2.date }}
+          </a>
+        </p>
+      </div>
+      <div>
+        <p class="pdogTop">
+          <a href="#schedule">
+            <i class="fa fa-arrow-up" aria-hidden="true"></i>&nbsp;{{ include.program.section.back_to_top }}
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

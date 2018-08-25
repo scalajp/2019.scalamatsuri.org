@@ -1,0 +1,30 @@
+<div class="col-sm-4 col-md-3 col-lg-2 text-center staff-entry">
+  <div>
+    <img
+      src="https://s.gravatar.com/avatar/{{include.entry.gravatar}}?s=80&d=mm">
+  </div>
+  {% if include.entry.nameJa %}
+  <h3>{{include.entry.nameJa}}</h3>
+  <div>{{include.entry.nameEn}}</div>
+  {% else %}
+  <h3>{{include.entry.nameEn}}</h3>
+  {% endif %}
+  <div>
+    {{include.entry.handle}}
+
+    {% if include.entry.twitter %}
+    <a class="btn btn-social-icon btn-twitter btn-xs"
+       href="https://twitter.com/{{ include.entry.twitter }}" target="_blank">
+      <i class="fa fa-twitter"></i>
+    </a>
+    {% endif %}
+
+    {% if include.entry.github %}
+    <a class="btn btn-social-icon btn-github btn-xs"
+       href="https://github.com/{{ include.entry.github }}" target="_blank">
+      <i class="fa fa-github"></i>
+    </a>
+    {% endif %}
+  </div>
+  <div>{{include.entry.note}}</div>
+</div>

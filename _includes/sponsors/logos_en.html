@@ -1,0 +1,75 @@
+<section class="sectionInquiry" id="sp">
+
+  <header class="sectionHeadArea">
+    <h2 class="clearfix">
+      <span class="ttlSubLCenter">Sponsors</span>
+      <span class="ttlSubLLeft"><img src="img/common/ttl_dots_left.png"></span>
+      <span class="ttlSubLRight"><img src="img/common/ttl_dots_right.png"></span>
+    </h2>
+    <p class="subTtlSm">Sponsor</p>
+  </header>
+
+  <div class="sectionStyle7Inner">
+
+    <article class="spBox">
+      <h3 class="ttlspBox1">Shogun sponsor</h3>
+      <ul class="clearfix shuffle">
+        {% for logo in site.data.logos.shogun %}
+        <li class="shogunLogo">
+          <a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}"/></a>
+        </li>
+        {% endfor %}
+      </ul>
+    </article>
+
+    <article class="spBox">
+      <h3 class="ttlspBox1 spLv2">Tairo sponsor</h3>
+      <ul class="clearfix shuffle">
+        {% for logo in site.data.logos.tairo %}
+        <li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}"/></a></li>
+        {% endfor %}
+      </ul>
+    </article>
+
+    <article class="spBox">
+      <h3 class="ttlspBox1 spLv3">Daimyo sponsor</h3>
+      <ul class="clearfix shuffle">
+        {% for logo in site.data.logos.daimyo %}
+        <li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}"/></a></li>
+        {% endfor %}
+      </ul>
+    </article>
+
+    <article class="spBox">
+      <h3 class="ttlspBox1 spLv4">Samurai sponsor</h3>
+      <ul class="clearfix shuffle">
+        {% for logo in site.data.logos.samurai %}
+        <li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}"/></a></li>
+        {% endfor %}
+      </ul>
+    </article>
+
+    <article class="spBox">
+      <h3 class="ttlspBox1 spLv5">Ninja sponsor</h3>
+      <ul class="clearfix shuffle">
+        {% for logo in site.data.logos.ninja %}
+        <li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}"/></a></li>
+        {% endfor %}
+      </ul>
+    </article>
+
+    <article class="spBox">
+      <h3 class="ttlspBox1 spLv6">Bugyo sponsor</h3>
+      <ul class="clearfix shuffle">
+        {% for logo in site.data.logos.bugyo %}
+        <li>
+          <div class="bugyoLogo">
+            <p>{{ logo.category_en }}</p>
+            <a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}"/></a>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </article>
+  </div>
+</section>

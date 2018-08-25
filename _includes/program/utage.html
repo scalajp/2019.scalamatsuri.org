@@ -1,0 +1,45 @@
+{% assign party = include.program.schedule.party %}
+
+<section class="sectionUtage" id="utage">
+  <header class="sectionHeadArea">
+    <h3 class="clearfix">
+      <span class="ttlSubLCenter">{{ party.title }}</span>
+      <span class="ttlSubLLeft"><img src="img/common/ttl_dots_left.png"></span>
+      <span class="ttlSubLRight"><img src="img/common/ttl_dots_right.png"></span>
+    </h3>
+    <p class="subTtlSm">{{ party.description }}</p>
+  </header>
+  <article>
+    <ul class="clearfix shuffle">
+      <li>
+        <div class="utagePanel">
+          <div class="utagePanelHeading">
+            <h4>ScalaMatsuriNight, presented by ZOZO</h4>
+          </div>
+          <div class="utagePanelBody">
+            <p>{{ party.venue }}:&nbsp;{{ party.seagull }}</p>
+            <p><a href="{{ party.seagull_guide_path }}">{{ party.seagull_guide }}</a></p>
+            <p>{{ party.sponsor }}</p>
+            <div class="utagePanelLogo">
+              <a href="https://www.st-komuten.jp/"><img class="utageLogo" src="/img/logo/st-komuten.png"/></a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="utagePanel">
+          <div class="utagePanelHeading">
+            <h4>オプテピピック - OPT TECH EPIC -</h4>
+          </div>
+          <div class="utagePanelBody">
+            <p>{{ party.venue }}:&nbsp;{{ party.conference }}</p>
+            <p>{{ party.sponsor }}</p>
+            <div class="utagePanelLogo">
+              <a href="https://www.opt.ne.jp/opttechnologies/"><img class="utageLogo" src="/img/logo/opt.png"/></a>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </article>
+</section>

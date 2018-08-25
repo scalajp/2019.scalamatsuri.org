@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+  jekyll:
+    build: .
+    volumes: 
+      - "./:/srv/jekyll"
+    ports:
+      - "4000:4000"
+    expose:
+      - 4000
+    command: "bundle exec jekyll s --watch --incremental --force_polling -H 0.0.0.0"

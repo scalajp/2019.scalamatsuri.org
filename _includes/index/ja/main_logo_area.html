@@ -1,0 +1,14 @@
+<div class="logoArea">
+
+  <!--<h2 class="clearfix">-->
+    <!--<span class="ttlSpAreaTop">将軍スポンサー</span>-->
+    <!--<span class="linelSpAreaTop"><img src="/img/common/ttl_main_line.png" alt=""/></span>-->
+    <!--<span class="linerSpAreaTop"><img src="/img/common/ttl_main_line.png" alt=""/></span>-->
+  <!--</h2>-->
+
+  <ul class="clearfix shuffle">
+    {% for logo in site.data.logos.shogun %}
+    <li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}"/></a></li>
+    {% endfor %}
+  </ul>
+</div>

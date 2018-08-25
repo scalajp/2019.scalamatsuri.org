@@ -1,0 +1,233 @@
+{% assign template = include.program.schedule.template %}
+{% assign day1 = include.program.day1 %}
+
+<div class="programDailyTable" id="day1table">
+  <h3 id="day1">{{ day1.date }}</h3>
+  <p class="txtAbstract">
+    {{ day1.abstract }}
+  </p>
+  <nav class="navLinks day1roomswitch" style="display: none;">
+    <ul class="clearfix">
+      <li id="day1Switch1"><span>{{ day1.rooms.a.abbr }}</span></li>
+      <li id="day1Switch2"><span>{{ day1.rooms.b.abbr }}</span></li>
+      <li id="day1Switch3"><span>{{ day1.rooms.c.abbr }}</span></li>
+    </ul>
+  </nav>
+  <table class="programTable space1area">
+    <tr>
+      <th class="sectionTimeWidth">{{ section.time }}</th>
+      <th class="day1RoomA day1RoomWidth">{{ day1.rooms.a.name }}</th>
+      <th class="day1RoomB day1RoomWidth">{{ day1.rooms.b.name }}</th>
+      <th class="day1RoomC day1RoomWidth">{{ day1.rooms.c.name }}</th>
+    </tr>
+    <!-- slot0 -->
+    <tr>
+      <th>{{ day1.slots[0].time }}</th>
+      <td colspan="3">{{ day1.slots[0].rooms.a.title }}</td>
+    </tr>
+    <!-- slot1 -->
+    <tr>
+      <th>{{ day1.slots[1].time }}</th>
+      <td class="day1RoomA">
+        {{ day1.slots[1].rooms.a.title }}
+      </td>
+      <td class="day1RoomB">&nbsp;</td>
+      <td class="day1RoomC">&nbsp;</td>
+    </tr>
+    <!-- slot2 -->
+    <tr>
+      <th>{{ day1.slots[2].time }}</th>
+      <td class="day1RoomA">
+        {% capture speaker %}{{ day1.slots[2].rooms.a.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
+      <td class="day1RoomB">
+        {% capture speaker %}{{ day1.slots[2].rooms.b.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
+      <td class="day1RoomC">
+        {% capture speaker %}{{ day1.slots[2].rooms.c.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
+    </tr>
+    <!-- slot3 -->
+    <tr>
+      <th>{{ day1.slots[3].time }}</th>
+      <td colspan="3">{{ day1.slots[3].rooms.a.title }}</td>
+    </tr>
+    <!--slot4-->
+    <tr>
+      <th>{{ day1.slots[4].time }}</th>
+      <td class="day1RoomA">
+        {% capture speaker %}{{ day1.slots[4].rooms.a.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
+      <td class="day1RoomB">
+        {% capture speaker %}{{ day1.slots[4].rooms.b.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
+      <td class="day1RoomC">
+        {% capture speaker %}{{ day1.slots[4].rooms.c.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
+    </tr>
+    <!--slot5-->
+    <tr>
+      <th>{{ day1.slots[5].time }}</th>
+      <td colspan="3">{{ day1.slots[5].rooms.a.title }}</td>
+    </tr>
+    <!-- slot6 -->
+    <tr>
+      <th>{{ day1.slots[6].time }}</th>
+      <td class="day1RoomA">
+        {% capture speaker %}{{ day1.slots[6].rooms.a.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
+      <td class="day1RoomB">
+        {% capture speaker %}{{ day1.slots[6].rooms.b.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
+      <td class="day1RoomC">
+        {% capture speaker %}{{ day1.slots[6].rooms.c.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
+    </tr>
+    <!--slot7-->
+    <tr>
+      <th>{{ day1.slots[7].time }}</th>
+      <td class="day1RoomA">{{ day1.slots[7].rooms.a.title }}</td>
+      <td class="day1RoomB" rowspan="7">{{ day1.slots[7].rooms.b.title }}</td>
+      <td class="day1RoomC" rowspan="7">{{ day1.slots[7].rooms.c.title }}</td>
+    </tr>
+    <!--slot8-->
+    <tr>
+      <th>{{ day1.slots[8].time }}</th>
+      <td class="day1RoomA">
+        {% capture speaker %}{{ day1.slots[8].rooms.a.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
+    </tr>
+    <!-- slot9 -->
+    <tr>
+      <th>{{ day1.slots[9].time }}</th>
+      <td class="day1RoomA">{{ day1.slots[9].rooms.a.title }}</td>
+    </tr>
+    <!--slot10-->
+    <tr>
+      <th>{{ day1.slots[10].time }}</th>
+      <td class="day1RoomA">
+        {% capture speaker %}{{ day1.slots[10].rooms.a.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
+    </tr>
+    <!-- slot11 -->
+    <tr>
+      <th>{{ day1.slots[11].time }}</th>
+      <td class="day1RoomA">{{ day1.slots[11].rooms.a.title }}</td>
+    </tr>
+    <!--slot12-->
+    <tr>
+      <th>{{ day1.slots[12].time }}</th>
+      <td class="day1RoomA">
+        {% capture speaker %}{{ day1.slots[12].rooms.a.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
+    </tr>
+    <!-- slot13 -->
+    <tr>
+      <th>{{ day1.slots[13].time }}</th>
+      <td class="day1RoomA">{{ day1.slots[13].rooms.a.title }}</td>
+    </tr>
+    <!--slot14-->
+    <tr>
+      <th>{{ day1.slots[14].time }}</th>
+      <td class="day1RoomA" rowspan="3">
+        {% capture speaker %}{{ day1.slots[14].rooms.a.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
+      <td class="day1RoomB">
+        {% capture speaker %}{{ day1.slots[14].rooms.b.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
+      <td class="day1RoomC">
+        {% capture speaker %}{{ day1.slots[14].rooms.c.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
+    </tr>
+    <!-- slot15 -->
+    <tr>
+      <th>{{ day1.slots[15].time }}</th>
+      <td class="day1RoomB" colspan="2">{{ day1.slots[15].rooms.a.title }}</td>
+    </tr>
+    <!--slot16-->
+    <tr>
+      <th>{{ day1.slots[16].time }}</th>
+      <!--<td class="day1RoomA">-->
+      <!--{% capture speaker %}{{ day1.slots[16].rooms.a.speaker }}{% endcapture %}-->
+      <!--{% include {{template}} id=speaker %}-->
+      <!--</td>-->
+      <td class="day1RoomB">
+        {% capture speaker %}{{ day1.slots[16].rooms.b.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
+      <td class="day1RoomC">
+        {% capture speaker %}{{ day1.slots[16].rooms.c.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
+    </tr>
+    <!-- slot17 -->
+    <tr>
+      <th>{{ day1.slots[17].time }}</th>
+      <td colspan="3">{{ day1.slots[17].rooms.a.title }}</td>
+    </tr>
+    <!--slot18-->
+    <tr>
+      <th>{{ day1.slots[18].time }}</th>
+      <td class="day1RoomA">
+        {% capture speaker %}{{ day1.slots[18].rooms.a.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
+      <td class="day1RoomB">
+        {% capture speaker %}{{ day1.slots[18].rooms.b.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
+      <td class="day1RoomC">
+        {% capture speaker %}{{ day1.slots[18].rooms.c.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
+    </tr>
+    <!-- slot19 -->
+    <tr>
+      <th>{{ day1.slots[19].time }}</th>
+      <td colspan="3">{{ day1.slots[19].rooms.a.title }}</td>
+    </tr>
+    <!--slot20-->
+    <tr>
+      <th>{{ day1.slots[20].time }}</th>
+      <td class="day1RoomA">
+        {% capture speaker %}{{ day1.slots[20].rooms.a.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
+      <td class="day1RoomB">
+        {% capture speaker %}{{ day1.slots[20].rooms.b.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
+      <td class="day1RoomC">
+        {% capture speaker %}{{ day1.slots[20].rooms.c.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
+    </tr>
+    <!-- slot21 -->
+    <tr>
+      <th>{{ day1.slots[21].time }}</th>
+      <td colspan="3">{{ day1.slots[21].rooms.a.title }}</td>
+    </tr>
+    <!--slot22-->
+    <tr>
+      <th>{{ day1.slots[22].time }}</th>
+      <td colspan="3">
+        {{ day1.slots[22].rooms.a.title }}
+      </td>
+    </tr>
+  </table>
+</div>
