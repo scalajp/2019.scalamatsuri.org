@@ -51,8 +51,8 @@ ScalaMatsuri は、世界の多様なスピーカーからセッションを募�
 ScalaMatsuri は、非営利の法人である Japan Scala Association によって運営されているため、 旅費助成金は我々が経費として取り扱えるものに限定されることをご了承ください。 そのため、旅費助成金は以下の用途にさせていただきます:
 
 1. 東京までの航空券、列車運賃、その他の交通手段。
-2. ScalaMatsuri ScalaMatsuri 期間中のその他の交通手段。
-3. ScalaMatsuri ScalaMatsuri 期間中のホテル宿泊費。
+2. ScalaMatsuri 期間中のその他の交通手段。
+3. ScalaMatsuri 期間中のホテル宿泊費。
 
 観光、同伴者のホテル宿泊費など、その他の費用は ScalaMatsuri では経費として取り扱うことはできませんのでご注意ください。
 
