@@ -7,7 +7,7 @@ Come share your stories at ScalaMatsuri 2019!
 
 ----
 
-We are excited to announce that the fifth ScalaMatsuri will be held on March 16th (Fri), 17th (Sat), and 18th (Sun), 2018 at Tokyo International Exchange Center. Please submit your talk for the general sessions that will be held on 17th (Sat) or 18th (Sun). This CFP will be closed on **December 16th 23:59 JST**.
+We are excited to announce that ScalaMatsuri will be held on June 27th (Thu), 28th (Fri), and 29th (Sat), 2019 at Tokyo International Exchange Center. (There's a possibility that the date might change later) Please submit your talk for the general sessions. We plan on closing the CFP will on **February 2nd, 2019 23:59 JST**.
 
 For your reference:[ScalaMatsuri blog](http://blog-en.scalamatsuri.org/)
 
@@ -15,33 +15,36 @@ Matsuri, meaning festival, is about time and space out of the everyday. It’s a
 We want to make it a fun experience, regardless of gender, race, and many different backgrounds.
 All participants, including speakers and sponsors, are asked to be respectful to each other and follow the [code of conduct](/en/code-of-conduct/).
 
-In particular, we want to make it a fun event for those visiting Japan from overseas.
-So here are some of the things we will do this year:
+As one of largest Scala conferences in Asia, we want to make it a fun event for both the domestic audience and those visiting Japan from overseas.
 
-- CFP in English and Japanese < you are here
-- Speakers will be decided using survey and social impact as a reference
-- All slides in English
-- Professional interpreters (English/Japanese bidirection) in two main halls
-- Travel grant for speakers with most votes (See [travel grant](/en/cfp/#Travel-grant))
-- We'll plan hangouts at bars after the conference if you're up for it
+### Speakers
 
-We are looking for topics that you think Scala community or new learners of Scala would be interested. We have three session length: 10 minutes, 40 minutes, and 90 minutes. Prepare an abstract of your talk (600 characters or less), and submit your proposal.
+For ScalaMatsuri 2019, the speakers will be determined using 2 methods:
 
-We'll conduct a survey on which talks your fellow Matsuri would want to go to,
-and the organizers will decide the talks using the survey result and social impact as a reference.
-In addition to the CFP, we might invite a few speakers to make Matsuri more fun experience.
+- Voting: Some speakers will be decided using survey and social impact as a reference
+- Selection: Other speakers will be selected by a program committee
 
-You are allowed up to three submissions. However, please note that it might end up splitting your votes,
-and that we'll ask you to select one talk even if multiple talks qualified via the survey.
+As with previous year, the voting result will be combined with the impact on social network such as Twitter and Facebook to select popular talks. In addition, we are starting a program committee as a new approach to diversify the talk selection. The committee would be made up of experts with unique taste and are in tune with the Scala ecosystem and the recent trends to pick the talks that everyone will enjoy.
 
-
-### Submit
+### Application
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScoSjPHd-HpGXn5owvs8ol9PKDqDVJhVQZMfDpxVha9LPv8NQ/viewform" class="btn btn-primary">Submit my talk</a>
 
+### Application details
+
+- Any topic interesting Scala beginners or Scala community is welcome.
+- CFP may be written in English or Japanese
+- The session length are 10 minutes, 40 minutes, and 90 minutes.
+- The format may be the regular lecture format, hands-on workshop format, hackathon, or whatever you can think of. (We recommend 90 minutes for the workshops).
+- The abstract must be 600 characters or fewer.
+- All slides must be in English. We will prepare Japanese subtitles.
+- Professional interpreters (English/Japanese bidirection) in two main halls.
+- You are allowed up to 3 submissions. However, we'll ask you to select 1 talk even if multiple talks qualified.
+- We'll plan hangouts at bars after the conference if you're up for it.
+
+Note again that ScalaMatsuri organizers will need to prepare the subtitles, so you are asked to submit the slides weeks in advance.
 
 ### Travel grant
-
 
 ScalaMatsuri wants diverse speakers from all over the world. To help break down the barriers, we're excited to offer travel grant.
 
@@ -49,7 +52,7 @@ Because ScalaMatsuri is run by a non-profit association, the travel grant must o
 
 1. Airfare and other transportation to Tokyo.
 2. Other transportation during ScalaMatsuri
-3. Hotel fares during ScalaMatsuri general sessions. (three nights for March 16th, 17th, and 18th)
+3. Hotel fares during ScalaMatsuri sessions.
 
 Any other expenses, including ones incurred from sightseeing or hotel fares (priced per person in Japan) for accompanying travellers, cannot be expensed by us.
 
@@ -57,16 +60,16 @@ We'll accept expense requests after ScalaMatsuri for a month. All items must hav
 
 The maximum amount of the travel grant is fixed by the origin of your travel:
 
-- Japan $800 USD
-- [East Asia and Southeast Asia](https://en.wikipedia.org/wiki/United_Nations_geoscheme_for_Asia) (China, Korea, Philippines etc) $900 USD
-- Other Asia (India, Turkey, Israel, etc) $1500 USD
-- Oceania $1300 USD
-- Europe $1500 USD
-- Africa $2000 USD
-- North America $1500 USD
-- South America $2000 USD
+Working adult:
+Domestic: 500 USD
+Overseas: 1000 USD
+
+Student:
+Domestic: 750 USD
+Overseas: 1500 USD
 
 Note that the amount offered as travel grant will NOT exceed the actual travel expense.
-Suppose you've been approved for the grant and the travel expense was $1000 from Europe, the maximum amount the ScalaMatsuri will reimburse will be $1000.
+Suppose you've been approved for the grant and the travel expense was $1500 from Europe, the maximum amount the ScalaMatsuri will reimburse will be $1000. If you started from somewhere in Asia and it cost $700, the reimbursement will be $700.
+Students are given larger maximum amount of $750 for domestic and $1500 for overseas. In the application, please include the year you're in (for example, D4 for fourth year doctorate student).
 
 Your expenses will NOT be accepted in the event that you do not attend the conference. At the sole discretion of ScalaMatsuri, some expenses may be reimbursed upon a natural disaster, death or illness of the speaker or a family member. We suggest you purchase travel insurance if these terms are not sufficient.
