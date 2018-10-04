@@ -1,5 +1,5 @@
 ---
-title: ScalaMatsuri 2018 Call for Proposal
+title: ScalaMatsuri 2019 Call for Proposal
 layout: default_en
 ---
 
