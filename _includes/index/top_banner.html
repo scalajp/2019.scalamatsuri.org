@@ -2,9 +2,11 @@
   <div class="sectionStyle7Inner">
     <article class="spBox">
       <ul class="clearfix shuffle">
+        {% if site.data.logos.shogun %}
         {% for logo in site.data.logos.shogun %}
         <li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}"/></a></li>
         {% endfor %}
+        {% endif %}
       </ul>
     </article>
   </div>

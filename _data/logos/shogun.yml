@@ -1,3 +1,18 @@
-# - href: "https://www.example.com/"
-#   title: example
-#   img: "/img/common/no_img.png"
+- href: "http://scalamatsuri.org/"
+  title: example
+  img: "/img/common/shogun.png"
+- href: "http://scalamatsuri.org/"
+  title: example2
+  img: "/img/common/shogun.png"
+- href: "http://scalamatsuri.org/"
+  title: example3
+  img: "/img/common/shogun.png"
+- href: "http://scalamatsuri.org/"
+  title: example4
+  img: "/img/common/shogun.png"
+- href: "http://scalamatsuri.org/"
+  title: example5
+  img: "/img/common/shogun.png"
+- href: "http://scalamatsuri.org/"
+  title: example6
+  img: "/img/common/shogun.png"
