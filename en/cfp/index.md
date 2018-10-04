@@ -28,7 +28,7 @@ As with previous year, the voting result will be combined with the impact on soc
 
 ### Application
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScoSjPHd-HpGXn5owvs8ol9PKDqDVJhVQZMfDpxVha9LPv8NQ/viewform" class="btn btn-primary">Submit my talk</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSc0kgIgu5jJy9xDysGKRS_urSSh_PtKgIcR9KGQ0WBsXsaHtQ/viewform" class="btn btn-primary">Submit my talk</a>
 
 ### Application details
 
