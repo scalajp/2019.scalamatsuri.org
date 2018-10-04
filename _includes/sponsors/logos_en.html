@@ -14,53 +14,64 @@
     <article class="spBox">
       <h3 class="ttlspBox1">Shogun sponsor</h3>
       <ul class="clearfix shuffle">
+      {% if site.data.logos.shogun %}
         {% for logo in site.data.logos.shogun %}
         <li class="shogunLogo">
           <a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}"/></a>
         </li>
         {% endfor %}
+        {% endif %}
       </ul>
     </article>
 
     <article class="spBox">
       <h3 class="ttlspBox1 spLv2">Tairo sponsor</h3>
       <ul class="clearfix shuffle">
+      {% if site.data.logos.tairo %}
         {% for logo in site.data.logos.tairo %}
         <li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}"/></a></li>
         {% endfor %}
+        {% endif %}
       </ul>
     </article>
 
     <article class="spBox">
       <h3 class="ttlspBox1 spLv3">Daimyo sponsor</h3>
       <ul class="clearfix shuffle">
+      {% if site.data.logos.daimyo %}
         {% for logo in site.data.logos.daimyo %}
         <li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}"/></a></li>
         {% endfor %}
+      {% endif %}
       </ul>
     </article>
 
     <article class="spBox">
       <h3 class="ttlspBox1 spLv4">Samurai sponsor</h3>
       <ul class="clearfix shuffle">
+      {% if site.data.logos.samurai %}
         {% for logo in site.data.logos.samurai %}
         <li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}"/></a></li>
         {% endfor %}
+      {% endif %}
       </ul>
     </article>
 
     <article class="spBox">
       <h3 class="ttlspBox1 spLv5">Ninja sponsor</h3>
       <ul class="clearfix shuffle">
+      {% if site.data.logos.ninja %}
         {% for logo in site.data.logos.ninja %}
         <li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}"/></a></li>
         {% endfor %}
+      {% endif %}
       </ul>
     </article>
 
     <article class="spBox">
       <h3 class="ttlspBox1 spLv6">Bugyo sponsor</h3>
       <ul class="clearfix shuffle">
+      {% if site.data.logos.bugyo %}
         {% for logo in site.data.logos.bugyo %}
         <li>
           <div class="bugyoLogo">
@@ -69,6 +80,7 @@
           </div>
         </li>
         {% endfor %}
+      {% endif %}
       </ul>
     </article>
   </div>
