@@ -1,5 +1,15 @@
-# - href: "https://www.example.com/"
-#   title: example
-#   img: "/img/common/no_img.png"
-#   category_ja: example
-#   category_en: example
+- href: "https://cacoo.com/"
+  title: cacoo
+  img: "/img/logo/cacoo.png"
+  category_ja: 浮世絵奉行
+  category_en: Ukiyo-e Bugyo
+- href: "https://kintone.cybozu.com/jp/"
+  title: kintone
+  img: "/img/logo/kintone.png"
+  category_ja: 筋斗雲奉行
+  category_en: Kintone Bugyo
+- href: "http://hatenacorp.jp/"
+  title: hatena
+  img: "/img/logo/hatena.jpg"
+  category_ja: 瓦版奉行
+  category_en: Kawara-ban Bugyo
