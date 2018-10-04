@@ -29,3 +29,6 @@ logs:
 
 ps:
 	docker-compose ps
+
+test:
+	bundle exec jekyll build -q

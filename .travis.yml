@@ -1,10 +1,9 @@
 language: ruby
 cache: bundler
 rvm:
-  - 2.2.3
-script: ./script/test_build.sh
+  - 2.5.1
+script: make test
 sudo: false
 branches:
   only:
-  - gh-pages
   - /^.*$/ # test every branches
