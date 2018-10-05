@@ -16,8 +16,8 @@
 #   title: スタッフ
 - href: "/ja/code-of-conduct/"
   title: 行動規範
-# - href: "/ja/candidates/"
-#   title: 応募セッション一覧
+- href: "/ja/candidates/"
+  title: 応募セッション一覧
 # - href: "/ja/travel/"
 #   title: トラベル情報
 # - href: "/#temporary-staff"
