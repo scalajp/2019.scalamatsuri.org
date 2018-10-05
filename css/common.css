@@ -592,16 +592,7 @@ input, select {
 
 .sectionStyle7Inner ul li {
   width: 23%;
-  margin-right: 1%;
-  margin-left: 1%;
-  float: left;
-}
-
-.sectionStyle7Inner .shogunLogo {
-  width: 31%;
-  margin-right: 1%;
-  margin-left: 1%;
-  margin-bottom: 1%;
+  margin: 0 1% 2%;
   float: left;
 }
 
@@ -1104,6 +1095,7 @@ h1.session_title {
   .sectionStyle3 .sectionHeadArea {
     width: 100%;
   }
+
 }
 
 @media screen and (max-width: 560px) {
@@ -1161,6 +1153,11 @@ h1.session_title {
     width: 66%;
     left: 50%;
     margin-left: -33%;
+  }
+
+  .sectionStyle7Inner ul li {
+    width: 46%;
+    margin: 0 2% 4%;
   }
 
 }
@@ -1223,6 +1220,11 @@ h1.session_title {
     padding-top: 40px;
   }
 
+  .sectionStyle7Inner ul li {
+    width: 46%;
+    margin: 0 2% 4%;
+  }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -1251,6 +1253,11 @@ h1.session_title {
   .sectionStyle7 .sectionHeadArea, .sectionInquiry .sectionHeadArea, .sectionTicket .sectionHeadArea {
     width: 96%;
     margin: 0 auto 0 auto;
+  }
+
+  .sectionStyle7Inner ul li {
+    width: 46%;
+    margin: 0 2% 4%;
   }
 
   .sectionStyleDay0 .sectionHeadArea {
@@ -1291,14 +1298,6 @@ h1.session_title {
   }
 
   .sectionStyle7Inner ul li {
-    width: 46%;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-bottom: 4%;
-    margin: 0;
-  }
-
-  .sectionStyle7Inner .shogunLogo {
     width: 46%;
     margin: 0 2% 4%;
   }

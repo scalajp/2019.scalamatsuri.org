@@ -6,20 +6,22 @@ layout: default_en
 </div>
 
 <div class="clearfix">
-{% capture jaUrl %}{{ page.url | replace_first:'/en/','/ja/' }}{% endcapture %}
-{% for entry in site.candidates_ja %}
+  {% capture jaUrl %}{{ page.url | replace_first:'/en/','/ja/' }}{% endcapture %}
+  {% for entry in site.candidates_ja %}
   {% if entry.url == jaUrl %}
-    <span class="pull-right">
+  <span class="pull-right">
       <a class="small" href="{{ entry.url }}">日本語</a>
     </span>
   {% endif %}
-{% endfor %}
+  {% endfor %}
 </div>
 
 <h1 class="session_title">{{ page.title }}
-<span class="cfp-voting-required-signin">
-  <button type="button" class="btn btn-default add-favorites-btn" id="add-favorites-btn" title="Pinning"><i class="fa fa-2x fa-thumb-tack" aria-hidden="true"></i></button>
-  <button type="button" class="btn btn-default remove-favorites-btn" id="remove-favorites-btn" title="Remove pin"><i class="fa fa-2x fa-thumb-tack" aria-hidden="true"></i></button>
+  <span class="cfp-voting-required-signin">
+  <button type="button" class="btn btn-default add-favorites-btn" id="add-favorites-btn" title="Pinning"><i
+    class="fa fa-2x fa-thumb-tack" aria-hidden="true"></i></button>
+  <button type="button" class="btn btn-default remove-favorites-btn" id="remove-favorites-btn" title="Remove pin"><i
+    class="fa fa-2x fa-thumb-tack" aria-hidden="true"></i></button>
 </span>
 </h1>
 
@@ -60,14 +62,14 @@ layout: default_en
   <dt>Who is your session intended to</dt>
   <dd>
     {% for suggestion in page.suggestions %}
-      {{ suggestion }}</br>
-    {% endfor %}        
+    {{ suggestion }}</br>
+    {% endfor %}
   </dd>
 
   <dt>Speaker</dt>
   <dd>
     {% if page.icon %}
-      <img src="{{page.icon}}" class="icon-mini">
+    <img src="{{page.icon}}" class="icon-mini">
     {% endif %}
 
     {{ page.name }}
@@ -86,60 +88,63 @@ layout: default_en
   <ul class="sns-button-list">
     <li>
       <a class="twitter-share-buttoon"
-        href="https://twitter.com/intent/tweet"
-        data-url="{{ site.url }}{{ page.url }}"
-        data-via="{{ site.en.twitter }}"
-        data-hashtags="ScalaMatsuri"
-        data-count="vertical"
-        data-lang="en"
-        data-text="{{ page.title }}">
+         href="https://twitter.com/intent/tweet"
+         data-url="{{ site.url }}{{ page.url }}"
+         data-via="{{ site.en.twitter }}"
+         data-hashtags="ScalaMatsuri"
+         data-count="vertical"
+         data-lang="en"
+         data-text="{{ page.title }}">
         Tweet
-    </a>
+      </a>
     </li>
     <li>
-      <div class="fb-like" 
-        data-href="{{ entry.url }}" 
-        data-layout="box_count" 
-        data-action="like" 
-        data-size="small" 
-        data-show-faces="false" 
-        data-share="false">
-      </div>        
-    </li>
-    <li>
-      <div class="fb-share-button" 
-        data-href="{{ entry.url }}" 
-        data-layout="box_count" 
-        data-size="small">
+      <div class="fb-like"
+           data-href="{{ entry.url }}"
+           data-layout="box_count"
+           data-action="like"
+           data-size="small"
+           data-show-faces="false"
+           data-share="false">
       </div>
     </li>
     <li>
-      <a href="http://b.hatena.ne.jp/entry/" 
-        class="hatena-bookmark-button" 
-        data-hatena-bookmark-layout="vertical-normal" 
-        data-hatena-bookmark-lang="en" 
-        title="このエントリーをはてなブックマークに追加">
-        <img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" 
-          alt="このエントリーをはてなブックマークに追加" 
-          width="20" 
-          height="20" 
-          style="border: none;" />
+      <div class="fb-share-button"
+           data-href="{{ entry.url }}"
+           data-layout="box_count"
+           data-size="small">
+      </div>
+    </li>
+    <li>
+      <a href="http://b.hatena.ne.jp/entry/"
+         class="hatena-bookmark-button"
+         data-hatena-bookmark-layout="vertical-normal"
+         data-hatena-bookmark-lang="en"
+         title="このエントリーをはてなブックマークに追加">
+        <img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png"
+             alt="このエントリーをはてなブックマークに追加"
+             width="20"
+             height="20"
+             style="border: none;"/>
       </a>
     </li>
   </ul>
 
 </div>
+<div class="text-center">
+  <a class="btn btn-info btn-lg" href="/en/cfp/">I also want to give a talk!</a>
+</div>
 <div class="text-center" style="margin-top: 30px;">
-	<!-- <a class="btn btn-info btn-lg" href="/en/cfp/">I also want to give a talk!</a> -->
   <span class="cfp-voting-required-signin">
-    <button type="submit" class="btn btn-success btn-lg btn-lnk" id="vote-btn" data-language="{{ page.language }}" data-length="{{ page.length }}">Vote this session</button>
+    <button type="submit" class="btn btn-success btn-lg btn-lnk" id="vote-btn" data-language="{{ page.language }}"
+            data-length="{{ page.length }}">Vote this session</button>
     <button type="submit" class="btn btn-danger btn-lg btn-lnk" id="unvote-btn">Cancel voting</button>
   </span>
 </div>
 <hr>
 <div class="cfp-voting-required-signin pull-right text-right">
   <p>
-    <span class="badge" id="voted-count"></span> voted / <span class="badge" id="max-voting"></span> votable <br />
+    <span class="badge" id="voted-count"></span> voted / <span class="badge" id="max-voting"></span> votable <br/>
   </p>
 </div>
 <a class="btn btn-default" href="/en/candidates/">
