@@ -81,6 +81,33 @@ layout: default_en
     {% include twitter_icons.html accounts=page.twitter %}
     {% include github_icons.html accounts=page.github %}
 
+    {% if page.speaker_experience %}
+    <ul>
+      {% for experience in page.speaker_experience %}
+      <li>{{experience}}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </dd>
+  <dt>Contributes</dt>
+  <dd>
+    <ul>
+      <!-- タグにカンマが含まれている場合、分割して表示 -->
+      {% for contributes in page.contributes %}
+
+      {% if contributes contains ',' %}
+      {% assign items = contributes | split:"," %}
+
+      {% for item in items %}
+      <li>{{item}}</li>
+      {% endfor %}
+
+      {% else %}
+      <li>{{contributes}}</li>
+      {% endif %}
+
+      {% endfor %}
+    </ul>
   </dd>
 </dl>
 
