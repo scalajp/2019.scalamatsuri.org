@@ -1,6 +1,6 @@
 ---
 name: Himanshu
-title: "KSAIを使った機械学習アプリケーションのパフォーマンス爆速化"
+title: "KSAIを使った機械学習アプリケーションの爆速化"
 length: 40
 audience: Intermediate
 language: English
