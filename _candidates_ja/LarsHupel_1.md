@@ -13,7 +13,9 @@ tags:
 suggestions:
   - 数値を扱うすべての人
 contributes:
-  - cats-collections, discipline, libisabelle
+  - cats-collections
+  - discipline
+  - libisabelle
 speaker_experience:
   - LX Scala, 2018
   - flatMap(Oslo), 2015 and 2016
