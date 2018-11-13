@@ -9,7 +9,8 @@ github: larsrh
 icon: https://avatars3.githubusercontent.com/u/923079?s=460&v=4
 organization: 
 tags:
-  - Functional Programming, Tools
+  - Functional Programming
+  - Tools
 suggestions:
   - People who want to improve their tests
 contributes:
