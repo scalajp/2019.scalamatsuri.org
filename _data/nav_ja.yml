@@ -8,8 +8,8 @@
 #   title: チケット
 - href: "/#sp"
   title: スポンサー
-# - href: "/notice/"
-#  title: スポンサーからのお知らせ
+- href: "/notice/"
+  title: スポンサーからのお知らせ
 # - href: "/ja/commercial"
 #   title: CM
 # - href: "/ja/staff"
