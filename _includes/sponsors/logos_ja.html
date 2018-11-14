@@ -69,9 +69,22 @@
       {% endif %}
       </ul>
     </article>
+    
+    <article class="spBox">
+      <h3 class="ttlspBox1 spLv6">宴スポンサー</h3>
+      <ul class="clearfix shuffle">
+      {% if site.data.logos.utage %}
+        {% for logo in site.data.logos.utage %}
+        <li> 
+            <a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}"/></a>
+        </li>
+        {% endfor %}
+      {% endif %}
+      </ul>
+    </article>
 
     <article class="spBox">
-      <h3 class="ttlspBox1 spLv6">奉行スポンサー</h3>
+      <h3 class="ttlspBox1 spLv7">奉行スポンサー</h3>
       <ul class="clearfix shuffle">
       {% if site.data.logos.bugyo %}
         {% for logo in site.data.logos.bugyo %}

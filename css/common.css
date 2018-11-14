@@ -688,6 +688,10 @@ input, select {
 }
 
 .spLv6 {
+  background: #4169e1 !important;
+}
+
+.spLv7 {
   background: #64b9ac !important;
 }
 
