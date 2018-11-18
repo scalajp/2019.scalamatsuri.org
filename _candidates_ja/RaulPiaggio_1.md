@@ -17,9 +17,9 @@ contributes:
   - scalajs-react-sortable-hoc (https://github.com/trepidacious/scalajs-react-sortable-hoc)
   - enumeratum (https://github.com/lloydmeta/enumeratum)
 speaker_experience:
-  - "An introduction to Slick"
-  - "An introduction to Scala.js"
-  - "My first funcional validator" (https://docs.google.com/presentation/d/1eLrQFgjNSP_Qk-8BVwUEJtn3tvK38KgPbhCK-Ffykyk/edit?usp=sharing)
+  - An introduction to Slick
+  - An introduction to Scala.js
+  - My first funcional validator (https://docs.google.com/presentation/d/1eLrQFgjNSP_Qk-8BVwUEJtn3tvK38KgPbhCK-Ffykyk/edit?usp=sharing)
 ---
 アプリカティブやモナドの力を使って、既存のバリデーテョンライブラリ(checklist) をどうやって異なる関数型実行コンテキスト(eg: Future, Task, IO, Id etc.)に
 適合させるか深掘りしてみましょう。ライブラリを使って、透過的かつシームレスにこれを行うことができます。
