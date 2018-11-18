@@ -15,6 +15,6 @@ suggestions:
 contributes:
   - I maintain https://github.com/zoepepper/scalajs-jsjoda, and have contributed to https://github.com/trepidacious/scalajs-react-sortable-hoc and https://github.com/lloydmeta/enumeratum.
 speaker_experience:
-  - So far, I only presented at my local Scala Meetup. I presented "An introduction to Slick", "An introduction to Scala.js" and an early version of the talk I intend to present called "My first funcional validator" (Slides in Spanish: https://docs.google.com/presentation/d/1eLrQFgjNSP_Qk-8BVwUEJtn3tvK38KgPbhCK-Ffykyk/edit?usp=sharing)
+  - 'So far, I only presented at my local Scala Meetup. I presented "An introduction to Slick", "An introduction to Scala.js" and an early version of the talk I intend to present called "My first funcional validator" (Slides in Spanish: https://docs.google.com/presentation/d/1eLrQFgjNSP_Qk-8BVwUEJtn3tvK38KgPbhCK-Ffykyk/edit?usp=sharing)'
 ---
 Using the power of Applicatives and Monads, we explore how to adapt an existing validation library (checklist) so that it is now able to mix and match different functional execution contexts (eg: Future, Task, IO, Id, etc.). This is done transparently and seamlessly for the library user.
