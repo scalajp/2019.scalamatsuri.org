@@ -4,8 +4,8 @@ title: "Applicative and Monadic Contextual Validation (or, My First Functional C
 length: 40
 audience: Intermediate
 language: English
-twitter: https://twitter.com/RaulPiaggio
-github: https://github.com/rpiaggio
+twitter: RaulPiaggio
+github: rpiaggio
 icon: https://avatars0.githubusercontent.com/u/1895643?s=400&u=f98c653aae0fe6f4c07a6ff24f09a64bd2cec274&v=4
 organization: CTO, Zoë Pepper Ltd.
 tags:
