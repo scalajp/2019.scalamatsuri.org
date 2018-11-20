@@ -12,7 +12,7 @@ tags:
   - Functional Programming
   - Tools
 suggestions:
-  - People who want to improve their tests
+  - テストを改善したい人
 contributes:
   - cats-collections
   - discipline
