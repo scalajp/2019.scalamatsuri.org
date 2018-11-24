@@ -6,10 +6,10 @@
 #   title: プログラム
 # - href: "/#tickets"
 #   title: チケット
-# - href: "/#sp"
-#   title: スポンサー
-# - href: "/notice/"
-#   title: スポンサーからのお知らせ
+- href: "/#sp"
+  title: スポンサー
+- href: "/notice/"
+  title: スポンサーからのお知らせ
 # - href: "/ja/commercial"
 #   title: CM
 # - href: "/ja/staff"
@@ -22,5 +22,5 @@
 #   title: トラベル情報
 - href: "/ja/extra-staff"
   title: 当日スタッフ募集
-#- href: "/ja/sponsors/"
-#  title: スポンサー募集
+- href: "/ja/sponsors/"
+  title: スポンサー募集

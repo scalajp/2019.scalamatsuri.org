@@ -175,6 +175,10 @@ body {
   margin: 0 !important;
 }
 
+.dl-horizontal dt {
+  white-space: normal;
+}
+
 @media screen and (max-width: 780px) {
   .sns-button-list > li {
     width: auto !important;
@@ -185,5 +189,11 @@ body {
 @media screen and (max-width: 560px) {
   .jumbotron {
     padding: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .dl-horizontal dt {
+    white-space: normal;
   }
 }
