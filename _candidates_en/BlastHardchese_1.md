@@ -1,5 +1,5 @@
 ---
-name: @blast-hardchese
+name: blast-hardchese
 title: "Principled Code Generation with Guardrail"
 length: 40
 audience: Intermediate
