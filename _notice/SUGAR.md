@@ -27,10 +27,8 @@ SUGARでは、「１：１：N」のライブ動画配信プラットフォー�
 
 より詳しくは
 
-- 2017/10のブログエントリ - 初転職4年間のまとめ、あるいはCTOを辞めたお話 
-http://sugitani.hatenablog.com/entry/2017/10/01/122714 
-- 2015/5のブログエントリ - 技術的負債について考えた 
-http://sugitani.hatenablog.com/entry/2015/05/23/205714  
+- 2017/10のブログエントリ - [初転職4年間のまとめ、あるいはCTOを辞めたお話](http://sugitani.hatenablog.com/entry/2017/10/01/122714)
+- 2015/5のブログエントリ - [技術的負債について考えた](http://sugitani.hatenablog.com/entry/2015/05/23/205714)  
 
 をご参照ください。
 
@@ -43,7 +41,6 @@ http://sugitani.hatenablog.com/entry/2015/05/23/205714
 
 ## 求人
 SUGAR株式会社ではScalaで開発を行う仲間を大募集しています！  
-ぜひご応募ください！ 
- 
-https://open.talentio.com/1/c/sugar/requisitions/detail/8639
+ぜひご応募ください！
 
+[https://open.talentio.com/1/c/sugar/requisitions/detail/8639](https://open.talentio.com/1/c/sugar/requisitions/detail/8639)
