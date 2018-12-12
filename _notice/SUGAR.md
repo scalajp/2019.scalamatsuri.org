@@ -1,4 +1,4 @@
-﻿---  
+---  
 title: "SUGAR株式会社"  
 logo: "/img/logo/sugar.png"  
 plan: samurai  
