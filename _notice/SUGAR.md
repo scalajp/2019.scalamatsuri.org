@@ -3,10 +3,8 @@ title: "SUGAR株式会社"
 logo: "/img/logo/sugar.png"  
 plan: samurai  
 link: "https://sugarcorp.jp/"  
-link tittle: "ホームページはこちら" 
+linkTitle: "ホームページはこちら" 
 --- 
-
-#  SUGAR株式会社
 
 SUGARでは、「１：１：N」のライブ動画配信プラットフォーム「SUGAR」を開発しています。
 
@@ -29,8 +27,12 @@ SUGARでは、「１：１：N」のライブ動画配信プラットフォー�
 
 より詳しくは
 
-- 2017/10のブログエントリ - [初転職4年間のまとめ、あるいはCTOを辞めたお話](http://sugitani.hatenablog.com/entry/2017/10/01/122714) 
-- 2015/5のブログエントリ - [技術的負債について考えた](http://sugitani.hatenablog.com/entry/2015/05/23/205714)をご参照ください。
+- 2017/10のブログエントリ - 初転職4年間のまとめ、あるいはCTOを辞めたお話 
+http://sugitani.hatenablog.com/entry/2017/10/01/122714 
+- 2015/5のブログエントリ - 技術的負債について考えた 
+http://sugitani.hatenablog.com/entry/2015/05/23/205714  
+
+をご参照ください。
 
 ## 開発環境
 - Macbook Pro 15インチ 2.9GHz / メモリ32GB / SSD 512GB 
@@ -41,6 +43,7 @@ SUGARでは、「１：１：N」のライブ動画配信プラットフォー�
 
 ## 求人
 SUGAR株式会社ではScalaで開発を行う仲間を大募集しています！  
-ぜひご応募ください！  
+ぜひご応募ください！ 
+ 
 https://open.talentio.com/1/c/sugar/requisitions/detail/8639
 
