@@ -20,7 +20,7 @@
   title: 応募セッション一覧
 # - href: "/ja/travel/"
 #   title: トラベル情報
-# - href: "/#temporary-staff"
-#   title: 当日スタッフ募集
+- href: "/ja/extra-staff"
+  title: 当日スタッフ募集
 - href: "/ja/sponsors/"
   title: スポンサー募集
