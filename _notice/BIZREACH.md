@@ -1,5 +1,5 @@
 ---  
-title: "Š”®‰ïĞƒrƒYƒŠ[ƒ`"  
+title: "æ ªå¼ä¼šç¤¾ãƒ“ã‚ºãƒªãƒ¼ãƒ"
 logo: "/img/logo/bizreach.jpg"  
 plan: daimyo  
 link: "https://www.bizreach.co.jp/recruit/"  
