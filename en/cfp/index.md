@@ -7,7 +7,7 @@ Come share your stories at ScalaMatsuri 2019!
 
 ----
 
-We are excited to announce that ScalaMatsuri will be held on June 27th (Thu), 28th (Fri), and 29th (Sat), 2019 at Tokyo International Exchange Center. (There's a possibility that the date might change later) Please submit your talk for the general sessions. We plan on closing the CFP will on **February 2nd, 2019 23:59 JST**.
+We are excited to announce that ScalaMatsuri will be held on June 27th (Thu), 28th (Fri), and 29th (Sat), 2019 at Tokyo International Exchange Center. Please submit your talk for the general sessions. We plan on closing the CFP will on **February 2nd, 2019 23:59 JST**.
 
 For your reference:[ScalaMatsuri blog](http://blog-en.scalamatsuri.org/)
 
