@@ -9,7 +9,8 @@ github: kiris
 icon: https://twitter.com/kiris
 organization: 無職
 tags:
-  - Intro to Scala, Others
+  - Intro to Scala
+  - Others
 suggestions:
   - 家庭や身の回りをプログラムする事にワクワクを感じる人
   - 学習のために、Scalaで何か作りたいと思っているが、作るものが思い浮かばなかったり、途中で飽きてしまう人
