@@ -9,7 +9,7 @@ github:
 icon: /img/candidates/MasayaDake.jpg
 organization: 
 tags:
-  - Functional Programming,
+  - Functional Programming
   - Intro to Scala
 suggestions:
   - FP in Scalaを読んでいるエンジニア、FlutterなどでDartを書くことになったエンジニアに向けておすすめです。
