@@ -4,8 +4,8 @@ title: "Tips from writing my first Scala macro"
 length: 40
 audience: Intermediate
 language: English
-twitter: twitter.com/precisememory
-github: github.com/anne-decusatis
+twitter: precisememory
+github: anne-decusatis
 icon: https://media.licdn.com/dms/image/C5603AQEZIF4ahePETg/profile-displayphoto-shrink_200_200/0?e=1547683200&v=beta&t=NHxc6rbp2xhwZyUFDvAVa5I45LoNJFrvxUVyMbh6m70
 organization: Data Engineer, Spotify
 tags:
