@@ -1,6 +1,6 @@
 ---
 name: Adil Akhter
-title: " Structure and Interpretation of Stream Processing"
+title: "Structure and Interpretation of Stream Processing"
 length: 40
 audience: Intermediate
 language: English
