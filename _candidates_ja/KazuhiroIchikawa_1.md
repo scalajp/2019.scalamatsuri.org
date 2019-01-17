@@ -14,7 +14,7 @@ tags:
 suggestions:
   - 型クラスについて知りたい人
   - 関数型プログラミングに関心がある人
-  -他言語で型クラスを知っており、Scala でも型クラスを使いたい人
+  - 他言語で型クラスを知っており、Scala でも型クラスを使いたい人
 contributes:
   - 
 speaker_experience:
