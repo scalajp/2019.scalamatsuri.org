@@ -1,5 +1,5 @@
 ---
-name: @petitviolet(小紫)
+name: petitviolet(小紫)
 title: "ピュアなドメインを支える技術"
 length: 40
 audience: Intermediate
