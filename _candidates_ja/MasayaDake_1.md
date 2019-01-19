@@ -22,7 +22,8 @@ speaker_experience:
 そちらから考え方を抜粋して、他言語でどのように使えるかをご紹介します。
 
 対象言語は最近モバイルアプリ界隈で流行って来ているFlutterというクロスプラットフォーム向けのフレームワークの開発言語であるDartです。
-実はこのDartですが、Dartzというライブラリがあり、「Fuctional Programming in Scala」を読んだ影響から作られたものだそうです。
+実はこのDartですが、Dartzというライブラリがあり、ScalazやCatsのような関数型の考え方を取り入れたライブラリになります。
 <a href="https://github.com/spebbe/dartz">https://github.com/spebbe/dartz</a>
+ただ、Dartzの作者は「FP in Scala」は関数型の書籍の入門としてはおすすめしないと言及はしてはいますが笑、今回はこのテーマで発表させていただきます。
 
 そちらにあるExampleのコードから「Fuctional Programming in Scala」の中で読んだTIPSを経て、紹介および解説していきます。
