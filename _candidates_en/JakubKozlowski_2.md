@@ -9,7 +9,9 @@ github: kubukoz
 icon: https://blog.kubukoz.com/assets/images/kubukoz.jpg
 organization: Ocado Technology, Software engineer
 tags:
-  - Functional Programming, Tools, Microservices
+  - Functional Programming
+  - Tools
+  - Microservices
 suggestions:
   - Scala programmers who want to learn about a library for modern, runtime-safe HTTP services.
 contributes:
