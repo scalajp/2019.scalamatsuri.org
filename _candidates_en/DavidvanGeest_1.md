@@ -9,7 +9,8 @@ github: DWvanGeest
 icon: https://pbs.twimg.com/profile_images/644247268271349760/53O4TbBI_400x400.jpg
 organization: PagerDuty, Inc.
 tags:
-  - Functional Programming, Intro to Scala
+  - Functional Programming
+  - Intro to Scala
 suggestions:
   - Anyone interested in modelling real-world data while maintaining type-safety
   - Anyone curious about path-dependent types
