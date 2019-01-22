@@ -9,7 +9,8 @@ github: zaharidichev
 icon: https://avatars1.githubusercontent.com/u/4391506?s=400&v=4
 organization: Bullet.io
 tags:
-  - Tools, DevOps
+  - Tools
+  - DevOps
   - Software Design and Architecture
   - Microservices
 suggestions:
