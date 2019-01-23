@@ -7,7 +7,7 @@ language: English
 twitter: 
 github: GuillemIscla
 icon: https://avatars1.githubusercontent.com/u/5903579?s=400&v=4
-organization: guillem_iscla@sugarcorp.jp
+organization: SUGAR Inc
 tags:
   - Tools
   - Best Practices
