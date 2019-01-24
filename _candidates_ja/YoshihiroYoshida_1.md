@@ -2,7 +2,7 @@
 name: 吉田 芳弘
 title: "受け入れテスト駆動開発をPlay Frameworkでどう実現するか?"
 length: 40
-audience: Beginner
+audience: Intermediate
 language: Japanese
 twitter: marchwind0079
 github: yoshihir
