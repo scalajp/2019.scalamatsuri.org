@@ -9,7 +9,8 @@ github: limansky
 icon: http://www.limansky.me/images/mikhail400x400.jpg
 organization: 
 tags:
-  - Tools, DevOps
+  - Tools
+  - DevOps
 suggestions:
   - People who want to improve their sbt skills, or would like to get more automation in sbt builds.
 contributes:
