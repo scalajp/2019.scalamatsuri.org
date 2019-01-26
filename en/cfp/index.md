@@ -41,6 +41,9 @@ As with previous year, the voting result will be combined with the impact on soc
 - Professional interpreters (English/Japanese bidirection) in two main halls.
 - You are allowed up to 3 submissions. However, we'll ask you to select 1 talk even if multiple talks qualified.
 - We'll plan hangouts at bars after the conference if you're up for it.
+- If you submit more than 3, we will publish first 3 submissions.
+- Also about number limited information such as contributions, speakers, we will publish only first number limited information.
+- If you find any modifications about your submissions, please send Pull Request to <a href="https://github.com/scalajp/2019.scalamatsuri.org">this repository</a>.
 
 Note again that ScalaMatsuri organizers will need to prepare the subtitles, so you are asked to submit the slides weeks in advance.
 

@@ -123,6 +123,16 @@ suggestions:
 ここにセッションの内容を markdown で書きます。
 ```
 
+### セッション内容の修正/How to modify proposals
+
+もし、掲載されたセッション情報に誤りや変更がある場合は、直接Pull Requestをお送りください。
+ファイルは、`_candidates_ja/`, `_candidates_en/`以下に`$firstName$lastName_$連番.md`のファイル名で配置されています。
+日本語のみでPullRequestを送っていただいた場合は、こちらで英訳も付けます。
+
+If you find a mistake or a modification at proposal informaion, please send Pull Request.
+Files are placed under `_candidates_ja/` and `_candidates_en/`, and named `$firstName$lastName_$number.md`.
+You can send only English modification, in that case we translate to Japanese.
+
 ### スポンサーからのお知らせ情報
 
 #### 追加方法
