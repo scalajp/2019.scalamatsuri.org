@@ -19,9 +19,9 @@ suggestions:
 contributes:
   - https://github.com/pepegar/hammock
 speaker_experience:
-  - Scala eXchange https://skillsmatter.com/skillscasts/10961-freestyle-free-and-tagless-separation-of-concerns-on-steroids
-  - Devoxx PL https://www.youtube.com/watch?v=0o3yJ5HbkAU
-  - Lambda Days https://www.youtube.com/watch?v=oMfF9V52DT4
+  - <a href="https://skillsmatter.com/skillscasts/10961-freestyle-free-and-tagless-separation-of-concerns-on-steroids">Scala eXchange</a>
+  - <a href="https://www.youtube.com/watch?v=0o3yJ5HbkAU">Devoxx PL</a>
+  - <a href="https://www.youtube.com/watch?v=oMfF9V52DT4">Lambda Days</a>
 ---
 In this talk we are going to create a functional and blazingly fast microservice. We will use functional programming abstractions to quickly mix & match different HTTP libraries, state implementations and concurrency configurations. Each step will be followed by a performance analysis using different tools from JVM toolbox.
 
