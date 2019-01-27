@@ -6,7 +6,7 @@ audience: Intermediate
 language: English
 twitter: adilakhter
 github: adilakhter
-icon: https://www.dropbox.com/s/rbq27me2ayinidn/profile-pic.jpg
+icon: /img/candidates/AdilAkhter.jpg
 organization: ING
 tags:
   - Big Data / Fast Data
