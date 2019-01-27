@@ -43,6 +43,8 @@ bundle exec jekyll build -V
 
 予め`docker`と`docker-compose`をインストールしておいてください
 
+`Makefile` に利用するであろうコマンドを集約してあります。
+
 #### 準備
 
 dockerのイメージをビルドする必要があるので、以下のコマンドを実行してください
@@ -59,6 +61,12 @@ docker-compose build
 docker-compose up
 ```
 
+または
+
+```bash
+make up
+```
+
 終了する場合は、Ctrl-Cで終了させてください。
 
 #### 生成
@@ -67,6 +75,16 @@ docker-compose up
 
 ```sh
 docker-compose run --rm jekyll bundle exec jekyll build -V
+```
+
+#### 困った時
+
+Dockerのコンテナの挙動に違和感がある場合、一度コンテナを削除して、再度起動してください。
+
+以下のコマンドで、コンテナの停止と削除をします。
+
+```bash
+make down
 ```
 
 
