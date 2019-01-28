@@ -9,7 +9,8 @@ github: HomMarkHunt
 icon: https://pbs.twimg.com/profile_images/828628406543659008/Mo37sd46_400x400.jpg
 organization: BizReach, Inc
 tags:
-  - Intro to Scala, Others
+  - Intro to Scala
+  - Others
 suggestions:
   - Scala beginners
   - Those who are interested in behind-the-scenes

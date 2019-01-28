@@ -9,7 +9,8 @@ github:
 icon: /img/candidates/MasayaDake.jpg
 organization:
 tags:
-  - Functional Programming, Intro to Scala
+  - Functional Programming
+  - Intro to Scala
 suggestions:
   - Those who are reading Functional Programming in Scala
   - Those who are working with Dart for Flutter

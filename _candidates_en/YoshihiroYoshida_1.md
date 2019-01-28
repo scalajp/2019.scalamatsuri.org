@@ -9,7 +9,8 @@ github: yoshihir
 icon: https://avatars0.githubusercontent.com/u/26864976?s=400&u=711a83499a4a803fa232c89b93d38186cfe8f170&v=4
 organization: BizReach, Inc
 tags:
-  - Tools, DevOps
+  - Tools
+  - DevOps
 suggestions:
   - Those who are curious about Acceptance Test Driven Development
   - Those who are interested in Continuous Integration / Continuous Deployment of Play on Amazon Web Services

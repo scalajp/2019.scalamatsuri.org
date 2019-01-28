@@ -9,7 +9,8 @@ github: Hiroki6
 icon: https://ja.gravatar.com/userimage/143452083/fb459a2afdf9f0f9fc2fe015a8f1c22b.jpeg
 organization: Fringe81, Inc
 tags:
-  - Tools, Best Practices
+  - Tools
+  - Best Practices
 suggestions:
   - Those who are interested in getting performance out of Scala
 contributes:
