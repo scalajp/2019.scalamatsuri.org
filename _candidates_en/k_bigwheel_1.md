@@ -20,7 +20,7 @@ speaker_experience:
 ---
 sbt is almost essential to writing an application in Scala.
 
-In this short session, we will go over the common road blocks that the beginners stumble on when writing build.sbt:
+In this short session, we will go over common road blocks that the beginners stumble on when writing build.sbt:
 1. Multi project
 2. Custom tasks
 3. How to declare task dependencies
