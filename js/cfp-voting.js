@@ -22,12 +22,12 @@ $(function() {
   }
 
   var config = {
-    apiKey: "AIzaSyBiWd1xiM3DJg0Z_fOYTp4tu1qaurMbecs",
-    authDomain: "scalamatsuri-2018-voting.firebaseapp.com",
-    databaseURL: "https://scalamatsuri-2018-voting.firebaseio.com",
-    projectId: "scalamatsuri-2018-voting",
-    storageBucket: "scalamatsuri-2018-voting.appspot.com",
-    messagingSenderId: "739573211191"
+    apiKey: "AIzaSyDUWjurZjk0GfzAYRej78ZW-0JrJJfcUDw",
+    authDomain: "coherent-span-230012.firebaseapp.com",
+    databaseURL: "https://coherent-span-230012.firebaseio.com",
+    projectId: "coherent-span-230012",
+    storageBucket: "coherent-span-230012.appspot.com",
+    messagingSenderId: "158058079324"
   };
   firebase.initializeApp(config);
 
