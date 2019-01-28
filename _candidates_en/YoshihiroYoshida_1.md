@@ -18,6 +18,6 @@ contributes:
 speaker_experience:
   - 
 ---
-Acceptance Test Driven Development (A-TDD) is a development practice, in which the expected behaviors (specification, requirements) are defined with test codes prior to providing the implementation that satisfies them.
+Acceptance Test Driven Development (A-TDD) is a development practice in which the expected behaviors (specification, requirements) are defined with test codes prior to providing the implementation that satisfies them.
 
-In this session, I will illustrate A-TDD and its development workflow, and demonstrate Continuous Integration / Continuous Deployment (CI/CD) using Amazon Web Services (AWS).
+In this session, I will illustrate A-TDD and its development workflow and demonstrate Continuous Integration / Continuous Deployment (CI/CD) using Amazon Web Services (AWS).
