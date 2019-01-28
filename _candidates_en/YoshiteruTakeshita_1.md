@@ -21,5 +21,5 @@ speaker_experience:
 **Note** This is not a technical session.
 
 Have you wondered how ScalaMatsuri is organized?
-ScalaMatsuri started its life in 2013 as 'Scala Conference in Japan', and it gradually scaled up to the current conference, which is sixth! In this session, I will go over the history of ScalaMatsuri and bare all behind-the-scenes of how we run the conference!
-I'll try to save longer time for Q&A, and I am looking forward to hearing your questions and suggestions!
+ScalaMatsuri started its life in 2013 as 'Scala Conference in Japan', and it gradually scaled up to the current conference, which is its sixth! In this session, I will go over the history of ScalaMatsuri and bare all of the behind-the-scenes of how we run the conference!
+I'll try to save a longer time for Q&A, and I am looking forward to hearing your questions and suggestions!
