@@ -17,4 +17,4 @@ contributes:
 speaker_experience:
   - 
 ---
-Functional programming employs a unique algorithmic design distinct from that of object-oriented programming paradigm. In this session, I will go over the details of functional algorithm design step by step.
+Functional programming employs a unique algorithmic design distinct from that of the object-oriented programming paradigm. In this session, I will go over the details of functional algorithm design step by step.
