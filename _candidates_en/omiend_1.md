@@ -11,13 +11,13 @@ organization:
 tags:
   - Intro to Scala
 suggestions:
-  - Those who are considering to learn Scala
-  - Those who are interested in the perspective from someone who has worked on both dynamic- and statically-typed languages
+  - Those who are considering learning Scala
+  - Those who are interested in the perspective of someone who has worked on both dynamic- and statically-typed languages
 contributes:
   - 
 speaker_experience:
   - 
 ---
-After teaching myself Scala for two years, and I used it at work for two more years. Afterwards, I've started to use Ruby on Rails at work, and it's almost going to be two years again.
+I taught myself Scala for two years then used it for an additional two years at work. For the past two years, I've begun using Ruby on Rails at work.
 
-In this talk, I'd like to share my love affair with Scala for the last six years, and the gaps I feel with Ruby.
+In this talk, I'd like to share my six year love affair with Scala, and explain the gaps I'm experiencng with Ruby.
