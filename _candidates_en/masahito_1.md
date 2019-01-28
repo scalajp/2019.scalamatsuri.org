@@ -17,6 +17,6 @@ contributes:
 speaker_experience:
   - 
 ---
-It's become increasingly common for newly developed web-based services to use Open Source Software (OSS) during its implementation and operation. For long-lived services, it's not uncommon for the team to track the changes made to OSS or even patch the bugs ourselves.
+It's become increasingly common for newly developed web-based services to use Open Source Software (OSS) during their implementation and operation. For long-lived services, it's not uncommon for the team to track the changes made to OSS or even patch the bugs themselves.
 
-In this session, we will discuss the know-hows of contributing to Open Source Software while providing online services for the customers.
+In this session, we will discuss our know-how of contributing to Open Source Software while providing online services for the customers.
