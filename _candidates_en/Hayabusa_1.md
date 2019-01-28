@@ -18,6 +18,6 @@ contributes:
 speaker_experience:
   - 
 ---
-There is a special connection between functional programming languages category theory, which is an area in mathematics. The relevant information around this tends to be explained using Haskell, a purely functional programming language. Perhaps because of that, functional programming language tends to be perceived to be more difficult than what it actually is.
+There is a special connection between functional programming languages and category theory, which is an area in mathematics. The relevant information around this tends to be explained using Haskell, a purely functional programming language. Perhaps because of that, functional programming language tends to be perceived to be more difficult than what it actually is.
 
-In this session, we will explore the category theory terms, and illustrate how category theory is used in Scala.
+In this session, we will explore category theory terms and illustrate how category theory is used in Scala.
