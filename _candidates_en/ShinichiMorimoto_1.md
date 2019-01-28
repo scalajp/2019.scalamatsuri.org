@@ -20,11 +20,11 @@ contributes:
 speaker_experience:
   - 
 ---
-Recently there has been many case studies on running online services using Kubernetes in production.
-On the other hand, some are using Raspberry Pi as a way of building a Kubernetes clusters at home.
+Recently, there have been many case studies about running online services using Kubernetes in production.
+On the other hand, others are using Raspberry Pi as a way of building Kubernetes clusters at home.
 
-I have tried my hands on a home-improvement project using a Kubernetes cluster with Raspberry Pi, but using Akka Cluster to make it Reactive.
+I have tried my hand at a home-improvement project using a Kubernetes cluster with Raspberry Pi, but using Akka Cluster to make it reactive.
 
-Through this project I've realized how Kubernetes and Akka Cluster, which builds a distributed system using AKka, complement each other, and build a fault-tolerant system.
+Through this project, I've realized how Kubernetes and Akka Cluster, which builds a distributed system using AKka, complement each other and build a fault-tolerant system.
 
 In this talk, I will illustrate the benefits and lessons learned from building and operating an Akka Cluster on top of the Kubernetes architecture.
