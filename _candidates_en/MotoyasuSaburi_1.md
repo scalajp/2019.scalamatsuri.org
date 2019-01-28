@@ -10,7 +10,7 @@ organization: BizReach, Inc. Security Engineer
 tags:
   - Others
 suggestions:
-  - Those with some knowledge on security and web applications
+  - Those with some knowledge of security and web applications
 contributes:
   - 
 speaker_experience:
@@ -18,6 +18,6 @@ speaker_experience:
 ---
 Have you ever wondered about the vulnerabilities in your web frameworks?
 
-If you are a web application developer, many of you might be familar with the causes and impacts of well-known security vulnerabilities. However, few people would dig into the vulnerabilities and root causes within the web framework.
+If you are a web application developer, you might be familar with the causes and impacts of well-known security vulnerabilities. However, few people would dig into the vulnerabilities and root causes within the web framework.
 
-In this session, we will go over both impacts and the root causes of vulnerabilities by looking into the security updates of Play Framework. (Note: It will be limited to reasoning based on the code changes, without proof-of-concept testing.)
+In this session, we will go over both impacts and the root causes of vulnerabilities by looking into the security updates of Play Framework. (Note: This will be limited to reasoning based on the code changes, without proof-of-concept testing.)
