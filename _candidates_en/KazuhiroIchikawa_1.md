@@ -20,7 +20,7 @@ contributes:
 speaker_experience:
   - 
 ---
-In this talk, I will explain the concept known as typclass from the basics -- how Scala realizes it, how you can use it, and other related topics.
-To make this approachable, I will try to avoid abstract explanations, and use concrete examples.
+In this talk, I will explain the concept known as typeclass from the basics -- how Scala realizes it, how you can use it, and other related topics.
+To make this approachable, I will try to avoid abstract explanations and use concrete examples.
 We will also go over major libraries such as Scalaz and Cats.
 If time permits, we might also cover how typeclass would change after Scala 3.
