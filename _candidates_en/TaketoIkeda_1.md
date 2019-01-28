@@ -19,6 +19,6 @@ contributes:
 speaker_experience:
   - 
 ---
-If you've learned for expression to understanding it, but still having trouble when it comes to actually using it on a web application, or having trouble using both both Option type and Try type within a for comprehension, then this talk is for you.
+If you've learned for expression and understanding it, but are still having trouble when it comes to actually using it on a web application, or having trouble using both Option type and Try type within a for comprehension, then this talk is for you.
 
-In this talk, we will revisit the basics of for expressions, and level up on mastering how to define the types, and how to re-adjust the types using examples. The goal is to help those working on their own web applications.
+In this talk, we will revisit the basics of for expressions. We will also level up on mastering how to define the types and how to re-adjust the types using examples. The goal is to help those working on their own web applications.
