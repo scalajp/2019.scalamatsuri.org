@@ -20,11 +20,11 @@ speaker_experience:
 Scala is said to have good performance because it runs on Java Virtual Machine (JVM).
 But, like any other languages, I suspect many of you have had performance issues during actual development.
 
-There are many issues to keep in mind to develop a high performance Scala application.
+There are many issues to keep in mind to develop a high performance Scala application; to name a few:
+
 - Avoid full garbage collection (GC)
 - Blocking calls for database access
 - Scala specific way of writing code, etc
 
-are some of the topics, to name a few.
 
-In this session, we will start with profiling methods to measure performance; and go over ways to write Scala to remove the bottleneck, non-blocking processing, and parallel processing.
+In this session, we will start with profiling methods to measure performance, then go over ways to write Scala to remove  bottlenecks, non-blocking processing, and parallel processing.
