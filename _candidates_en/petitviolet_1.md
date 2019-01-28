@@ -9,7 +9,8 @@ github: petitviolet
 icon: https://pbs.twimg.com/profile_images/494667173453766656/oOXOl8Bw_400x400.jpeg
 organization: Fringe81, Inc.
 tags:
-  - Functional Programming, Best Practices
+  - Functional Programming
+  - Best Practices
 suggestions:
   - Those who want to venture into Domain Driven Design
   - Those who want to use functional programming at work

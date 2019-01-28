@@ -9,7 +9,8 @@ github: taketora26
 icon: https://pbs.twimg.com/profile_images/813291577682509824/eut9iJB2_400x400.jpg
 organization: Septeni Original, Inc.
 tags:
-  - Best Practices, Intro to Scala
+  - Best Practices
+  - Intro to Scala
 suggestions:
   - Those who want to master for expressions
   - Those who understand for expressions, but can't use it well in Play

@@ -9,7 +9,9 @@ github: masahitojp
 icon: https://pbs.twimg.com/profile_images/2249089270/2c87a7c8-abca-4b5e-8a0d-55250f1495b1_400x400.png
 organization: Nulab, Inc. Typetalk team
 tags:
-  - Best Practices, DevOps, Others
+  - Best Practices
+  - DevOps
+  - Others
 suggestions:
   - Those operating online services at work
 contributes:
