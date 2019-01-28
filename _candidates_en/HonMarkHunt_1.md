@@ -18,7 +18,7 @@ contributes:
 speaker_experience:
   - 
 ---
-We use println() everything without thinking twice about it. Have you ever wondered what's happening after it's executed until something is displayed on the console screen?
+We use println() for everything without thinking twice about it. Have you ever wondered what's happening after it's executed until something is displayed on the console screen?
 
-In this session, we will trace through this flow until the output by reading the code together.
-Let's travel to the other side of "Hello World!"
+In this session, we will trace through this flow through the output by reading the code together.
+Let's travel to the other side of "Hello World!".
