@@ -1,6 +1,6 @@
 ---
 name: Masato Matthew Nakamura
-title: "Contributing to Open Source Software　while operating a service"
+title: "Contributing to Open Source Software while operating a service"
 length: 10
 audience: Beginner
 language: Japanese
