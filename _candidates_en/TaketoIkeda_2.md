@@ -15,4 +15,4 @@ suggestions:
 contributes:
 speaker_experience:
 ---
-It is not easy for those who are not familiar with Java concurrency using ThreadPoolExecutor, Runnable and ExecutionContext to understand some technical terms in Scala concurrency features and why those classes exist. In this session, I will explain the technical terms and the background with diagrams so you can deeply understand concurrency.  
+For those who are not familiar with Java concurrency using ThreadPoolExecutor and Runnable and ExecutionContext it may not be easy to understand some technical terms in Scala concurrency features and why those classes exist. In this session, I will explain the technical terms and the background with diagrams to provide a deeper understanding of concurrency.  
