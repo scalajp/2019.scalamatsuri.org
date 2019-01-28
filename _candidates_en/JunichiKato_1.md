@@ -19,6 +19,6 @@ contributes:
 speaker_experience:
   - 
 ---
-There's a growing movement of building fault-tolerant and scalable systems by constructing Akka Clusters on top of Kubernetes. Akka is a toolkit to develop distributed applications across multiple nodes, so it needs to be supplemented with container-level orchestration for the deployment and scaling. In that sense, Kubernetes is actually becoming a practical option. There will be more interest in Japan as Elastic Container Service for Kubernetes (EKS) has just arrived to Tokyo region.
+There's a growing movement of building fault-tolerant and scalable systems by constructing Akka Clusters on top of Kubernetes. Akka is a toolkit to develop distributed applications across multiple nodes, so it needs to be supplemented with container-level orchestration for deployment and scaling. In that sense, Kubernetes is actually becoming a practical option. There will be increased interest in Japan, as Elastic Container Service for Kubernetes (EKS) has just arrived to the Tokyo region.
 
-In this session, we will discuss how to implement a robust Event Sourcing on EKS, and some of the issues we might face while looking at running code.
+In this session, we will discuss how to implement a robust Event Sourcing on EKS and discuss some of the issues we might face while looking at running code.
