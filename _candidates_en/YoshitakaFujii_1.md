@@ -19,4 +19,4 @@ contributes:
 speaker_experience:
   - 
 ---
-I will explain how I implement Clean Architecture with Scala sample code while revisiting the basics of Clean Architecture. I will also mention how I separate policy from details to achieve a coding style that avoids dependency from policy to technical details, and describe in a plugable way and inject it to policy code.
+I will explain how I implement Clean Architecture with Scala sample code while revisiting the basics of Clean Architecture. I will also mention how I create a boundary between policy and details to achieve a coding style that avoids including excess information into the policy code. This is a practical way to develop a soft-designed architecture through the use of dependency injection, while also making the detailed code pluggable. 
