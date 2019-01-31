@@ -17,7 +17,8 @@ suggestions:
 contributes:
   - 
 speaker_experience:
-  - 
+  - Builderscon 2017
+  - Scala Fukuoka
 ---
 We use println() for everything without thinking twice about it. Have you ever wondered what's happening after it's executed until something is displayed on the console screen?
 

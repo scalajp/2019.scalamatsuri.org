@@ -17,7 +17,8 @@ suggestions:
 contributes:
   - 
 speaker_experience:
-  - 
+  - Builderscon 2017
+  - Scala福岡
 ---
 普段何気なく入力している println()。実行してからConsoleに出力されるまで、何が起こっているのか気になったことはありませんか？
 このセッションでは出力されるまでの流れを、みなさんと一緒にコードを読み解きながら追いかけていこうと思います。
