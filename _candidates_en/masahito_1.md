@@ -15,9 +15,11 @@ tags:
 suggestions:
   - Those operating online services at work
 contributes:
-  - 
+  - scala-redis
 speaker_experience:
-  - 
+  - <a href="https://www.youtube.com/watch?v=8v_4ab3zxkA&index=13&list=PL5E5Uyv1pQujtRl5pk3jHWN3_tiYs6Qlu&t=0s">PyCon Hong Kong 2018</a>
+  - <a href="https://www.youtube.com/watch?v=D-XwYr3xTDY">PyCong Taiwan 2017</a>
+  - Plone Conference 2018 Web Day
 ---
 It's become increasingly common for newly developed web-based services to use Open Source Software (OSS) during their implementation and operation. For long-lived services, it's not uncommon for the team to track the changes made to OSS or even patch the bugs themselves.
 
