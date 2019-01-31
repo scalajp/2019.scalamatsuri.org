@@ -14,5 +14,6 @@ suggestions:
   - People who do not understand Future and concurrency
 contributes:
 speaker_experience:
+  - Scala Kansai Summit
 ---
 For those who are not familiar with Java concurrency using ThreadPoolExecutor and Runnable and ExecutionContext it may not be easy to understand some technical terms in Scala concurrency features and why those classes exist. In this session, I will explain the technical terms and the background with diagrams to provide a deeper understanding of concurrency.  

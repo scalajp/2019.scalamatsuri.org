@@ -15,7 +15,7 @@ suggestions:
 contributes:
   - 
 speaker_experience:
-  - 
+  - Scala関西Summit
 ---
 なんとなくFutureを使っている人、これからFutureを使いたい人向けです。
 ThreadPoolExecutorや、Runnable、ExecutionContextなどJavaで並列処理をやったことがない人にとって、
