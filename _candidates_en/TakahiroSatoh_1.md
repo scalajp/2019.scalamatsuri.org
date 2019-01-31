@@ -15,7 +15,7 @@ suggestions:
 contributes:
   - 
 speaker_experience:
-  - 
+  - Scala Kansai summit 2018
 ---
 Surprisingly, it's rare to see tail call optimization explained in books.
 It might not be familar to those who do not write recursion often.
