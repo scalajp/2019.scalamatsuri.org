@@ -14,9 +14,9 @@ suggestions:
   - ScalaMatsuriがどうやって運営されているか知りたい人
   - 大規模カンファレンス開催に関わっている人/関わりたい人
 contributes:
-  - 
+  - Scala Matsuri
 speaker_experience:
-  - 
+  - ScalaMatsuri2018
 ---
 **注意** これは技術的なセッションでありません
 
