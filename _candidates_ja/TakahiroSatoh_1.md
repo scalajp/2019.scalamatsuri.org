@@ -15,7 +15,7 @@ suggestions:
 contributes:
   - 
 speaker_experience:
-  - 
+  - Scala関西Summit2018
 ---
 末尾再帰最適化については、書籍で解説されることは意外と少ないのではないでしょうか。
 また、あまり再帰を書かない文化の方にとってもなじみが薄いかもしれません。
