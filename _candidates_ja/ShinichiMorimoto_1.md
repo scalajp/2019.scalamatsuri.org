@@ -18,7 +18,8 @@ suggestions:
 contributes:
   - 
 speaker_experience:
-  - 
+  - <a href="https://speakerdeck.com/shnmorimoto/circekaraxue-bu-genericprogrammingru-men-scalaguan-xi-summit-2018">Scala Kansai Summit 2018</a>
+  - <a href="https://speakerdeck.com/shnmorimoto/real-world-kubernetes">Container X mas Party with flexy</a>
 ---
 最近多くのサービス・プロダクトでKubernetesをプロダクション環境で利用している事例が多々発表されています。
 またRaspberry Piを利用して、自宅にKubernetesクラスタを手軽に構築する事例についてもよく見られます。

@@ -18,7 +18,8 @@ suggestions:
 contributes:
   - 
 speaker_experience:
-  - 
+  - <a href="https://speakerdeck.com/shnmorimoto/circekaraxue-bu-genericprogrammingru-men-scalaguan-xi-summit-2018">Scala Kansai Summit 2018</a>
+  - <a href="https://speakerdeck.com/shnmorimoto/real-world-kubernetes">Container X mas Party with flexy</a>
 ---
 Recently, there have been many case studies about running online services using Kubernetes in production.
 On the other hand, others are using Raspberry Pi as a way of building Kubernetes clusters at home.
