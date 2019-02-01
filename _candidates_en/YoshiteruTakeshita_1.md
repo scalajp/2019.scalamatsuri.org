@@ -14,9 +14,9 @@ suggestions:
   - Those who are interested in the organization of ScalaMatsuri
   - Those are are/want to get involved in large conferences
 contributes:
-  - 
+  - Scala Matsuri
 speaker_experience:
-  - 
+  - ScalaMatsuri2018
 ---
 **Note** This is not a technical session.
 
