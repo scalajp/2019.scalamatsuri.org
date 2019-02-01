@@ -1,6 +1,6 @@
 ---
 name: Harmeet Singh
-title: "Simplified Scala Monads and Transformation"
+title: "概論 Scalaにおけるモナドの変換"
 length: 40
 audience: Beginner
 language: English
@@ -12,7 +12,7 @@ tags:
   - Functional Programming
   - Software Design and Architecture
 suggestions:
-  - Those who are always confused with monads usage and its implementation and want to implement within applications. 
+  - モナドの使い方や実装にいつも迷う方。モナドをアプリケーションの中で使いたい方
 contributes:
   - 
 speaker_experience:
@@ -20,4 +20,4 @@ speaker_experience:
   - 'Tech Trivini 2018 at India: <a href="https://www.youtube.com/watch?v=8WiUmgfUYbY&feature=youtu.be">https://www.youtube.com/watch?v=8WiUmgfUYbY&feature=youtu.be</a>'
   - 'Functional Conf 2018 at India: <a href="https://confengine.com/user/harmeet-singh">https://confengine.com/user/harmeet-singh</a>'
 ---
-Keeping the functional paradigm intact while using complicated monad structure in your code could be quite a tedious task. Especially, when your business logic needs to be structured in a flow. Well, definitely Monads composition is the savior in this kind of situations, however, composing them practically is again a cumbersome task. We will be jumping into some coding examples in this talk, which would hopefully make you sit back and relax when you face this kind of situation again. We would create custom monads, usage of monadic operator and monads transformation.
+コード内で様々なモナドの構造を組み合わせて関数型のパラダイムを綺麗に保つのは難しいものです。特にビジネスロジックの流れの中でモナドを意図した構造に保つのは厄介な作業です。このような場合、モナドを合成することがその解ですが、実際に合成に必要な作業もやはり面倒なものです。このような状況に遭遇した時に落ち着いて対処できるようになることが本セッションの目的です。本セッションでは自前のモナドやモナド演算子、モナド変換子を使ったコードの例をいくつか紹介します。
