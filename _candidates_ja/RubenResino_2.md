@@ -1,6 +1,6 @@
 ---
 name: Rubén Resino
-title: "Wake up, Neo… Object Oriented Programming has you. Follow the Functional Programming. Knock, knock, Neo."
+title: "目覚めよ、ネオ。オブジェクト指向プログラミングは見ている。 関数型プログラミングについていけ。目覚めるのだ！ネオ。"
 length: 40
 audience: Beginner
 language: English
@@ -13,15 +13,15 @@ tags:
   - Best Practices
   - Intro to Scala
 suggestions:
-  - I will show how to embrace Scala with Functional Programming. And how to survive to the hard learning curve of Functional Programming.
+  - Scalaのコードに関数型プログラミングの手法を導入する方法と、関数型プログラミングの高い学習曲線の乗り越え方についてお話します。
 contributes:
   - 
 speaker_experience:
-  - "I send many talks to conferences but at this moment they cannot be selected: https://madrid2018.codemotionworld.com/es/ https://t3chfest.uc3m.es/2018/?lang=es"
-  - "I only made local meetups: https://www.meetup.com/es-ES/Codemotion-Espana/events/255450342/"
+  - "今までカンファレンスで沢山の応募をしてきましたが、今のところ、採用していただけたことはありません。今度こそ。: https://madrid2018.codemotionworld.com/es/ https://t3chfest.uc3m.es/2018/?lang=es"
+  - "自分でミートアップを開催したことはあります。: https://www.meetup.com/es-ES/Codemotion-Espana/events/255450342/"
 ---
-I’m worked for a lot of time using Java and Object Oriented Programming, but I felt that something was wrong, something was not working well in all of my projects…
+私は長い間Javaとオブジェクト指向プログラミングを使って仕事をしてきましたが、どこかしっくり来ない思いを抱き続けてきました。全てのプロジェクトにおいて何か上手くいっていないと感じることがあったのです。
 
-But Morpheus showed me the real world, It’s Scala and Functional Programming and how it can change the world. You have to choose the red pill but It a risky path to discover the amazing world about monads, type classes, referential transparency, recursion …
+しかし、Morpheusに触れて目が覚めました。Scalaや関数型プログラミングはまさに私にとっての処方箋でした。みなさんもこの赤い錠剤を飲むべきです。しかし、これはモナドや型クラス、参照透過性、再帰といった素晴らしい世界につながる危ない道です。
 
-If you feel uncomfortable with Java or another OOP language or you want to discover the real world choose the red pill.
+Javaやその他のオブジェクト指向言語にしっくり来ない方、本当の世界を知りたいと思っている方、一緒にこの赤い錠剤を飲んでみましょう。
