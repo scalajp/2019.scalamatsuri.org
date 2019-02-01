@@ -18,7 +18,7 @@ contributes:
   - scalafmt
   - scalafix
 speaker_experience:
-  - [Scala関西Summit 2018](https://speakerdeck.com/tanishiking/format-things-with-scalafmt)
+ - "<a href='https://speakerdeck.com/tanishiking/format-things-with-scalafmt'>Scala関西Summit 2018</a>"
 ---
 はてなブックマークはサービス開始から10年以上が経ち、Perlで書かれたコードベースの肥大化・複雑化、アーキテクチャの老朽化によるメンテナンスコスト増大という課題を抱えていました。これらの課題への対処のため2015年にいちからシステムを作り直すプロジェクトがスタートし、最近このプロジェクトが完了しました！
 作り直しに際して、すべてのコードベース・DBスキーマ・アーキテクチャなどを刷新し、コアアプリケーションの実装には堅牢なシステムの開発/運用に適しており社内での採用実績のあるScalaを採用しました。
