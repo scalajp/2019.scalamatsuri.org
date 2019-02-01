@@ -4,8 +4,8 @@ title: "いかにして我々は10年もののPerlプロダクトをScalaでリ�
 length: 40
 audience: Intermediate
 language: Japanese
-twitter: https://twitter.com/tanishiking
-github: https://github.com/tanishiking
+twitter: tanishiking
+github: tanishiking
 icon: https://avatars0.githubusercontent.com/u/9353584?s=460&v=4
 organization: 株式会社はてな
 tags:
