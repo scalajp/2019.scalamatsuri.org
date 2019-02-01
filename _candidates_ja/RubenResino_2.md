@@ -6,7 +6,7 @@ audience: Beginner
 language: English
 twitter: rresino
 github: rresino
-icon: /img/candidates/rubenresino.png
+icon: https://pbs.twimg.com/profile_images/2629410655/aaeb143bea37b29955f91daba39e9c67_bigger.jpeg
 organization: Devo / Software Architect
 tags:
   - Functional Programming,
