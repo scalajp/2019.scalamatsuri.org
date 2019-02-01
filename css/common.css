@@ -549,6 +549,10 @@ input, select {
   width: 700px;
 }
 
+.sectionStyle3 .sectionStyle1Inner p {
+  text-align: center;
+}
+
 .cfp-link {
   font-size: x-large;
   text-align: center;
