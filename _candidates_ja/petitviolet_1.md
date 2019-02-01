@@ -17,7 +17,9 @@ suggestions:
 contributes:
   - 
 speaker_experience:
-  - 
+  - <a href="https://speakerdeck.com/petitviolet/scala-performance-tips-scalamatsuri2017">ScalaMatsuri2017</a>
+  - <a href="https://speakerdeck.com/petitviolet/meta-programming-scala">Scala関西2017</a>
+  - <a href="https://speakerdeck.com/petitviolet/real-world-graphql-on-scala">Scala関西2018</a>
 ---
 昨今注目を集めているドメイン駆動設計をScalaで実装するにあたり、どうしても実装や技術の都合がドメインに入り込んでしまうことがよくあります。  
 たとえば非同期処理のためのExecutionContextや、DB接続のためのトランザクション情報などがよくある例かと思います。  
