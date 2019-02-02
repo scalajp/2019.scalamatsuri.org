@@ -18,7 +18,9 @@ suggestions:
 contributes:
   - 
 speaker_experience:
-  - 
+  - Scala Kansai Summit 2018 
+    「Let me explain clearly about variance」
+    <a href='https://speakerdeck.com/taketora/bian-wei-zhi-ding-nituitewakariyasukujie-shuo-sasetekudasai-a9b35ffb-c910-493e-a9f0-de09f6487918'>https://speakerdeck.com/taketora/bian-wei-zhi-ding-nituitewakariyasukujie-shuo-sasetekudasai-a9b35ffb-c910-493e-a9f0-de09f6487918</a>
 ---
 If you've learned for expression and understanding it, but are still having trouble when it comes to actually using it on a web application, or having trouble using both Option type and Try type within a for comprehension, then this talk is for you.
 
