@@ -5,7 +5,7 @@ length: 10
 audience: Beginner
 language: English
 twitter: 
-github: https://github.com/changlinli
+github: changlinli
 icon: https://f001.backblazeb2.com/file/Grabbag/profile_small.jpg
 organization: 
 tags:
