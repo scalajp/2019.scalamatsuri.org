@@ -1,6 +1,6 @@
 ---
 name: 池田健虎
-title: "for式の再説パート2 "
+title: "for式を本当に理解する"
 length: 40
 audience: Beginner
 language: Japanese
