@@ -18,7 +18,9 @@ suggestions:
 contributes:
   - 
 speaker_experience:
-  - 
+  - ScalaMatsuri 2018 アンカンファレンス "Scalaの言語機構を悪用して最強のDSLを作る方法" <a href='https://youtu.be/zYwpTmQxLXk'>https://youtu.be/zYwpTmQxLXk</a>
+  - <Programming> 2017 "User-Defined Operators Including Name Binding for New Language Constructs" <a href='http://programming-journal.org/2017/1/15/'>http://programming-journal.org/2017/1/15/</a>
+  - PPL 2016 "ビジュアル構文解析" <a href='http://ppl.jssst.or.jp/ppl2016/slides/visual_parsing.pdf'>http://ppl.jssst.or.jp/ppl2016/slides/visual_parsing.pdf</a>
 ---
 型クラスと呼ばれる概念をScalaではどのように実現していて、それをどのようにして利用するかについて、関連するトピックも含めて基本から解説する。  
 わかりやすさのため、できるだけ抽象的な説明を避け、具体的な例をもとに説明する。  
