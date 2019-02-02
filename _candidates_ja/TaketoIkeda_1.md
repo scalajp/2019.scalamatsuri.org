@@ -18,7 +18,9 @@ suggestions:
 contributes:
   - 
 speaker_experience:
-  - 
+  - Scala関西Summit2018 
+    「変位指定についてわかりやすく解説させてください」
+    <a href='https://speakerdeck.com/taketora/bian-wei-zhi-ding-nituitewakariyasukujie-shuo-sasetekudasai-a9b35ffb-c910-493e-a9f0-de09f6487918'>https://speakerdeck.com/taketora/bian-wei-zhi-ding-nituitewakariyasukujie-shuo-sasetekudasai-a9b35ffb-c910-493e-a9f0-de09f6487918</a>
 ---
 Scalaを勉強してfor式の使い方は理解できるようになったけれども、実際にWebアプリケーションを作ってみると上手くfor式が使えていない。  
 for式にOption型もTry型もコレクションも内包させたいけど上手く組み立てられない。コントローラーが巨大になってしまっている。。。  
