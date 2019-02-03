@@ -17,7 +17,15 @@ suggestions:
 contributes:
   - 
 speaker_experience:
-  - 
+  - JJUG 2017 spring 
+    Introduction of graph database
+    <a href='https://www.slideshare.net/MasayaDake/ss-76145383'>https://www.slideshare.net/MasayaDake/ss-76145383</a>
+  - Scala Kansai 2017 
+    Introduction of Scala for iOS engineer
+    <a href='https://www.slideshare.net/MasayaDake/iosscala-79565464'>https://www.slideshare.net/MasayaDake/iosscala-79565464</a>
+  - iOSDC2017
+    Where you stumble by controlling with BGM in movie content
+    <a href='https://www.slideshare.net/MasayaDake/bgm-79828928'>https://www.slideshare.net/MasayaDake/bgm-79828928</a>
 ---
 Many Scala engineers in Japan learn Functional Programming using the book 'Functional Programming in Scala'.
 In this talk, we will apply the lessons learned from this book to another programming language.
