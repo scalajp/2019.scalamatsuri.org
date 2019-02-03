@@ -15,7 +15,7 @@ suggestions:
 contributes:
   - https://github.com/bakenezumi/domala
 speaker_experience:
-  - <a href="https://www.slideshare.net/bakenezumi/sierscala-web">Scala Fukuoka 2019</a>
+  - "<a href='https://www.slideshare.net/bakenezumi/sierscala-web'>Scala Fukuoka 2019</a>"
 ---
 In this session, I will talk my experience (when I wa s in a system integrator), that I tried to migrate system from a legacy architecture based on Java and Struts to Scala and Play.
 
