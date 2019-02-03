@@ -11,7 +11,8 @@ organization: Compellon, Analytics Engineer
 tags:
   - Functional Programming
 suggestions:
-  - People who want a deeper understanding of recursion schemes, finally tagless encoding, and type theory in general. People who have achieved intermediate understanding of functional programming in Scala, and want to learn more advanced topics.
+  - People who want a deeper understanding of recursion schemes, finally tagless encoding, and type theory in general. 
+  - People who have achieved intermediate understanding of functional programming in Scala, and want to learn more advanced topics.
 contributes:
   - I am a contributor and a team member of Scalaz.
 speaker_experience:
