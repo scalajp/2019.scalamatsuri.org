@@ -9,7 +9,8 @@ github: sjrd
 icon: https://scala.epfl.ch/resources/img/sjrd@2x.png
 organization: EPFL - Scala Center - Executive Director
 tags:
-  - Best Practices, Software Design and Architecture
+  - Best Practices
+  - Software Design and Architecture
 suggestions:
   - Users who want to learn about a coding "style" for Scala that combines several of its main paradigms. This is how I write Scala every day, and the style I would generally recommend. Well-suited for beginners and experts alike.
 contributes:
