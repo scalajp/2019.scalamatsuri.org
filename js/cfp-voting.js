@@ -35,7 +35,7 @@ $(function() {
   var auth     = firebase.auth();
   var database = firebase.database();
 
-  var DEFAULT_SETTINGS = {canVote: false, maxVoting: {'ja': 0, 'en': 0, 'all': 0}};
+  var DEFAULT_SETTINGS = {canVote: true, maxVoting: {'ja': 5, 'en': 5, 'all': 5}};
 
   var settings     = DEFAULT_SETTINGS;
   var userInfo     = {};
