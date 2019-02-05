@@ -9,7 +9,9 @@ github: piyo7
 icon: https://www.gravatar.com/avatar/e650d601c28f8accb2eeacca8fc2b092?s=200
 organization: CyberAgent, Inc. Data Engineer
 tags:
-  - Best Practices, Data Science / Machine Learning, Microservices
+  - Best Practices
+  - Data Science / Machine Learning
+  - Microservices
 suggestions:
   - Those who are using random numbers casually
   - Those who do not trust random numbers
@@ -17,7 +19,7 @@ suggestions:
 contributes:
   - 
 speaker_experience:
-  - ScalaMatsuri 2018: https://www.slideshare.net/TaokatomoTorigoe/lets-simulate-a-quantum-computer-with-pretty-scala
+  - "ScalaMatsuri 2018: <a href='https://www.slideshare.net/TaokatomoTorigoe/lets-simulate-a-quantum-computer-with-pretty-scala'>https://www.slideshare.net/TaokatomoTorigoe/lets-simulate-a-quantum-computer-with-pretty-scala</a>"
 ---
 Are you getting along with random numbers?
 Random numbers are useful in various situations. However, a few people shy away from them.
