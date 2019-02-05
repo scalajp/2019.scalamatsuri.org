@@ -22,6 +22,6 @@ speaker_experience:
   - SIGMOD
   - Presto Meetup
 ---
-Even if you want to use Scala at work, it might be difficult to convince your managers and other engineers. In this talk, I will show how I introduced Scala to Arm Treasure Data even though there were no other Scala engineers. I will also show examples of our Scala projects used in production.
+If you want to use Scala at work, it might be difficult to convince your managers and other engineers. In this talk, I will show how I introduced Scala to Arm Treasure Data even though there were no other Scala engineers. I will also show examples of our Scala projects used in production.
 
-In the second part, I will introduce Airframe, an OSS library that concentrates our experiences in Scala development. We will learn how to build practical systems in a short period with Airframe. I hope this tutorial will be helpful to learn how to invest your time to build assets in Scala.
+In the second part, I will introduce Airframe, an OSS library that concentrates our experiences in Scala development. We will learn how to build practical systems in a short period with Airframe. I hope this tutorial will be helpful for learning how to invest your time into building assets in Scala.
