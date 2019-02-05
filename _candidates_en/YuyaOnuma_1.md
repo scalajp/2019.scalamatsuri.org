@@ -1,6 +1,6 @@
 ---
 name: Yuya Onuma
-title: "Say good by to breakOut"
+title: "Say goodbye to breakOut"
 length: 10
 audience: Intermediate
 language: Japanese
@@ -11,13 +11,13 @@ organization: Fringe81 Co.,Ltd.
 tags:
   - Others
 suggestions:
-  - Those who are interested in recent scala
+  - Those who are interested in recent Scala
 contributes:
   - 
 speaker_experience:
   - 
 ---
-According to changes of collection libraries in Scala 2.13, some functions will be removed.
-One of the most effective changes in that is removing of `CanBuildFrom` class and `breakOUt` method.
+Due to changes to collection libraries in Scala 2.13, some functions will be removed.
+One of the most impactful changes is the removal of the `CanBuildFrom` class and the `breakOUt` method.
 
-In this talk, I will show you some examples of substitute codes, and explain what the benefits of new implementation in 2.13 are.
+In this talk, I will show you some examples of substitute codes and explain the implementation benefits in Scala 2.13.
