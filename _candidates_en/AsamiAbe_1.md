@@ -17,6 +17,6 @@ contributes:
 speaker_experience:
   - 
 ---
-In 2012, we started a meetup group called "Play Framework and Scala Kansai Beginners." Since then we've hosted meetup events with 20 to 40 participants once every few months. In 2015 we started a Scala conference in Kansai area "Scala Kansai Summit", and during the two-day conference last year 240 people have participated. From a small meetup group that I casually started it grew into a community called "Scala Kansai" encompassing many Scala friends from within and outside of Kansai area.
+In 2012, we started a meetup group called "Play Framework and Scala Kansai Beginners." Since then we've hosted meetup events with 20 to 40 participants once every few months. In 2015, we started a Scala conference in the Kansai area "Scala Kansai Summit", and during the two-day conference last year 240 people participated. A small meetup group that I casually started grew into a community called "Scala Kansai", encompassing many Scala friends from within and outside of the Kansai area.
 
-In this session, I will look back on my activities as an organizer, what principles we used to organize the community, what we gained, what troubled us, and how we plan to move forward in the future.
+In this session, I will look back on my activities as an organizer, describe what principles we used to organize the community, and talk about what we gained, what troubled us, and how we plan to move forward in the future.
