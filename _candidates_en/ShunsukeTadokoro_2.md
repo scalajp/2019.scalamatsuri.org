@@ -22,4 +22,4 @@ speaker_experience:
 ---
 Although sbt is the de facto standard of the Scala build tool, many find it difficult to approach.
 
-In this session, we will look into a few practical (and non-practical) custom tasks can be made, and through that aim to understand sbt better and enjoy using it.
+In this session, we will look into a few practical (and non-practical) custom tasks that can be made, and through those, aim to understand sbt better and enjoy using it.
