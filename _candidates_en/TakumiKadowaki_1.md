@@ -20,6 +20,6 @@ speaker_experience:
   - ScalaMatsuri2018 Unconference (https://nomadblacky.github.io/pages/2018-03-18-111619-scalamatsuri.md.html)
   - Mini Scala Matsuri Aoyama (https://www.wantedly.com/companies/a8net/post_articles/120109)
 ---
-Among the Scala build tools, sbt is famous, but do you know about a build tool named Mill? Would you like to experience new Scala building with simple build definitions, and various built-in features?
+Among the Scala build tools, sbt is famous, but do you know about a build tool named Mill? Would you like to experience new Scala building with simple build definitions and various built-in features?
 
-In this session, I will introduce Milss and discuss how to use it.
+In this session, I will introduce Mill and discuss how to use it.
