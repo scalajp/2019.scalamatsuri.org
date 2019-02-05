@@ -18,9 +18,9 @@ contributes:
   - guardrail
   - dhall-terraform
 speaker_experience:
-  - ScalaMatsuri: https://youtu.be/ONlBglP8H3Y
-  - Haskell Meetup: https://youtu.be/d36y3NYmxH8
-  - Lambdaconf: https://youtu.be/qBU7u1Qa1fo
+  - "ScalaMatsuri: <a href='https://youtu.be/ONlBglP8H3Y'>https://youtu.be/ONlBglP8H3Y</a>"
+  - "Haskell Meetup: <a href='https://youtu.be/d36y3NYmxH8'>https://youtu.be/d36y3NYmxH8</a>"
+  - "Lambdaconf: <a href='https://youtu.be/qBU7u1Qa1fo'>https://youtu.be/qBU7u1Qa1fo</a>"
 ---
 Design principles are important. Documentation is important.
 
