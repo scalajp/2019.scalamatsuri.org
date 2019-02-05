@@ -19,6 +19,6 @@ contributes:
 speaker_experience:
   - Scala Kansai summit 2018 https://gitpitch.com/takat0-h0rikosh1/circe-codec-presentation/master?grs=github&t=beige
 ---
-We deal with online ads at work, and for large-scale data acquisition we often see batch application that makes frequent request to a third-party API. In these batch applications, asynchronous programming is unavoidable. However, there are many things to consider such as API request quotas, thread state management, etc and it is not easy.
+We deal with online ads at work; for large-scale data acquisition we often see batch application that makes frequent requests to a third-party API. In these batch applications, asynchronous programming is unavoidable. However, there are many things to consider such as API request quotas, thread state management, etc and it is not easy.
 
-In this talk, I will feature a Scala library for asynchronous programming called Monix, and discuss efficient asynchronous processing, thread-safe parallel processing approaches, and the implementation patterns that are considerate to the third-party APIs.
+In this talk, I will feature a Scala library for asynchronous programming called Monix. I will discuss efficient asynchronous processing, thread-safe parallel processing approaches, and the implementation patterns that are considerate to third-party APIs.
