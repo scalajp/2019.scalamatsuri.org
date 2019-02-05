@@ -9,7 +9,9 @@ github: mananan
 icon: https://pbs.twimg.com/profile_images/859762077472370689/IoMPJ6Zx_400x400.jpg
 organization: CyberAgent, inc
 tags:
-  - Big Data / Fast Data, Best Practices, Software Design and Architecture
+  - Big Data / Fast Data
+  - Best Practices
+  - Software Design and Architecture
 suggestions:
   - Those who want to understand Reactive Systems concretely
   - Those who are interested in high throughput, low latency system design
