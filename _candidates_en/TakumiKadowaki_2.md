@@ -4,8 +4,8 @@ title: "Intro to Logging for Scala Engineers"
 length: 40
 audience: Beginner
 language: Japanese
-twitter: https://twitter.com/blac_k_ey
-github: https://github.com/NomadBlacky
+twitter: blac_k_ey
+github: NomadBlacky
 icon: https://ja.gravatar.com/userimage/50665346/05c1111f3c69e50ab1bf11e8637575a4.png?size=200
 organization: Septeni Original Engineer
 tags:
