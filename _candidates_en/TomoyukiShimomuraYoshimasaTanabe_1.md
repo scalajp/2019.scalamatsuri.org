@@ -3,6 +3,7 @@ name: "Tomoyuki Shimomura, Yoshimasa Tanabe"
 title: "Software analysis and design for continuously growing services"
 length: 90
 audience: Intermediate
+language: Japanese
 twitter: s10myk4,emaggame
 github: s10myk4
 icon: https://d2mxuefqeaa7sj.cloudfront.net/s_84C0A5896E9B8ADFA74D479EF9473FCB5BC38BDABDA062C6718D295F2C3E3603_1548505719997_scalamatsuri2019-icon.png
