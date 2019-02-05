@@ -20,4 +20,4 @@ speaker_experience:
 ---
 The transactions of online advertisement, sometimes described with a "chaos map", is a complex domain involving various players. CyberAgent has built ad distribution systems many times, but we have recently adopted Domain Driven Design (DDD) for the first time.
 
-In this case study, I would like to share the architecture of the system we build, the reality of domain modeling, what we prioritized, and what we compromised using the actual domain models and code.
+In this case study, I would like to share the architecture of the system we built, the reality of domain modeling, what we prioritized, and what we compromised on, using the actual domain models and code.
