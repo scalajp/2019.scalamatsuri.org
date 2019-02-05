@@ -6,7 +6,7 @@ audience: Intermediate
 language: English
 twitter: precisememory
 github: anne-decusatis
-icon: https://media.licdn.com/dms/image/C5603AQEZIF4ahePETg/profile-displayphoto-shrink_200_200/0?e=1547683200&v=beta&t=NHxc6rbp2xhwZyUFDvAVa5I45LoNJFrvxUVyMbh6m70
+icon: https://pbs.twimg.com/profile_images/480068232133345280/yFdHO7PN_400x400.jpeg
 organization: Data Engineer, Spotify
 tags:
   - Tools
