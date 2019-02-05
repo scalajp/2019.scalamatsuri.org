@@ -1,6 +1,6 @@
 ---
 name: Nobuhiko Hosonishi
-title: "The difficulty to migrate Scala"
+title: "The difficulty in migrating to Scala"
 length: 10
 audience: Beginner
 language: Japanese
@@ -11,12 +11,12 @@ organization: CyberAgent, Inc.
 tags:
   - Others
 suggestions:
-  - People who is thinking to migrate to Scala
+  - People who are thinking about migrating to Scala
 contributes:
   - https://github.com/bakenezumi/domala
 speaker_experience:
   - "<a href='https://www.slideshare.net/bakenezumi/sierscala-web'>Scala Fukuoka 2019</a>"
 ---
-In this session, I will talk my experience (when I wa s in a system integrator), that I tried to migrate system from a legacy architecture based on Java and Struts to Scala and Play.
+In this session, I will talk about my experience (in a system integrator), trying to migrate a system from a legacy architecture based on Java and Struts to Scala and Play.
 
-While looking back barriers I faced in individuals or organization, I would discuss "how I could do better".
+Looking back, I will describe the barriers I and/or the organization faced and discuss what we could have "done better".
