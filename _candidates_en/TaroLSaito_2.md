@@ -11,7 +11,7 @@ organization: Ph.D., Principal Engineer at Arm Treasure Data
 tags:
   - Tools, Best Practices, Software Design and Architecture
 suggestions:
-  - Those who need large-scala programming in Scala
+  - Those who need large-scale programming in Scala
   - Those who are interested in middlewares
   - Those who want to focus on Scala programming
 contributes:
@@ -23,4 +23,4 @@ speaker_experience:
   - SIGMOD
   - Presto Meetup
 ---
-In Scala we have various approaches for dependency injection. In this talk we will explore a more Scala friendly approach for dependency injection that uses only constructor injection or trait mixin. Airframe is a new dependency injection library for Scala, which enables auto-wiring and lifecycle management of service objects in a concise syntax. We will learn the basic usage of Airframe and how to effectively isolate various concerns in programming (e.g., building and configuring objects, resource management) to simplify your Scala code.
+In Scala, we have various approaches for dependency injection. In this talk, we will explore a more Scala-friendly approach for dependency injection that uses only constructor injection or trait mixin. Airframe is a new dependency injection library for Scala, which enables auto-wiring and lifecycle management of service objects in a concise syntax. We will learn the basic usage of Airframe and how to effectively isolate various concerns in programming (e.g., building and configuring objects, resource management) to simplify your Scala code.
