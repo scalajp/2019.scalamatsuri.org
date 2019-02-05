@@ -18,8 +18,8 @@ suggestions:
 contributes:
   - 
 speaker_experience:
-  - "'A Pop Punk Introduction to Scala', presented at local meetup (no recording), blog post with slides: https://anne.loves.technology/blog/talks/2018/02/07/queensjs.html"
-  - "'More than Binary: Inclusive Gender Collection and You', video (PyCon 2016): https://www.youtube.com/watch?v=iW8ikFrUWPQ, blog post with slides: https://anne.loves.technology/blog/talks/2016/05/16/more-than-binary.html"
-  - "'My favorite Unicode character: the zero width joiner!', video (!!Con 2016): http://confreaks.tv/videos/bangbangcon2016-my-favorite-unicode-character-the-zero-width-joiner, blog post with slides: https://anne.loves.technology/blog/talks/2016/05/09/bangbangcon.html"
+  - "'A Pop Punk Introduction to Scala', presented at local meetup (no recording), blog post with slides: <a href='https://anne.loves.technology/blog/talks/2018/02/07/queensjs.html'>https://anne.loves.technology/blog/talks/2018/02/07/queensjs.html</a>"
+  - "'More than Binary: Inclusive Gender Collection and You', video (PyCon 2016): <a href='https://www.youtube.com/watch?v=iW8ikFrUWPQ'>https://www.youtube.com/watch?v=iW8ikFrUWPQ</a>, blog post with slides: <a href='https://anne.loves.technology/blog/talks/2016/05/16/more-than-binary.html'>https://anne.loves.technology/blog/talks/2016/05/16/more-than-binary.html</a>"
+  - "'My favorite Unicode character: the zero width joiner!', video (!!Con 2016): <a href='http://confreaks.tv/videos/bangbangcon2016-my-favorite-unicode-character-the-zero-width-joiner'>http://confreaks.tv/videos/bangbangcon2016-my-favorite-unicode-character-the-zero-width-joiner</a>, blog post with slides: <a href='https://anne.loves.technology/blog/talks/2016/05/09/bangbangcon.html'>https://anne.loves.technology/blog/talks/2016/05/09/bangbangcon.html</a>"
 ---
 I wrote a Scala macro to add a function to companion objects for annotated case classes. It was the first macro I’d written, and I learned a lot! Here are some tips and tricks that I think others would also find useful. You’ll learn about what a macro does, how to pattern match with quasiquotes, when macros are expanded, things a macro can’t do at compile time, and helpful debugging tips.
