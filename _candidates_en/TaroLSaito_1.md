@@ -9,7 +9,8 @@ github: xerial
 icon: https://pbs.twimg.com/profile_images/652040869705461760/eIm1fxaM_400x400.jpg
 organization: Ph.D, Principal Engineer at Arm Treasure Data
 tags:
-  - Tools, Best Practices
+  - Tools
+  - Best Practices
 suggestions:
   - Those who want to introduce Scala at work
   - Those who want to make Scala development more fun
@@ -18,7 +19,7 @@ contributes:
   - MessagePack
   - sbt-sonatype
 speaker_experience:
-  - Scala Matsuri: https://www.slideshare.net/taroleo/presentations
+  - "Scala Matsuri: <a href='https://www.slideshare.net/taroleo/presentations'>https://www.slideshare.net/taroleo/presentations</a>"
   - SIGMOD
   - Presto Meetup
 ---
