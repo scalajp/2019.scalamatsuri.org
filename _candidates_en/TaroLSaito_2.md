@@ -9,7 +9,9 @@ github: xerial
 icon: https://pbs.twimg.com/profile_images/652040869705461760/eIm1fxaM_400x400.jpg
 organization: Ph.D., Principal Engineer at Arm Treasure Data
 tags:
-  - Tools, Best Practices, Software Design and Architecture
+  - Tools
+  - Best Practices
+  - Software Design and Architecture
 suggestions:
   - Those who need large-scale programming in Scala
   - Those who are interested in middlewares
@@ -19,7 +21,7 @@ contributes:
   - MessagePack
   - sbt-sonatype
 speaker_experience:
-  - Scala Matsuri: https://www.slideshare.net/taroleo/presentations
+  - "Scala Matsuri: <a href='https://www.slideshare.net/taroleo/presentations'>https://www.slideshare.net/taroleo/presentations</a>"
   - SIGMOD
   - Presto Meetup
 ---
