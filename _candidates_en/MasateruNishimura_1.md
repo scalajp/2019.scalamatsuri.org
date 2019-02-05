@@ -19,11 +19,11 @@ speaker_experience:
   - ScalaMatsuri 2017
   - AWS Summit Tokyo 2017
 ---
-Ad delivery platforms called Demand-side Platforms (DSPs) should respond to 50k req/s of ad auction, moreover, return within 100ms. "CA DyVE", one of CyberAgent's DSPs, is designed as a Reactive system utilizing Google Cloud Platform (GCP) to meet the above tough system requirements.
+Ad delivery platforms called Demand-side Platforms (DSPs) should respond to 50k req/s of ad auction, moreover, return within 100ms. "CA DyVE", one of CyberAgent's DSPs, is designed as a Reactive system utilizing the Google Cloud Platform (GCP) to meet the above tough system requirements.
 
 In this session, I will introduce DSPs using figures and Scala code, mainly on the following items:
 
-- Overall architecture of a reactive system with elastically and resiliency
+- Overall architecture of a Reactive system with elasticity and resiliency
 - Cloud component selection for comfortable operation and maintenance (GCP case)
 - Choosing between OLTP (online transaction processing), streaming, and batch job depending on the use case
 - Utilizing techniques such as Circuit Breaker, Throttling, Bulkhead, and CQRS (Command Query Responsibility Segregation) + Event Sourcing
