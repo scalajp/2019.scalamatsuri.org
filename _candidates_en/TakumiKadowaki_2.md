@@ -11,8 +11,8 @@ organization: Septeni Original Engineer
 tags:
   - Tools, Best Practices, DevOps
 suggestions:
-  - Those who has had troubles with logging
-  - Those who want to learn about the logging in JVM languages
+  - Those who have had trouble with logging
+  - Those who want to learn about logging in JVM languages
 contributes:
   - 
 speaker_experience:
@@ -20,6 +20,6 @@ speaker_experience:
   - ScalaMatsuri2018 Unconference (https://nomadblacky.github.io/pages/2018-03-18-111619-scalamatsuri.md.html)
   - Mini Scala Matsuri Aoyama (https://www.wantedly.com/companies/a8net/post_articles/120109)
 ---
-Logging is an inevitable element in application. Withtout logs we won't be able to investigate an error. Without logs we won't know how much request your application was able to handle. When we overlook the logs, we the engineers get hurt.
+Logging is an inevitable element in application. Without logs, we won't be able to investigate an error. Without logs, we won't know how many requests your application was able to handle. When we overlook logs, we, the engineers get hurt.
 
-In this session, I will discuss how logs should be, how to use Java and Scala logging libraries such as slf4j, and my own improvements in logging practices.
+In this session, I will discuss how logs should be, how to use Java and Scala logging libraries such as slf4j, and describe my own improvements in logging practices.
