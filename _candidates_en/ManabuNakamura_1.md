@@ -22,5 +22,5 @@ speaker_experience:
   - Scala Kansai Summit 2018 <a href='http://gakuzzzz.github.io/slides/error_handling_practice/#1'>http://gakuzzzz.github.io/slides/error_handling_practice/#1</a>
 ---
 Information system are solving more and more complex problems.
-To solve complex problems, you need to devide and conquer approach, which devlide problem first then compose solutions.
-In this session, I will talk about two approaches "Continuation-passing style" and "DI"  as compose reusable modules. I will also discuss tools for devide and conquer while comparing them.
+To solve complex problems, you need to utilize the divide and conquer approach, which divides the problem first then composes solutions.
+In this session, I will talk about two approaches, "Continuation-passing style" and "DI", for composing reusable modules. I will also discuss tools for dividing and conquering while comparing these approaches.
