@@ -19,4 +19,4 @@ speaker_experience:
 ---
 Many are working on ways to exchange ideas and technical information among Scala engineers at work.
 
-In this session, I would like to introduce one of the experiments we've been trying called "Scala Lunch", literally getting together at lunch time. Beyond status report of the projects, we often discuss other topics such as awesome coding techniques we discovered in open source code, which I would like to share with you too.
+In this session, I would like to introduce one of the experiments we've been trying called "Scala Lunch", literally getting together at lunch time. Beyond status reports of the projects, we often discuss other topics such as awesome coding techniques that we've discovered in open source code; which I would like to share with you too.
