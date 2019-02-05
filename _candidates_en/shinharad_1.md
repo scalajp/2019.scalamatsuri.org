@@ -17,6 +17,6 @@ contributes:
 speaker_experience:
   - 
 ---
-Depending on a team or a person, there are different ways to place constructor arguments, to write Scaladoc, or to pronounce "Either." These diversity allows for personal taste, but it might be a bit confusing to new learners.
+Depending on a team or a person, there are different ways to place constructor arguments, to write Scaladoc, or to pronounce "Either." This diversity allows for personal taste, but it might be a bit confusing for new learners.
 
-In this session, we will look into different cultures in Scala through the official Style Guide, and the code from open source projects. The goal is to learn together that "some people write like this" not to convince "what's right." It might also be fun to take a poll beforehand, and discuss the result on the day.
+In this session, we will look into different cultures in Scala through reading the official Style Guide as well as code from open source projects. The goal is for us to learn that "some people write like this" not to convince you "what's right." It might also be fun to take a poll beforehand and discuss the results during the session.
