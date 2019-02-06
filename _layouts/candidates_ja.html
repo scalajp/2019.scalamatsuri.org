@@ -38,7 +38,7 @@ layout: default_ja
     {% when 10 %} 10分
     {% when 40 %} 40分
     {% when 90 %} 90分
-    {% else %} {% include __fail.html %} <!-- 空欄になるような場合、エラーに -->
+    {% else %} {% include __fail_empty_length.html %} <!-- 空欄になるような場合、エラーに -->
     {% endcase %}
   </dd>
 
@@ -48,7 +48,7 @@ layout: default_ja
     {% when "Japanese" %} 日本語
     {% when "English" %} 英語
     {% when "English/Japanese" %} 英語/日本語
-    {% else %} {% include __fail.html %} <!-- 空欄になるような場合、エラーに -->
+    {% else %} {% include __fail_empty_language.html %} <!-- 空欄になるような場合、エラーに -->
     {% endcase %}
   </dd>
 
@@ -58,7 +58,7 @@ layout: default_ja
     {% when "Beginner" %} 初心者: 分野の事前知識を必要としない
     {% when "Intermediate" %} 中級者: 分野の基礎は分かるが、細かい所は不安
     {% when "Advanced" %} 上級者: 分野に精通している人向けでトークでは入門の話は少なめ
-    {% else %} {% include __fail.html %} <!-- 空欄になるような場合、エラーに -->
+    {% else %} {% include __fail_empty_audience.html %} <!-- 空欄になるような場合、エラーに -->
     {% endcase %}
   </dd>
 

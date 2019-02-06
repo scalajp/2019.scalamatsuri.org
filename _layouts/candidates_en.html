@@ -35,7 +35,7 @@ layout: default_en
     {% when 10 %} 10 minutes
     {% when 40 %} 40 minutes
     {% when 90 %} 90 minutes
-    {% else %} {% include __fail.html %} <!-- 空欄になるような場合、エラーに -->
+    {% else %} {% include __fail_empty_length.html %} <!-- 空欄になるような場合、エラーに -->
     {% endcase %}
   </dd>
 
@@ -45,7 +45,7 @@ layout: default_en
     {% when "Japanese" %} Japanese
     {% when "English" %} English
     {% when "English/Japanese" %} English/Japanese
-    {% else %} {% include __fail.html %} <!-- 空欄になるような場合、エラーに -->
+    {% else %} {% include __fail_empty_language.html %} <!-- 空欄になるような場合、エラーに -->
     {% endcase %}
   </dd>
 
@@ -55,7 +55,7 @@ layout: default_en
     {% when "Beginner" %} Beginner: No need to have prior knowledge
     {% when "Intermediate" %} Intermediate: Requires a basic knowledge of the area
     {% when "Advanced" %} Advanced: For those who are experts in the field
-    {% else %} {% include __fail.html %} <!-- 空欄になるような場合、エラーに -->
+    {% else %} {% include __fail_empty_audience.html %} <!-- 空欄になるような場合、エラーに -->
     {% endcase %}
   </dd>
 
