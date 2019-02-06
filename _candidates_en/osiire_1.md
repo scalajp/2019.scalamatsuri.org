@@ -6,7 +6,7 @@ audience: Intermediate
 language: Japanese
 twitter: osiire
 github: osiire
-icon: https://avatars2.githubusercontent.com/u/3231194?s=400&u=246b922692cd7e24dcb518256849f0015fa06b7d&v=4
+icon: https://pbs.twimg.com/profile_images/1710330842/me_400x400.png
 organization: 
 tags:
   - Functional Programming
