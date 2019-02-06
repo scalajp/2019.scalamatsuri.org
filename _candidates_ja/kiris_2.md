@@ -6,7 +6,7 @@ audience: Beginner
 language: Japanese
 twitter: kiris
 github: kiris
-icon: https://pbs.twimg.com/profile_images/1066915986354388992/3xuJDYyU_400x400.jpg
+icon: https://pbs.twimg.com/profile_images/1088028661800783872/oR5kaYZt_400x400.jpg
 organization: 無職
 tags:
   - Others
