@@ -16,7 +16,7 @@ suggestions:
 contributes:
   - 
 speaker_experience:
-  - "Northeast Scala 2018 (slides: <a href='https://github.com/changlinli/types_presentation_slides'>https://github.com/changlinli/types_presentation_slides</a>, video: <a href='https://www.youtube.com/watch?v=Csj3lzsr0_I'>https://www.youtube.com/watch?v=Csj3lzsr0_I</a>)"
+  - "Northeast Scala 2018 (<a href='https://github.com/changlinli/types_presentation_slides'>slide</a>, <a href='https://www.youtube.com/watch?v=Csj3lzsr0_I'>video</a>)"
 ---
 While immutable data structures have a lot of benefits, accessing or modifying select parts of them can be annoying and full of boilerplate. The family of abstractions known as optics is one solution to this problem. 
 
