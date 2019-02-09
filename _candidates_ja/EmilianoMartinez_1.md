@@ -1,6 +1,6 @@
 ---
 name: Emiliano Martinez
-title: "Deep Learning in Scala"
+title: "Scala でディープラーニング"
 length: 40
 audience: Advanced
 language: English
@@ -12,11 +12,11 @@ tags:
   - Big Data / Fast Data
   - Data Science / Machine Learning
 suggestions:
-  - This session is for developers, data architects and data scientists who want to take a step forward building production-ready projects with Scala.
+  - リリース可能なプロジェクトを Scala を使って構築していきたい開発者、データアーキテクト、データサイエンティスト
 contributes:
   - 
 speaker_experience:
   - <a href='https://madrid2018.codemotionworld.com/speaker/4634/'>https://madrid2018.codemotionworld.com/speaker/4634/</a>
   - <a href='https://www.re-work.co/events/deep-learning-in-finance-summit-london-2019'>https://www.re-work.co/events/deep-learning-in-finance-summit-london-2019</a>
 ---
-Deep learning has become today an important topic in the industry: image recognition, natural language processing and computing vision to name a few, break new ground for the present and the near future. In this talk we will talk about how can we exploit the capabilities of the Scala programming language for data processing and neural networks training and inference processes.
+ディープラーニングは今日では産業界における重要なトピックとなった。例えば画像認識、自然言語処理、そして computing vision は、近い将来、あるいは今まさに新しい境地を切り開いている。本セッションでは、データ処理、あるいはニューラルネットワークのトレーニングやインターフェース処理に対する、プログラミング言語 Scala の持てる力を引き出す方法についてお話します。
