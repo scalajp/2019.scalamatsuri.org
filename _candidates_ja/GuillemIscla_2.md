@@ -14,11 +14,11 @@ tags:
   - Software Design and Architecture
   - Microservices
 suggestions:
-  - Those people who want to know about different possibilities and frameworks that Scala has to create nice and powerful RESTful APIs
+  - Scalaで上手に強力なRESTful APIを構築するための選択肢やフレームワークについて知りたい人
 contributes:
   - 
 speaker_experience:
   - 
 ---
-ScalaでRESTful APIを正しく設計するとき、HttpRequestの情報すべてを整理し、次の層のDSLオブジェクトを処理し、HttpRequetの生情報がまったく見えないように遮蔽しなくてはいけません。そして、よりよくするために、AccessLogをどのようにしてうまく行うことができるのかと思い、リクエストやその他多くのことを計時するかもしれません。もしくは、最大の理想は、コードから自動的にドキュメントを生成することかもしれません。
-Scalaのツールとフレームワークは、それもしくはそれ以上のことを実現します。この講演では、さまざまなスタイルとニーズを持つRESTful APIの作成に関する私の経験を共有したいと思います。
+ScalaでRESTful APIを正しく設計するとき、すべてのHttpRequestの情報を整理し、次の層のDSL上のオブジェクトを処理し、HttpRequetの生情報がまったく見えないように隠蔽しなくてはいけません。そして、AccessLogをうまく記録するために、リクエストやその他多くのことについても時刻の記録をするかもしれません。もしくは一番達成したいことは、コードから自動的にドキュメントを生成することかもしれません。
+Scalaのツールとフレームワークは、これらのこと、もしくはこれ以上のことを実現します。この講演では、さまざまなスタイルとニーズを持つRESTful APIの作成について、私の経験をもとにお話したいと思います。
