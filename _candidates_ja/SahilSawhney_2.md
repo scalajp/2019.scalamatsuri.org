@@ -19,11 +19,11 @@ suggestions:
 contributes:
   - 
 speaker_experience:
-  - Spoke in TechTriveni on the topic "Distributing the SMACK stack - Kubernetes VS DCOS"
+  - TechTriveniにおいて、"Distributing the SMACK stack - Kubernetes VS DCOS"について話しました。
     <a href='https://youtu.be/_mVmxosuK1c'>https://youtu.be/_mVmxosuK1c</a>
-  - Have conducted several meetups the last one being on the topic "Being Stateful In Kubernetes"
+  - 幾つかのミートアップを主催しました。そのうち最後のものでは "Being Stateful In Kubernetes" について話しました。
     <a href='https://www.youtube.com/watch?v=c66uBgJ72P8'>https://www.youtube.com/watch?v=c66uBgJ72P8</a>
-  - Various inter-organization sessions like "Using Antlr With Scala"
+  - 様々な組織間のセッション。例えば "Using Antlr With Scala"。
     <a href='https://www.youtube.com/watch?v=9SYTPcj6ic8'>https://www.youtube.com/watch?v=9SYTPcj6ic8</a>
 ---
 関数型プログラミングの広がりを受けて、CI/CD パイプラインを変換する、またシステムが副作用を持たず不変な入出力を持つように組み上げるために、学びを活かせないかと私たち Knoldus は考えました。意図したとおりのものをデプロイするためです。例えば、ビルドサーバで実行中の CI パイプラインが成果物と docker イメージ(不変なエンティティ)を出力として生成し、それらがデプロイパイプラインに渡されテスト環境へデプロイされる。最終的にまったく同じ機能を本番環境へデプロイするといった流れを考えることができます。
