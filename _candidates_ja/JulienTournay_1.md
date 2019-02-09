@@ -1,6 +1,6 @@
 ---
 name: Julien Tournay
-title: "Data processing at Spotify using Scio"
+title: "Spotify での Scio を使ったデータ処理"
 length: 40
 audience: Intermediate
 language: English
@@ -11,7 +11,7 @@ organization: Data engineer at Spotify
 tags:
   - Big Data / Fast Data
 suggestions:
-  - People interested in big data processing using Scala
+  - Scala を使ったビッグデータ処理に興味のある人
 contributes:
   - Scio
 speaker_experience:
@@ -19,4 +19,4 @@ speaker_experience:
   - scala.io
   - scale by the bay
 ---
-Two years ago, Spotify introduced Scio, an open-source Scala framework to develop data pipelines and deploy them on Google Dataflow. In this talk, we will discuss the evolution of Scio, and share the highlights of running Scio in production for two years. We will showcase several interesting data processing workflows ran at Spotify, what we learned from running them in production, and how we leveraged that knowledge to make Scio faster, and safer and easier to use.
+2年前、Spotify はデータパイプラインを開発し Google Dataflow へとデプロイするために、オープンソースの Scala フレームワーク Scio を導入しました。本セッションでは、Scio の進化について議論し、2年間の Scio のプロダクションでの運用の要点を共有します。また、Spotify で運用されている興味深いデータ処理ワークフローをいくつかと、これを実運用することで得られた知見、そしてどのようにこの知見を活用して Scio をより速く、より安全に、かつより使いやすくしたのかをご紹介します。
