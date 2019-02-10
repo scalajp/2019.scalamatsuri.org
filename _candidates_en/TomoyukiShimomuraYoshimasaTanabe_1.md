@@ -9,7 +9,8 @@ github: s10myk4
 icon: https://d2mxuefqeaa7sj.cloudfront.net/s_84C0A5896E9B8ADFA74D479EF9473FCB5BC38BDABDA062C6718D295F2C3E3603_1548505719997_scalamatsuri2019-icon.png
 organization: "Septeni Original, Inc Engineer"
 tags:
-  - Best Practices, Software Design and Architecture
+  - Best Practices
+  - Software Design and Architecture
 suggestions:
   - Those who are working in a team and feel their development methodology needs improvement
   - Those who want to guarantee quality as a team
