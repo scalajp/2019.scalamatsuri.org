@@ -9,7 +9,10 @@ github: sahil-sawhney
 icon: https://pbs.twimg.com/profile_images/1091401167706488832/ZKQS9pXS_400x400.jpg
 organization: Sr. Software Consultant, Knoldus Inc
 tags:
-  - Tools, DevOps, Software Design and Architecture, Microservices
+  - Tools
+  - DevOps
+  - Software Design and Architecture
+  - Microservices
 suggestions:
   - 1. Openshift について興味がある人、町の新人オーケストレーター
   - 2. 自身のリアクティブアプリケーションを簡単に管理したいと思っている人
