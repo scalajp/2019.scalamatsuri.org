@@ -18,7 +18,7 @@ contributes:
   - helisa
   - ansible-raspi-config
 speaker_experience:
-  - 社内勉強会やJVM関連のイベントでの登壇が多いですが、国際カンファレンスでいえば、Scalar 2018で登壇しました。録画はこちらから見れます。https://www.youtube.com/watch?v=YiGxz_HvJcc .
+  - 社内勉強会やJVM関連のイベントでの登壇が多いですが、国際カンファレンスでいえば、Scalar 2018で登壇しました。録画はこちらから見れます。 <a href='https://www.youtube.com/watch?v=YiGxz_HvJcc'>https://www.youtube.com/watch?v=YiGxz_HvJcc</a>.
 ---
 深層学習が将来、「私たちの仕事を奪う™」という言説を聞いたことがあるでしょう - しかし、過去にそのように恐れられたAIの概念が他にもあったことはご存知でしょうか？
 
