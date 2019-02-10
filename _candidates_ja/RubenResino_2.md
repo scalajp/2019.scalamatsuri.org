@@ -17,8 +17,8 @@ suggestions:
 contributes:
   - 
 speaker_experience:
-  - "今までカンファレンスで沢山の応募をしてきましたが、今のところ、採用していただけたことはありません。今度こそ。: https://madrid2018.codemotionworld.com/es/ https://t3chfest.uc3m.es/2018/?lang=es"
-  - "自分でミートアップを開催したことはあります。: https://www.meetup.com/es-ES/Codemotion-Espana/events/255450342/"
+  - "今までカンファレンスで沢山の応募をしてきましたが、今のところ、採用していただけたことはありません。今度こそ。: <a href='https://madrid2018.codemotionworld.com/es/ https://t3chfest.uc3m.es/2018/?lang=es'>https://madrid2018.codemotionworld.com/es/ https://t3chfest.uc3m.es/2018/?lang=es</a>"
+  - "自分でミートアップを開催したことはあります。: <a href='https://www.meetup.com/es-ES/Codemotion-Espana/events/255450342/'>https://www.meetup.com/es-ES/Codemotion-Espana/events/255450342/</a>"
 ---
 私は長い間Javaとオブジェクト指向プログラミングを使って仕事をしてきましたが、どこかしっくり来ない思いを抱き続けてきました。全てのプロジェクトにおいて何か上手くいっていないと感じることがあったのです。
 

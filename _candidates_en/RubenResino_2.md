@@ -17,8 +17,8 @@ suggestions:
 contributes:
   - 
 speaker_experience:
-  - "I send many talks to conferences but at this moment they cannot be selected: https://madrid2018.codemotionworld.com/es/ https://t3chfest.uc3m.es/2018/?lang=es"
-  - "I only made local meetups: https://www.meetup.com/es-ES/Codemotion-Espana/events/255450342/"
+  - "I send many talks to conferences but at this moment they cannot be selected: <a href='https://madrid2018.codemotionworld.com/es/ https://t3chfest.uc3m.es/2018/?lang=es'>https://madrid2018.codemotionworld.com/es/ https://t3chfest.uc3m.es/2018/?lang=es</a>"
+  - "I only made local meetups: <a href='https://www.meetup.com/es-ES/Codemotion-Espana/events/255450342/'>https://www.meetup.com/es-ES/Codemotion-Espana/events/255450342/</a>"
 ---
 I’m worked for a lot of time using Java and Object Oriented Programming, but I felt that something was wrong, something was not working well in all of my projects…
 
