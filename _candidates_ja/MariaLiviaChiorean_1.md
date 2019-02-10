@@ -1,6 +1,6 @@
 ---
 name: Maria Livia Chiorean
-title: "ローカルでAWSの依存関係を実行するときのヒントとコツ"
+title: "ローカルで AWS 依存ライブラリを実行するときのヒントとコツ"
 length: 40
 audience: Intermediate
 language: English
@@ -20,4 +20,4 @@ speaker_experience:
   - 'This would be my second talk. My previous talk was called "The path to generic endpoints using Shapeless" and I presented it at several conferences in 2017 - Scala Swarm, ScalaIO and Scala eXchange. '
   - 'Video: <a href="https://www.youtube.com/watch?v=xy7m2WFYOXg">https://www.youtube.com/watch?v=xy7m2WFYOXg</a> and slides: <a href="https://slides.com/marialivia/the-path-to-generic-endpoints-using-shapeless-scala-x">https://slides.com/marialivia/the-path-to-generic-endpoints-using-shapeless-scala-x</a>'
 ---
-Scala、AWS、そしてDocker - ローカルで開発するときにそれらは本当にうまく一緒に動くことができているでしょうか？開発者の生活を楽にするためのツールはあるでしょうか？このトークでは、Scalaアプリケーションをローカルで実行するために費やす時間を減らすのに役立つベストプラクティスとライブラリについて説明します。Dockerを紹介して、私たちは簡単で直接的なテクニックから始めます。そしてサービス開始を単一のコマンドに単純化することにトライします。
+Scala、AWS、そしてDocker - ローカルで開発するときにそれらは本当にうまく一緒に動くことができているでしょうか？何か開発作業を楽にできるツールはあるでしょうか？このトークでは、Scalaアプリケーションをローカルで実行するために費やす時間を減らすのに役立つベストプラクティスとライブラリについて説明します。Dockerを紹介して、私たちは簡単で直接的なテクニックから始めます。そしてサービス開始を単一のコマンドに単純化することにトライします。
