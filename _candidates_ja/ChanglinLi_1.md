@@ -16,7 +16,7 @@ suggestions:
 contributes:
   -
 speaker_experience:
-  - Northeast Scala 2018 (Moving Beyond Defensive Programming) (<a href="https://github.com/changlinli/types_presentation_slides">slides</a>, <a href-"https://www.youtube.com/watch?v=Csj3lzsr0_I">video</a>)
+  - Northeast Scala 2018 (Moving Beyond Defensive Programming) (<a href="https://github.com/changlinli/types_presentation_slides">slides</a>, <a href="https://www.youtube.com/watch?v=Csj3lzsr0_I">video</a>)
 ---
 
 オブジェクト指向と関数型、Scalaのどちらの側面であれ、過度に抽象化されていたり、その抽象化が広範に影響してしまっているコードを扱う羽目になったことが、みなさんあるかと思います。そういうコードは理解しづらく、また修正も難しいものです。
