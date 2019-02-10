@@ -19,7 +19,7 @@ speaker_experience:
   - Softshake (<a href='https://www.dropbox.com/sh/r9xg8p5v4v89lss/AABYEL6Neud3SoxuFil3WB0oa?dl=0'>https://www.dropbox.com/sh/r9xg8p5v4v89lss/AABYEL6Neud3SoxuFil3WB0oa?dl=0</a>)
   - Akka/Nao (<a href='https://www.youtube.com/watch?v=qVUMnbyd2O8'>https://www.youtube.com/watch?v=qVUMnbyd2O8</a>)
 ---
-Romande Energieというスイスのユーティリティ企業が、新しいビジネスモデルの可能性を追求するための研究所を作りました。このトークは、そこでプロトタイピングをしてきた経験の産物です。
+Romande Energieというスイスの公共企業が、新しいビジネスモデルの可能性を追求するための研究所を作りました。このトークは、そこでプロトタイピングをしてきた経験の産物です。
 
 アーキテクチャはイベント・ソーシングとCQRSを基礎として、シンプルなMQTTサーバとアクターによるデータストリームから始まり、Kafka, Cassandra, InfluxDB, sparkそしてZeppelin等の複数のインスタンスからなる一揃いのシステムへと進化しました。
 
