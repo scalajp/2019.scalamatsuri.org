@@ -9,7 +9,7 @@ github: rresino
 icon: https://pbs.twimg.com/profile_images/2629410655/aaeb143bea37b29955f91daba39e9c67_bigger.jpeg
 organization: Devo / Software Architect
 tags:
-  - Functional Programming,
+  - Functional Programming
   - Best Practices
   - Intro to Scala
 suggestions:

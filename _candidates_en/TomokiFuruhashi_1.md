@@ -9,7 +9,8 @@ github: tofu511
 icon: https://avatars1.githubusercontent.com/u/20460383?s=400&v=4
 organization: BizReach
 tags:
-  - Big Data / Fast Data, Others
+  - Big Data / Fast Data
+  - Others
 suggestions:
   - Those who are interested in data processing
   - Those who are looking into Google Cloud Platform for data processing

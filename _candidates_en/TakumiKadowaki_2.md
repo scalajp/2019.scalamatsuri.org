@@ -9,7 +9,9 @@ github: NomadBlacky
 icon: https://ja.gravatar.com/userimage/50665346/05c1111f3c69e50ab1bf11e8637575a4.png?size=200
 organization: Septeni Original Engineer
 tags:
-  - Tools, Best Practices, DevOps
+  - Tools
+  - Best Practices
+  - DevOps
 suggestions:
   - Those who have had trouble with logging
   - Those who want to learn about logging in JVM languages
