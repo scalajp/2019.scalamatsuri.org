@@ -16,8 +16,8 @@ suggestions:
 contributes:
   - 
 speaker_experience:
-  - ScalaIO: https://www.youtube.com/watch?v=Z2YzCzfUNNk
-  - flatMap(Oslo): https://www.youtube.com/watch?v=HMs_F7LXTak
-  - Scala Wave 2018: https://kubukoz.github.io/talks/typelevel-alchemist/slides
+  - "ScalaIO: <a href='https://www.youtube.com/watch?v=Z2YzCzfUNNk'>https://www.youtube.com/watch?v=Z2YzCzfUNNk</a>"
+  - "flatMap(Oslo): <a href='https://www.youtube.com/watch?v=HMs_F7LXTak'>https://www.youtube.com/watch?v=HMs_F7LXTak</a>"
+  - "Scala Wave 2018: <a href='https://kubukoz.github.io/talks/typelevel-alchemist/slides'>https://kubukoz.github.io/talks/typelevel-alchemist/slides</a>"
 ---
 cast-effect、fs2、scalaz-zio、alikeの創設者やコントリビュータを含むオープンソースScalaコミュニティ内の無数の尽力のおかげで、多くの人々が純粋関数型プログラミングへの道に参加しています。しかし、思っている通りに新しく獲得した知識を適用することは簡単ではありません。特に既存のミッションクリティカルな本番システムであればなおさらです。本トークでは、純粋関数型プログラミングに取り組む際の典型的な障害と乗り越える方法、多くの方が直面する間違いや発見について紹介します。

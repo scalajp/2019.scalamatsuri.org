@@ -17,8 +17,8 @@ suggestions:
 contributes:
   - DroidKaigi conference apps
 speaker_experience:
-  - DroidKaigi2018 https://droidkaigi.jp/2018/en/timetable?session=16922
-  - other talks in meetups https://speakerdeck.com/kaelaela
+  - DroidKaigi2018 <a href='https://droidkaigi.jp/2018/en/timetable?session=16922'>https://droidkaigi.jp/2018/en/timetable?session=16922</a>
+  - other talks in meetups <a href='https://speakerdeck.com/kaelaela'>https://speakerdeck.com/kaelaela</a>
 ---
 Everyone says "Scala and Kotlin are similar", but is that actually true? There are indeed syntactical similarities, but there are many fundamental differences. Based on my experience using both Scala and Kotlin extensively at work, I would like to discuss how different these two languages are through the use of code examples.
 

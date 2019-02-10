@@ -18,9 +18,9 @@ suggestions:
 contributes:
   - 
 speaker_experience:
-  - Scala Kansai Summit 2018 (https://gitpitch.com/NomadBlacky/slides/readable-code-in-scala#/)
-  - ScalaMatsuri2018 Unconference (https://nomadblacky.github.io/pages/2018-03-18-111619-scalamatsuri.md.html)
-  - Mini Scala Matsuri Aoyama (https://www.wantedly.com/companies/a8net/post_articles/120109)
+  - Scala Kansai Summit 2018 (<a href='https://gitpitch.com/NomadBlacky/slides/readable-code-in-scala#/'>https://gitpitch.com/NomadBlacky/slides/readable-code-in-scala#/</a>)
+  - ScalaMatsuri2018 Unconference (<a href='https://nomadblacky.github.io/pages/2018-03-18-111619-scalamatsuri.md.html'>https://nomadblacky.github.io/pages/2018-03-18-111619-scalamatsuri.md.html</a>)
+  - Mini Scala Matsuri Aoyama (<a href='https://www.wantedly.com/companies/a8net/post_articles/120109'>https://www.wantedly.com/companies/a8net/post_articles/120109</a>)
 ---
 Logging is an inevitable element in application. Without logs, we won't be able to investigate an error. Without logs, we won't know how many requests your application was able to handle. When we overlook logs, we, the engineers get hurt.
 

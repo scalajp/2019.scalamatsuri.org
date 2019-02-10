@@ -17,13 +17,13 @@ suggestions:
   - ストリーム処理の基礎に興味がある人
   - ストリーム処理への様々な方法に興味がある人
 contributes:
-  - Baker: https://github.com/ing-bank/baker
-  - Styx: https://github.com/streaming-analytics/Styx
-  - Spoofax: https://github.com/metaborg/spoofax
+  - "Baker: <a href='https://github.com/ing-bank/baker'>https://github.com/ing-bank/baker</a>"
+  - "Styx: <a href='https://github.com/streaming-analytics/Styx'>https://github.com/streaming-analytics/Styx</a>"
+  - "Spoofax: <a href='https://github.com/metaborg/spoofax'>https://github.com/metaborg/spoofax</a>"
 speaker_experience:
-  - Scale By the Bay 2018: https://www.youtube.com/watch?v=e9oFGVG9b9Q
-  - Curry On 2017: https://t.co/wosQAAxIJD
-  - FlatMap(Oslo) 2017: https://vimeo.com/216466694
+  - "Scale By the Bay 2018: <a href='https://www.youtube.com/watch?v=e9oFGVG9b9Q'>https://www.youtube.com/watch?v=e9oFGVG9b9Q</a>"
+  - "Curry On 2017: <a href='https://t.co/wosQAAxIJD'>https://t.co/wosQAAxIJD</a>"
+  - "FlatMap(Oslo) 2017: <a href='https://vimeo.com/216466694'>https://vimeo.com/216466694</a>"
 ---
 近年 Fast Data 処理界隈では分散ストリーム処理システム (DSPS) がデファクトスタンダードとなりつつあります。この比較研究ではストリーム処理の基礎を見ていきます。
 

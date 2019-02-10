@@ -16,8 +16,8 @@ suggestions:
 contributes:
   - 
 speaker_experience:
-  - ScalaMatsuri 2018 Extensible Effects in Dotty: https://www.youtube.com/watch?v=QeW8Cka28vs
-  - ScalaMatsuri 2016 Freer Monad Extensible Effect in Scala: https://www.youtube.com/watch?v=xXM30PuU_bY
+  - "ScalaMatsuri 2018 Extensible Effects in Dotty: <a href='https://www.youtube.com/watch?v=QeW8Cka28vs'>https://www.youtube.com/watch?v=QeW8Cka28vs</a>"
+  - "ScalaMatsuri 2016 Freer Monad Extensible Effect in Scala: <a href='https://www.youtube.com/watch?v=xXM30PuU_bY'>https://www.youtube.com/watch?v=xXM30PuU_bY</a>"
 ---
 Do you understand logic programming such as Prolog? If so, do you know that you can express logic programming using MonadPlus? Do you want to try programming with backtracking or unification using Scala?
 

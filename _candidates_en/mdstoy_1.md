@@ -17,7 +17,7 @@ suggestions:
 contributes:
   - 
 speaker_experience:
-  - JJUG CCC 2018 Fall https://speakerdeck.com/mdstoy/do-not-let-anyone-say-pass-by-reference
+  - JJUG CCC 2018 Fall <a href='https://speakerdeck.com/mdstoy/do-not-let-anyone-say-pass-by-reference'>https://speakerdeck.com/mdstoy/do-not-let-anyone-say-pass-by-reference</a>
 ---
 Speakers are essential to a conference. However, they shouldn't be limited to the famed, the greats, and the cool kids. When considering the progress of the community, it's crucial to have fresh speakers.
 

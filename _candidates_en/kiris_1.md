@@ -15,6 +15,10 @@ suggestions:
   - People who are excited about hacking home and everyday items
   - People who are looking to make something using Scala, but are out of ideas
   - People who are interested in more emo stuff, since we have enough tech talks
+contributes:
+  - 
+speaker_experience:
+  - 
 ---
 **Let's make our own Intellectual Highway!**
 
