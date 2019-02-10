@@ -18,7 +18,7 @@ contributes:
   - I contribute to cats, console4cats and fs2.
 speaker_experience:
   - I spoke at multiple international Scala events (flatMap(Oslo), Scala Matsuri 2018, ScalaUA, Scala.IO, BeeScala, LX Scala, and more), as well as a few meetups. 
-  - "Here's a video from flatMap: https://www.youtube.com/watch?v=HMs_F7LXTak"
+  - "Here's a video from flatMap: <a href='https://www.youtube.com/watch?v=HMs_F7LXTak'>https://www.youtube.com/watch?v=HMs_F7LXTak</a>"
 ---
 If you're going to write a modern web service, you have a wide range of frameworks and libraries to choose from. One of them is http4s, a functional library for writing HTTP services and clients in Scala. I'm going to show you why you should consider it for your next application, for reasons including but not limited to:
 - type-safe request/response models that are uniform between client and server

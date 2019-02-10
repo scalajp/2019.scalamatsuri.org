@@ -19,7 +19,7 @@ contributes:
   - console4cats
   - fs2
 speaker_experience:
-  - flatMap(Oslo) https://www.youtube.com/watch?v=HMs_F7LXTak
+  - flatMap(Oslo) <a href='https://www.youtube.com/watch?v=HMs_F7LXTak'>https://www.youtube.com/watch?v=HMs_F7LXTak</a>
   - Scala Matsuri 2018
   - ScalaUA
 ---
