@@ -1,6 +1,6 @@
 ---
 name: Joan Goyeau
-title: "Scala 3, what does it means for me?"
+title: "Scala 3って、どんあ影響があるの?"
 length: 40
 audience: Intermediate
 language: English
@@ -22,6 +22,6 @@ speaker_experience:
 Martin Oderskyさんの素晴らしい講演やDottyのウェブサイトを通じて、私達はDottyやScala3について聞いたことがあるでしょう。
 これは大きな変化のように感じますが、私のような日々Scalaで開発をしているScalaUserにとってどのような影響があるでしょうか？
 
-NetflixではScalaを利用して毎秒数百万のイベントを処理していますが、それを通じてたいていは複雑で定型的な回避策を要するような（そしてScala3では解消されていると思われる）、いくつかの稀なケースと出会いました。
+NetflixではScalaを利用して毎秒数百万のイベントを処理していますが、それを通じてたいていは複雑なボイラープレートによる回避策を要するような（そしてScala3では解消されていると思われる）、いくつかの稀なケースと出会いました。
 
 この講演を通じて、Scalaの将来展望を確認し、皆さんの経験を語り合いましょう。
