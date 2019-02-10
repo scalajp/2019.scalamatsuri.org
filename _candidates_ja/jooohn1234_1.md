@@ -15,8 +15,8 @@ suggestions:
 contributes:
   -
 speaker_experience:
-  - Scala Matsuri 2018: https://speakerdeck.com/jooohn/partially-applied-functional-programming-in-scala
-  - M3 Tech Talk: https://speakerdeck.com/jooohn/scalafalsexing-kurasuwowan-quan-nili-jie-suru
-  - Yokohama.scala: https://speakerdeck.com/jooohn/why-foldright-is-beautiful
+  - "Scala Matsuri 2018: <a href='https://speakerdeck.com/jooohn/partially-applied-functional-programming-in-scala'>https://speakerdeck.com/jooohn/partially-applied-functional-programming-in-scala</a>"
+  - "M3 Tech Talk: <a href='https://speakerdeck.com/jooohn/scalafalsexing-kurasuwowan-quan-nili-jie-suru'>https://speakerdeck.com/jooohn/scalafalsexing-kurasuwowan-quan-nili-jie-suru</a>"
+  - "Yokohama.scala: <a href='https://speakerdeck.com/jooohn/why-foldright-is-beautiful'>https://speakerdeck.com/jooohn/why-foldright-is-beautiful</a>"
 ---
 Scala (dotty) は強力な型システムを備えており、コンパイル時に様々なことを保証することができます。このトークではその中でも特にimplicitの仕組みを用いて、実行時ではなくコンパイル時に様々な問題を解いて遊んでみようと思います。
