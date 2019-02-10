@@ -18,4 +18,4 @@ contributes:
 speaker_experience:
   - "Here is a talk I did internally, to introduce Scala colleagues: <a href='https://docs.google.com/presentation/d/1lSc6vWVETqnKxYST1159W9nD4mUbVM_edYnfbFwk9Ic'>https://docs.google.com/presentation/d/1lSc6vWVETqnKxYST1159W9nD4mUbVM_edYnfbFwk9Ic</a>"
 ---
-JVM、特にScalaは複数のタスクを並行して実行するためにいくつかの方法を提供しています。このトークではScalaで並列性を扱う主な方法を詳しく説明します。Future(標準ライブラリの一部)、アクター（特にAkkaを使用）、そしてHaskellに触発されたIOモナドを実装した最近のいくつかのライブラリー（私達は例としてcats effectを使用します）について説明します。
+JVM、特にScalaは複数のタスクを並列実行するためにいくつかの方法を提供しています。このトークではScalaで並列性を扱う主な方法を詳しく説明します。Future(標準ライブラリの一部)、アクター（特にAkkaを使用）、そしてHaskellに触発されたIOモナドを実装した最近のいくつかのライブラリー（私達は例としてcats effectを使用します）について説明します。
