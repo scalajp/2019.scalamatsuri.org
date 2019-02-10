@@ -9,8 +9,7 @@ github: mikolak-net
 icon: https://cdn-images-1.medium.com/fit/c/100/100/1*_2NpkXHT35Y-XaOqXVW0qg.png
 organization: SoftwareMill
 tags:
-  - Data Science
-  - Machine Learning
+  - Data Science / Machine Learning
   - Others
 suggestions:
   - 遺伝的プログラミングや進化的アルゴリズムを含め、AIの概念を理解したい人たち
