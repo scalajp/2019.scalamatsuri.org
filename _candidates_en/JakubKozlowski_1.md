@@ -16,8 +16,8 @@ suggestions:
 contributes:
   - 
 speaker_experience:
-  - "ScalaIO: https://www.youtube.com/watch?v=Z2YzCzfUNNk"
-  - "flatMap(Oslo): https://www.youtube.com/watch?v=HMs_F7LXTak"
-  - "Scala Wave 2018: https://kubukoz.github.io/talks/typelevel-alchemist/slides"
+  - "ScalaIO: <a href='https://www.youtube.com/watch?v=Z2YzCzfUNNk'>https://www.youtube.com/watch?v=Z2YzCzfUNNk</a>"
+  - "flatMap(Oslo): <a href='https://www.youtube.com/watch?v=HMs_F7LXTak'>https://www.youtube.com/watch?v=HMs_F7LXTak</a>"
+  - "Scala Wave 2018: <a href='https://kubukoz.github.io/talks/typelevel-alchemist/slides'>https://kubukoz.github.io/talks/typelevel-alchemist/slides</a>"
 ---
 In the light of the hard work performed by countless people in the open-source Scala community, including creators and contributors of cats-effect, fs2, scalaz-zio and alike, there's been an influx of users who want to take part in the journey to pure FP. Sometimes, though, it might not be as easy to apply the newly gained knowledge as we wish, especially in existing, mission-critical production systems. In this talk, I want to exhibit the typical obstacles one can encounter when trying to go pure, ways to overcome these obstacles, as well as some mistakes and gotchas frequently confronted.
