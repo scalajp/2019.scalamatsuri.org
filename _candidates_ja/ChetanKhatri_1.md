@@ -16,8 +16,8 @@ tags:
   - Intro to Scala
   - Software Design and Architecture
 suggestions:
-  - 1. Scala を用いた関数型プログラミングの初歩か Java が分かっている人
-  - 2. Java か Scala で並行プログラミングかマルチスレッドを理解している人
+  - 1. Scala を用いた関数型プログラミングの初歩か、 Java を理解してる人
+  - 2. Java もしくは Scala で並行プログラミングかマルチスレッドを理解している人
   - 3. 分散データ処理に興味があって、データをスケールさせる最適化に興味があるひと
 contributes:
   - Elixir
@@ -28,4 +28,4 @@ speaker_experience:
   - Scaling 30 TB's of Data lake with Apache HBase and Scala DSL at Production. - HBaseConAsia 2018, Beijing - China.
   - Scaling TB's of data with Apache Spark and Scala DSL at Production - HKOSCon 2018
 ---
-Apache HBase はカラム型 NoSQL で、産業およびリサーチ分野においてデータ処理プラットフォームをスケールさせるためのデータレイク (data lake) としての広い採用実績があります。HBase のコンポーネントの一部や Apache Spark は Scala で書かれており、Spark や HBase の関数型な Scala DSL の美学を理解することは楽しいことです。ここでは、30TB、1日あたり 46億イベントにまで Apache HBase を用いてベースのデータレイクをスケールさせて、それを Apache Kafka、Apache Spark / Spark Streaming に統合させた事例を紹介します。
+Apache HBase はカラム型 NoSQL で、産業およびリサーチ分野においてデータ処理プラットフォームをスケールさせるためのデータレイク (data lake) としての広い採用実績があります。HBase のコンポーネントの一部や Apache Spark は Scala で書かれており、Spark や HBase の関数型な Scala DSL の美学を理解することは楽しいことです。ここでは、30TB、1日あたり 46億イベントにまで Apache HBase を用いてベースのデータレイクをスケールさせて、それを Apache Kafka、Apache Spark / Spark Streaming と統合した事例を紹介します。
