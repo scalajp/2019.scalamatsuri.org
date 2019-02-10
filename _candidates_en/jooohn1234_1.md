@@ -1,3 +1,4 @@
+---
 name: jooohn1234
 title: "Play with implicit!"
 length: 10
@@ -14,8 +15,8 @@ suggestions:
 contributes:
   - 
 speaker_experience:
-  - Scala Matsuri 2018: https://speakerdeck.com/jooohn/partially-applied-functional-programming-in-scala
-  - M3 Tech Talk: https://speakerdeck.com/jooohn/scalafalsexing-kurasuwowan-quan-nili-jie-suru
-  - Yokohama.scala: https://speakerdeck.com/jooohn/why-foldright-is-beautiful
+  - "Scala Matsuri 2018: <a href='https://speakerdeck.com/jooohn/partially-applied-functional-programming-in-scala'>https://speakerdeck.com/jooohn/partially-applied-functional-programming-in-scala</a>"
+  - "M3 Tech Talk: <a href='https://speakerdeck.com/jooohn/scalafalsexing-kurasuwowan-quan-nili-jie-suru'>https://speakerdeck.com/jooohn/scalafalsexing-kurasuwowan-quan-nili-jie-suru</a>"
+  - "Yokohama.scala: <a href='https://speakerdeck.com/jooohn/why-foldright-is-beautiful'>https://speakerdeck.com/jooohn/why-foldright-is-beautiful</a>"
 ---
 Scala (dotty) equips a powerful type system, and it guarantees various things at the compile time. In this talk, I'll solve various problems at the compile time, not the runtime, particularly taking advantage of the "implicit" mechanism.
