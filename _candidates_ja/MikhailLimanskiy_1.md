@@ -1,6 +1,6 @@
 ---
 name: Mikhail Limanskiy
-title: "あなた自身のsbtプラグインを書くことはあなたが思っているより簡単です"
+title: "思ったよりも簡単に書ける独自 sbt プラグイン"
 length: 40
 audience: Intermediate
 language: English
