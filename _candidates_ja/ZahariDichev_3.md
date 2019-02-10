@@ -15,10 +15,10 @@ tags:
   - Software Design and Architecture
   - Microservices
 suggestions:
-  - developers wanting to understand the principles of backpressure
-  - distributed systems developers
-  - scala entusiasts
-  - companies relying on products such as Kafka, Rabbit and Akka
+  - バックプレッシャーの原則を理解したい開発者
+  - 分散システムに携わる開発者
+  - Scalaが大好きな人
+  - KafkaやRabbit, Akkaなどを利用している企業
 contributes:
   - Akka
   - Alpakka
@@ -26,6 +26,6 @@ speaker_experience:
   - Scala Days 2018
   - Local meetups
 ---
-頻繁に突発的な高負荷なアクセスが発生する今日日のシステム設計には安定性と弾力性が求められています。信頼性が高くスケーラブルなシステム設計の一つの柱としてバックプレッシャーを挙げることができます。
+頻繁に突発的な高負荷なアクセスが発生する昨今のシステム設計には、安定性と弾力性が求められています。信頼性が高くスケーラブルなシステム設計の一つの柱としてバックプレッシャーを挙げることができます。
 
-このレクチャーでは、Kakfa、RabbitMQ、そして Akka がこれをどのように実現しているのか、またこれらのプロダクトで最近なって行われた修正を解説します。最後にネットワーク境界を超えたバックプレッシャー付きのストリームのための新しい方法である StreamRef の概要を解説します。Akka Stream の内部実装、そして TCP や AMQP などのプロトコルへのディープダイブ、様々なコード例などを交えた面白いセッションをご期待ください。
+このレクチャーでは、Kakfa、RabbitMQ、そして Akka がこれらをどのように実現しているのか、またこれらのプロダクトで最近になり修正された問題についても解説します。最後にネットワーク境界を超えたバックプレッシャー付きのストリームのための新しい方法である StreamRef の概要を解説します。Akka Stream の内部実装、そして TCP や AMQP などのプロトコルへのディープダイブ、様々なコード例などを交えた面白いセッションをご期待ください。
