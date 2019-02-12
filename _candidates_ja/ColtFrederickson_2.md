@@ -1,6 +1,6 @@
 ---
 name: Colt Frederickson
-title: "Recrypt - 関数型プログラミングを使用した暗号法"
+title: "Recrypt - 関数型プログラミングを使用した暗号技術"
 length: 40
 audience: Intermediate
 language: English
