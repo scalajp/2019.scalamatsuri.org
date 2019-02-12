@@ -20,7 +20,7 @@ suggestions:
 contributes:
   - <a href='https://github.com/cm-Well/'>https://github.com/cm-Well/</a>
 speaker_experience:
-  - 3年間大学で助手をしていました
+  - 3年間大学でティーチング・アシスタントをしていました
   - AAMAS12 conference で講演を行いました
   - 会社や勉強会でトークを行ったことがあります
 ---
