@@ -29,6 +29,6 @@ speaker_experience:
   - 様々な組織間のセッション。例えば "Using Antlr With Scala"。
     <a href='https://www.youtube.com/watch?v=9SYTPcj6ic8'>https://www.youtube.com/watch?v=9SYTPcj6ic8</a>
 ---
-Scala, Akka-Http, Lagom, Cassandra, Kafkaなどのような技術で構成されているリアクティブなエコシステムを監視するのは際どいが、素朴な監視では、網羅されたリアクティブなシステムを保証するには全く足りない。
+Scala, Akka-Http, Lagom, Cassandra, Kafkaなどのような技術で構成されていたリアクティブなエコシステムにおいて、監視が必要不可欠となってくるが、素朴な監視では、網羅されたリアクティブなシステムを保証するには全く足りない。
 
 一つの方針として、PreMonR(予測を元にしたリアクティブなエコシステムの監視)は、特にKubernetesのような分散システムの上で動いているリアクティブなシステムの円滑な機能へのあらゆる脅威をずっと前から検出を援助出来る、予測を元にした異常検知でリアクティブで組み込まれているべき監視パイプラインを満たすように組み立てられている。
