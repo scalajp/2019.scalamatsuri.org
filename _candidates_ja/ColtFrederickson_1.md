@@ -1,6 +1,6 @@
 ---
 name: Colt Frederickson
-title: "関数型プログラミングと暗号: 私達のScalaからRustへの変遷の記録"
+title: "Scala から Rust への道のり: 関数型プログラミングと暗号技術編"
 length: 40
 audience: Intermediate
 language: English
@@ -21,6 +21,7 @@ speaker_experience:
   - Scala by the bay - 2017 <a href='https://www.youtube.com/watch?v=zgXli13psuA'>https://www.youtube.com/watch?v=zgXli13psuA</a>
   - Lambdaconf 2015 - <a href='https://www.youtube.com/watch?v=O5QwVqdkVtY'>https://www.youtube.com/watch?v=O5QwVqdkVtY</a>
 ---
-Rustへの書き換えを考えたことがありますか？不注意な移植は、慣用的でなく、メンテナンスがし難く、そして混乱したコードをあなたに残すでしょう。
+既存のコードベースを Rust へ移植しようと思ったことはありますか?移植は、丁寧に行わないと慣用的でなく、メンテナンスがし難く、混乱したコードになってしまう危険があります。
+
 この講演では、あるScalaで書かれた関数型OSSライブラリをRustに移植したときの、その動機から落とし穴、教訓に至るまでをお伝えしたいと思います。
 関数型プログラミングの原則をRustにマッピングし、関数型の概念をRustのイデオムに落とし込む実例をお見せします！
