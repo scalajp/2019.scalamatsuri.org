@@ -13,7 +13,7 @@ tags:
 suggestions:
   - Those interested in programming language theory
   - Those interested in the theoretical foundation of Scala
-  - Those who want to understand Scala deeoper
+  - Those who want to understand Scala deeper
 contributes:
   - fialyzer (https://github.com/dwango/fialyzer)
   - Onion (https://github.com/onion-lang/onion)
@@ -23,4 +23,4 @@ speaker_experience:
   - ScalaMatsuri 2018
   - Scala Fukuoka 2019
 ---
-The Dependent Object Types (DOT) calculus is the theory on which Dotty (which will be Scala 3.0) is based.  The DOT calculus is a model to understand the theoretical backbone of Scala. Such a model is called a "core calculus", and it is used to prove the characteristics of a programming language. In this session, I'll give a gentle introduction to the DOT calculus.
+The Dependent Object Types (DOT) calculus is the theory on which Dotty (which will be Scala 3.0) is based. The DOT calculus is a model to understand the theoretical backbone of Scala. Such a model is called a "core calculus", and it is used to prove the characteristics of a programming language. In this session, I'll give a gentle introduction to the DOT calculus.
