@@ -174,12 +174,16 @@ $(function() {
       database.ref('users/' + user.uid + '/favorites').set(after);
     }
   }
+
+  //プロポーザル詳細画面でのピン留め
   var addToFavoritesInDetail = function() {
     addToFavorites(extractSessionId());
   }
   var removeFromFavoritesInDetail = function() {
     removeFromFavorites(extractSessionId());
   }
+
+  //プロポーザル一覧画面でのピン留め
   var addToFavoritesInRow = function() {
     var url = $(this).parents('div.candidate-row').find('a').attr('href');
     addToFavorites(extractSessionId(url));
@@ -188,6 +192,7 @@ $(function() {
     var url = $(this).parents('div.candidate-row').find('a').attr('href');
     removeFromFavorites(extractSessionId(url));
   }
+
   var vote = function(sessionId, language, length) {
     var user = auth.currentUser;
     if (!user) return false;
@@ -220,6 +225,8 @@ $(function() {
       database.ref('users/' + user.uid + '/allvoted').set(allVoted);
     }
   }
+
+  //詳細画面での投票
   var voteInDetail = function() {
     var self = $(this);
     vote(extractSessionId(), self.data('language'), self.data('length'));
@@ -227,6 +234,8 @@ $(function() {
   var unvoteInDetail = function() {
     unvote(extractSessionId());
   }
+
+  //一覧画面での投票
   var voteInRow = function() {
     var row = $(this).parents('div.candidate-row');
     vote(row.data('file'), row.data('language'), row.data('length'));
