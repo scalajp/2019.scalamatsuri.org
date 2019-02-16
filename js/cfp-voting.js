@@ -141,15 +141,23 @@ $(function() {
         $('#vote-btn').show();
         $('#unvote-btn').hide();
       }
+
+      //投票済みセッション一覧のソート用に初期化
       $('div.voted-session').show();
       $('ol.voted-session-list').empty();
       $('ol.voted-session-list').sortable({
         axis: 'y',
         update: function(){
-          var log = $(this).sortable("toArray");
+          var order = $(this).sortable('toArray');
+          $.each(order, function(index, sessionId){
+            allVoted[sessionId]['rank'] = index;
+          })
+          database.ref('users/' + user.uid + '/allvoted').set(allVoted);
           console.log(log);
         },
       });
+
+      //投票済みorピン留済みの状態を反映
       $('div.candidate-row').each(function() {
         var self = $(this);
         var sessionId = self.data('file');
@@ -158,7 +166,9 @@ $(function() {
           self.removeClass('unvoted-candidate');
           self.find('button.unvote-btn').show();
           self.find('button.vote-btn').hide();
-          var cloned = self.clone()
+
+          //投票済みセッション一覧への表示
+          var cloned = self.clone(true)
           cloned.attr('id',sessionId);
           $('ol.voted-session-list').append('<li id="' + sessionId + '"></li>');
           $('ol.voted-session-list').find('#'+sessionId).append(cloned);
@@ -168,6 +178,17 @@ $(function() {
           self.find('button.unvote-btn').hide();
           self.find('button.vote-btn').show();
         }
+      });
+
+      //投票済みセッション一覧の表示順を、投票順位に合わせる
+      var voted = $('ol.voted-session-list > li').get();
+      voted.sort(function(s1,s2){
+        var rank1 = allVoted[$(s1).attr('id')]['rank'];
+        var rank2 = allVoted[$(s2).attr('id')]['rank'];
+        return rank1 - rank2;
+      });
+      $.each(voted, function(i, row){
+        $('ol.voted-session-list').append(row);
       });
     });
   }
@@ -223,7 +244,8 @@ $(function() {
       return;
     }
     if (!allVoted[sessionId]) {
-      allVoted[sessionId] = {"language": language, "length": length};
+      var rank = Object.keys(allVoted).length;
+      allVoted[sessionId] = {"language": language, "length": length, "rank": rank};
       database.ref('users/' + user.uid + '/allvoted').set(allVoted);
     }
   }
