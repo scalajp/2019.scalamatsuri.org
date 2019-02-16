@@ -141,13 +141,27 @@ $(function() {
         $('#vote-btn').show();
         $('#unvote-btn').hide();
       }
+      $('div.voted-session').show();
+      $('ol.voted-session-list').empty();
+      $('ol.voted-session-list').sortable({
+        axis: 'y',
+        update: function(){
+          var log = $(this).sortable("toArray");
+          console.log(log);
+        },
+      });
       $('div.candidate-row').each(function() {
         var self = $(this);
-        if (!!allVoted[self.data('file')]) {
+        var sessionId = self.data('file');
+        if (!!allVoted[sessionId]) {
           self.addClass('voted-candidate');
           self.removeClass('unvoted-candidate');
           self.find('button.unvote-btn').show();
           self.find('button.vote-btn').hide();
+          var cloned = self.clone()
+          cloned.attr('id',sessionId);
+          $('ol.voted-session-list').append('<li id="' + sessionId + '"></li>');
+          $('ol.voted-session-list').find('#'+sessionId).append(cloned);
         } else {
           self.removeClass('voted-candidate');
           self.addClass('unvoted-candidate');
