@@ -9,7 +9,8 @@ github: kmizu
 icon: https://pbs.twimg.com/profile_images/703094910417678337/b_v8jTJ3_400x400.jpg
 organization: Dwango, Inc
 tags:
-  - Functional Programming, Others
+  - Functional Programming
+  - Others
 suggestions:
   - Those interested in programming language theory
   - Those interested in the theoretical foundation of Scala
