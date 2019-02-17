@@ -16,7 +16,7 @@ suggestions:
 contributes:
   - 
 speaker_experience:
-  - Northeast Scala 2018 (Moving Beyond Defensive Programming) (<a href="https://github.com/changlinli/types_presentation_slides">slides</a>, <a href-"https://www.youtube.com/watch?v=Csj3lzsr0_I">video</a>)
+  - Northeast Scala 2018 (Moving Beyond Defensive Programming) (<a href="https://github.com/changlinli/types_presentation_slides">slides</a>, <a href="https://www.youtube.com/watch?v=Csj3lzsr0_I">video</a>)
 ---
 Whether on the object-oriented or functional side of Scala, we've all had the unpleasant experience of dealing with overly rigid, infectious abstractions that make code hard to understand and modify.
 

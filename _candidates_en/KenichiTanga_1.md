@@ -16,8 +16,8 @@ suggestions:
 contributes:
   - 
 speaker_experience:
-  - PHP conference Fukuoka 2018（https://speakerdeck.com/dnskimo/pofeaadedu-mijie-kudoctrine2）
-  - PHP conference Sendai 2019（https://speakerdeck.com/dnskimo/phpdehazimerucqrs）
+  - PHP conference Fukuoka 2018（<a href='https://speakerdeck.com/dnskimo/pofeaadedu-mijie-kudoctrine2'>https://speakerdeck.com/dnskimo/pofeaadedu-mijie-kudoctrine2</a>）
+  - PHP conference Sendai 2019（<a href='https://speakerdeck.com/dnskimo/phpdehazimerucqrs'>https://speakerdeck.com/dnskimo/phpdehazimerucqrs</a>）
 ---
 When implementing Domain-Driven Design (DDD), one of the most important points is to distinguish entities from value objects. However, given that Scala already encourages immutable objects, what's the point of thinking about value objects? Also, how should we persist value objects without unique identifiers?
 
