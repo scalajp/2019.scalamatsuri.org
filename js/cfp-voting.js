@@ -188,6 +188,7 @@ $(function() {
         return rank1 - rank2;
       });
       $.each(voted, function(i, row){
+        $(row).addClass('no' + i);
         $('ol.voted-session-list').append(row);
       });
     });
