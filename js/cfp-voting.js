@@ -143,9 +143,9 @@ $(function() {
       }
 
       //投票済みセッション一覧のソート用に初期化
-      $('div.voted-session').show();
-      $('ol.voted-session-list').empty();
-      $('ol.voted-session-list').sortable({
+      $('.voted-session').show();
+      $('.voted-session-list').empty();
+      $('.voted-session-list').sortable({
         axis: 'y',
         update: function(){
           var order = $(this).sortable('toArray');
@@ -153,7 +153,6 @@ $(function() {
             allVoted[sessionId]['rank'] = index;
           })
           database.ref('users/' + user.uid + '/allvoted').set(allVoted);
-          console.log(log);
         },
       });
 
@@ -170,8 +169,7 @@ $(function() {
           //投票済みセッション一覧への表示
           var cloned = self.clone(true)
           cloned.attr('id',sessionId);
-          $('ol.voted-session-list').append('<li id="' + sessionId + '"></li>');
-          $('ol.voted-session-list').find('#'+sessionId).append(cloned);
+          $('.voted-session-list').append(cloned);
         } else {
           self.removeClass('voted-candidate');
           self.addClass('unvoted-candidate');
@@ -181,7 +179,7 @@ $(function() {
       });
 
       //投票済みセッション一覧の表示順を、投票順位に合わせる
-      var voted = $('ol.voted-session-list > li').get();
+      var voted = $('.voted-session-list > *').get();
       voted.sort(function(s1,s2){
         var rank1 = allVoted[$(s1).attr('id')]['rank'];
         var rank2 = allVoted[$(s2).attr('id')]['rank'];
@@ -189,7 +187,7 @@ $(function() {
       });
       $.each(voted, function(i, row){
         $(row).addClass('no' + i);
-        $('ol.voted-session-list').append(row);
+        $('.voted-session-list').append(row);
       });
     });
   }

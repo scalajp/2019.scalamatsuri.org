@@ -66,44 +66,40 @@ button.vote-btn:hover i.fa {
   color: #eedd00 !important;
 }
 
-ol.voted-session-list {
-  list-style-type: none;
-}
-
-ol.voted-session-list li {
+.voted-session-list > * {
   margin-top: -0.6em;
-  padding-left: 1em;
+  margin-left: 2em;
 }
 
-ol.voted-session-list li::before {
+.voted-session-list > *::before {
   position: relative;
   color: white;
-  left: -44px;
-  top: 33px;
+  left: -30px;
+  top: 36px;
   padding: 0.3em
 }
 
-ol.voted-session-list li.no0::before {
+.voted-session-list .no0::before {
   content: "1st";
   background: #DE322F;
 }
 
-ol.voted-session-list li.no1::before {
+.voted-session-list .no1::before {
   content: "2nd";
   background: #E35A58;
 }
 
-ol.voted-session-list li.no2::before {
+.voted-session-list .no2::before {
   content: "3rd";
   background: #E7706E;
 }
 
-ol.voted-session-list li.no3::before {
+.voted-session-list .no3::before {
   content: "4th";
   background: #EB8584;
 }
 
-ol.voted-session-list li.no4::before {
+.voted-session-list .no4::before {
   content: "5th";
   background: #EE9B9A;
 }
