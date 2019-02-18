@@ -257,8 +257,15 @@ $(function() {
       alert(messages['canNotVote'][pageLang]);
       return;
     }
-    if (!!allVoted[sessionId]) {
+    var deletedSession = allVoted[sessionId];
+    if (!!deletedSession) {
       delete allVoted[sessionId];
+
+      //投票を取り消したセッションより下位のものがある場合、繰り上げ処理が必要。
+      $.each(allVoted, function(key, value){
+        if(value.rank > deletedSession.rank)
+          allVoted[key].rank = value.rank - 1;
+      });
       database.ref('users/' + user.uid + '/allvoted').set(allVoted);
     }
   }
