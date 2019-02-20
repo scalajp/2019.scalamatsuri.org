@@ -1,6 +1,6 @@
 ---
 name: Joan Goyeau
-title: "Scala 3って、どんな影響があるの?"
+title: "Scala 3って、私にはどんな影響があるの?"
 length: 40
 audience: Intermediate
 language: English
