@@ -31,6 +31,12 @@ title: 応募セッション一覧
   </p>
 </div>
 
+<div class="voted-session" style="display:none">
+  <h2>投票済みセッション</h2>
+  <p>ドラッグ&ドロップで順位づけしてください。順位も考慮されて選考されます。</p>
+  <div class="voted-session-list"></div>
+</div>
+
 <h2>90分英語</h2>
 <div class="shuffle-session">
 	{% assign has_90en = false %}
@@ -115,14 +121,13 @@ title: 応募セッション一覧
 {% unless has10_ja %}
   <div class="text-muted">まだ応募がありません。</div>
 {% endunless %}
-<!--
+
 <div class="text-center" style="margin-top: 30px;">
   <a class="btn btn-info btn-lg" href="/ja/cfp/">私も何か話したい</a>
 </div>
--->
+
 <hr>
 <!--{% include voting_ja.html %}-->
 
 <script src="/js/lodash.min.js"></script>
 <script src="/js/cfp-tag.js"></script>
-

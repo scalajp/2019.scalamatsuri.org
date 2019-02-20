@@ -4,8 +4,8 @@
   title: 開催概要
 # - href: "/#schedule"
 #   title: プログラム
-# - href: "/#tickets"
-#   title: チケット
+- href: "/#tickets"
+  title: チケット
 - href: "/#sp"
   title: スポンサー
 - href: "/notice/"

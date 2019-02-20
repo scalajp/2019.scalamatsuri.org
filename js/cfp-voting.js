@@ -22,12 +22,12 @@ $(function() {
   }
 
   var config = {
-    apiKey: "AIzaSyBiWd1xiM3DJg0Z_fOYTp4tu1qaurMbecs",
-    authDomain: "scalamatsuri-2018-voting.firebaseapp.com",
-    databaseURL: "https://scalamatsuri-2018-voting.firebaseio.com",
-    projectId: "scalamatsuri-2018-voting",
-    storageBucket: "scalamatsuri-2018-voting.appspot.com",
-    messagingSenderId: "739573211191"
+    apiKey: "AIzaSyDUWjurZjk0GfzAYRej78ZW-0JrJJfcUDw",
+    authDomain: "coherent-span-230012.firebaseapp.com",
+    databaseURL: "https://coherent-span-230012.firebaseio.com",
+    projectId: "coherent-span-230012",
+    storageBucket: "coherent-span-230012.appspot.com",
+    messagingSenderId: "158058079324"
   };
   firebase.initializeApp(config);
 
@@ -35,7 +35,7 @@ $(function() {
   var auth     = firebase.auth();
   var database = firebase.database();
 
-  var DEFAULT_SETTINGS = {canVote: false, maxVoting: {'ja': 0, 'en': 0, 'all': 0}};
+  var DEFAULT_SETTINGS = {canVote: true, maxVoting: {'ja': 5, 'en': 5, 'all': 5}};
 
   var settings     = DEFAULT_SETTINGS;
   var userInfo     = {};
@@ -141,19 +141,53 @@ $(function() {
         $('#vote-btn').show();
         $('#unvote-btn').hide();
       }
+
+      //投票済みセッション一覧のソート用に初期化
+      $('.voted-session').show();
+      $('.voted-session-list').empty();
+      $('.voted-session-list').sortable({
+        axis: 'y',
+        update: function(){
+          var order = $(this).sortable('toArray');
+          $.each(order, function(index, sessionId){
+            allVoted[sessionId]['rank'] = index;
+          })
+          database.ref('users/' + user.uid + '/allvoted').set(allVoted);
+        },
+      });
+
+      //投票済みorピン留済みの状態を反映
       $('div.candidate-row').each(function() {
         var self = $(this);
-        if (!!allVoted[self.data('file')]) {
+        var sessionId = self.data('file');
+        if (!!allVoted[sessionId]) {
           self.addClass('voted-candidate');
           self.removeClass('unvoted-candidate');
           self.find('button.unvote-btn').show();
           self.find('button.vote-btn').hide();
+
+          //投票済みセッション一覧への表示
+          var cloned = self.clone(true)
+          cloned.attr('id',sessionId);
+          $('.voted-session-list').append(cloned);
         } else {
           self.removeClass('voted-candidate');
           self.addClass('unvoted-candidate');
           self.find('button.unvote-btn').hide();
           self.find('button.vote-btn').show();
         }
+      });
+
+      //投票済みセッション一覧の表示順を、投票順位に合わせる
+      var voted = $('.voted-session-list > *').get();
+      voted.sort(function(s1,s2){
+        var rank1 = allVoted[$(s1).attr('id')]['rank'];
+        var rank2 = allVoted[$(s2).attr('id')]['rank'];
+        return rank1 - rank2;
+      });
+      $.each(voted, function(i, row){
+        $(row).addClass('no' + i);
+        $('.voted-session-list').append(row);
       });
     });
   }
@@ -174,12 +208,16 @@ $(function() {
       database.ref('users/' + user.uid + '/favorites').set(after);
     }
   }
+
+  //プロポーザル詳細画面でのピン留め
   var addToFavoritesInDetail = function() {
     addToFavorites(extractSessionId());
   }
   var removeFromFavoritesInDetail = function() {
     removeFromFavorites(extractSessionId());
   }
+
+  //プロポーザル一覧画面でのピン留め
   var addToFavoritesInRow = function() {
     var url = $(this).parents('div.candidate-row').find('a').attr('href');
     addToFavorites(extractSessionId(url));
@@ -188,6 +226,7 @@ $(function() {
     var url = $(this).parents('div.candidate-row').find('a').attr('href');
     removeFromFavorites(extractSessionId(url));
   }
+
   var vote = function(sessionId, language, length) {
     var user = auth.currentUser;
     if (!user) return false;
@@ -204,7 +243,8 @@ $(function() {
       return;
     }
     if (!allVoted[sessionId]) {
-      allVoted[sessionId] = {"language": language, "length": length};
+      var rank = Object.keys(allVoted).length;
+      allVoted[sessionId] = {"language": language, "length": length, "rank": rank};
       database.ref('users/' + user.uid + '/allvoted').set(allVoted);
     }
   }
@@ -215,11 +255,20 @@ $(function() {
       alert(messages['canNotVote'][pageLang]);
       return;
     }
-    if (!!allVoted[sessionId]) {
+    var deletedSession = allVoted[sessionId];
+    if (!!deletedSession) {
       delete allVoted[sessionId];
+
+      //投票を取り消したセッションより下位のものがある場合、繰り上げ処理が必要。
+      $.each(allVoted, function(key, value){
+        if(value.rank > deletedSession.rank)
+          allVoted[key].rank = value.rank - 1;
+      });
       database.ref('users/' + user.uid + '/allvoted').set(allVoted);
     }
   }
+
+  //詳細画面での投票
   var voteInDetail = function() {
     var self = $(this);
     vote(extractSessionId(), self.data('language'), self.data('length'));
@@ -227,6 +276,8 @@ $(function() {
   var unvoteInDetail = function() {
     unvote(extractSessionId());
   }
+
+  //一覧画面での投票
   var voteInRow = function() {
     var row = $(this).parents('div.candidate-row');
     vote(row.data('file'), row.data('language'), row.data('length'));

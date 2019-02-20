@@ -65,3 +65,41 @@ button.add-favorites-btn:hover i.fa {
 button.vote-btn:hover i.fa {
   color: #eedd00 !important;
 }
+
+.voted-session-list > * {
+  margin-top: -0.6em;
+  margin-left: 2em;
+}
+
+.voted-session-list > *::before {
+  position: relative;
+  color: white;
+  left: -30px;
+  top: 36px;
+  padding: 0.3em
+}
+
+.voted-session-list .no0::before {
+  content: "1st";
+  background: #DE322F;
+}
+
+.voted-session-list .no1::before {
+  content: "2nd";
+  background: #E35A58;
+}
+
+.voted-session-list .no2::before {
+  content: "3rd";
+  background: #E7706E;
+}
+
+.voted-session-list .no3::before {
+  content: "4th";
+  background: #EB8584;
+}
+
+.voted-session-list .no4::before {
+  content: "5th";
+  background: #EE9B9A;
+}
