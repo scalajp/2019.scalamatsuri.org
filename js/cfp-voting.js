@@ -144,18 +144,20 @@ $(function() {
       }
 
       //投票済みセッション一覧のソート用に初期化
-      $('.voted-session').show();
-      $('.voted-session-list').empty();
-      $('.voted-session-list').sortable({
-        axis: 'y',
-        update: function(){
-          var order = $(this).sortable('toArray');
-          $.each(order, function(index, sessionId){
-            allVoted[sessionId]['rank'] = index;
-          })
-          database.ref('users/' + user.uid + '/allvoted').set(allVoted);
-        },
-      });
+      if(settings.canVote) {
+        $('.voted-session').show();
+        $('.voted-session-list').empty();
+        $('.voted-session-list').sortable({
+          axis: 'y',
+          update: function(){
+            var order = $(this).sortable('toArray');
+            $.each(order, function(index, sessionId){
+              allVoted[sessionId]['rank'] = index;
+            })
+            database.ref('users/' + user.uid + '/allvoted').set(allVoted);
+          },
+        });
+      }
 
       //投票済みorピン留済みの状態を反映
       $('div.candidate-row').each(function() {
@@ -168,9 +170,11 @@ $(function() {
           self.find('button.vote-btn').hide();
 
           //投票済みセッション一覧への表示
-          var cloned = self.clone(true)
-          cloned.attr('id',sessionId);
-          $('.voted-session-list').append(cloned);
+          if(settings.canVote)
+            var cloned = self.clone(true)
+            cloned.attr('id',sessionId);
+            $('.voted-session-list').append(cloned);
+          }
         } else {
           self.removeClass('voted-candidate');
           self.addClass('unvoted-candidate');
