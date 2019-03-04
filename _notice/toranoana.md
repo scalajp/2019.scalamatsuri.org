@@ -3,7 +3,7 @@ title: "株式会社虎の穴"
 logo: "/img/logo/toranoana.svg"
 plan: samurai
 link: "https://yumenosora.co.jp/tora-lab"
-採用サイトはこちら
+linkTitle: "採用サイトはこちら"
 ---
 株式会社虎の穴は同人誌を主に委託販売を行う同人ショップです。  
 全国の主要都市に店舗をおき、通販サイトも運営しております。  
