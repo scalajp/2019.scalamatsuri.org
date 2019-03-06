@@ -19,7 +19,7 @@ Like the above sample decks, please create a black text box to fit **2 lines** i
 
 ## Submit your slides
 
-Please submit your slide decks by February 18th to cfp2018@scalamatsuri.org .
+Please submit your slide decks by May 26th 23:59 [AoE](https://time.is/ja/Anywhere%20on%20Earth) to cfp@scalamatsuri.org .
 
 ScalaMatsuri staff will provide the translation, and also check for Code of Conduct compliance.
 Since the translation will be done based on text, if you could please submit a text file with all the texts along with your slide deck, it would be most appreciated (like a lot)!
