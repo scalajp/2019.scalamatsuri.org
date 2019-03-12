@@ -1,5 +1,6 @@
 ---
 title: Your presentation deck
+layout: default_en
 ---
 
 # Subtitles on your presentation deck
