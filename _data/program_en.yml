@@ -2,3 +2,548 @@ section:
   title: Schedule
   text: Information about this conference session.
   back_to_top: Back to Schedule top
+
+schedule:
+  time: Time
+  template: schedule_en.html
+  party:
+    title: party
+    sponsor: Utage sponsor
+    venue: venue
+    conference: Conference venue
+    seagull: Sky Restaurant SEAGULL
+    seagull_guide_path: /en/seagull
+    seagull_guide: guide to seagull
+    description: Party sponsored by Utage sponsors
+
+day0:
+  date: Thursday, June 27th
+  abstract: Workshop DAY
+  explanation: We plan to hold a workshop for beginners and an OSS hackathon.
+  rooms:
+    c:
+      name: Room C<br>training
+      abbr: Room C
+    d:
+      name: Room D<br>training
+      abbr: Room D
+    e:
+      name: Room E
+      abbr: Room E
+  slots:
+    # 0
+    - time: 13:00 - 13:30
+      rooms:
+        c:
+          title: Registration open
+    # 1
+    - time: 13:30 - 14:10
+      rooms:
+        d:
+          speaker: ""
+        c:
+          speaker: ""
+        e:
+          title:
+    # 2
+    - time: 14:10 - 14:30
+      rooms:
+        c:
+          title: Break
+    # 3
+    - time: 14:30 - 15:10
+      rooms:
+        d:
+          speaker: ""
+        c:
+          speaker: ""
+        e:
+          title:
+    # 4
+    - time: 15:10 - 15:30
+      rooms:
+        c:
+          title: Break
+    # 5
+    - time: 15:30 - 16:10
+      rooms:
+        d:
+          speaker: ""
+        c:
+          speaker: ""
+        e:
+          title:
+    # 6
+    - time: 16:10 - 16:30
+      rooms:
+        c:
+          title: Break
+    # 7
+    - time: 16:30 - 17:10
+      rooms:
+        d:
+          title:
+        c:
+          speaker: ""
+        e:
+          title:
+    # 8
+    - time: 17:10 - 17:30
+      rooms:
+        c:
+          title: Break
+    # 9
+    - time: 17:30 - 18:10
+      rooms:
+        d:
+          title:
+        c:
+          title: ""
+        e:
+          title:
+
+
+day1:
+  date: Friday, June 28th
+  abstract: |
+    Conference DAY
+    in conference format (3 parallel sessions).
+    Doors open at 9:00, scheduled to end at 20:00.
+    Lunch and light refreshment will be served at the party.
+  rooms:
+    a:
+      name: Room A (400 seats; live interpreters)
+      abbr: Room A
+    b:
+      name: Room B (100 seats; live interpreters)
+      abbr: Room B
+    c:
+      name: Room C (100 seats)
+      abbr: Room C
+  slots:
+    # 0
+    - time: 9:00 - 9:50
+      rooms:
+        a:
+          title: Registration open
+    # 1
+    - time: 9:50 - 10:10
+      rooms:
+        a:
+          title: Opening
+    # 2
+    - time: 10:10 - 10:50
+      rooms:
+        a:
+          speaker: SebastienDoeraene_2
+        b:
+          speaker: JoanGoyeau_1
+        c:
+          speaker: MitsuhiroShibuya_1
+    # 3
+    - time: 10:50 - 11:10
+      rooms:
+        a:
+          title: Break
+    # 4
+    - time: 11:10 - 11:50
+      rooms:
+        a:
+          speaker: negokaz_1
+        b:
+          speaker: AlexanderKonovalov_1
+        c:
+          speaker: KazuhiroIchikawa_1
+    # 5
+    - time: 11:50 - 12:10
+      rooms:
+        a:
+          title: Break
+    # 6
+    - time: 12:10 - 12:50
+      rooms:
+        a:
+          speaker: JulienTournay_1
+#        b:
+#          speaker:
+        c:
+          speaker: MotoyasuSaburi_1
+    # 7
+    - time: 12:50 - 13:00
+      rooms:
+        a:
+          title: Break
+        b:
+          title: Lunch
+        c:
+          title: Lunch
+    # 8
+    - time: 13:00 - 13:10
+      rooms:
+        a:
+          speaker: JiroHiraiwa_1
+    # 9
+    - time: 13:10 - 13:15
+      rooms:
+        a:
+          title: Break
+    # 10
+    - time: 13:15 - 13:25
+      rooms:
+        a:
+          speaker: ma2k8_1
+    # 11
+    - time: 13:25 - 13:30
+      rooms:
+        a:
+          title: Break
+    # 12
+    - time: 13:30 - 13:40
+      rooms:
+        a:
+          speaker: YuichiMaekawa_1
+    # 13
+    - time: 13:40 - 14:00
+      rooms:
+        a:
+          title: Break
+    # 14
+    - time: 14:00 - 14:40
+      rooms:
+        a:
+          speaker: kmizu_1
+        b:
+          speaker: PiotrGawrys_1
+        c:
+          speaker: EugeneYokota_2
+    # 15
+    - time: 14:40 - 15:00
+      rooms:
+        a:
+          title: Break
+    # 16
+    - time: 15:00 - 15:40
+      rooms:
+        a:
+          speaker: HirokiFujino_1
+        b:
+          speaker: halcat0x15a_1
+        c:
+          speaker: ShunsukeTadokoro_1
+    # 17
+    - time: 15:40 - 16:00
+      rooms:
+        a:
+          title: Break
+    # 18
+    - time: 16:00 - 16:40
+      rooms:
+        a:
+          speaker: FlavioBrasil_1
+        b:
+          speaker: HungaiAmuhinda_1
+        c:
+          speaker: petitviolet_1
+    # 19
+    - time: 16:40 - 17:00
+      rooms:
+        a:
+          title: Break
+    # 20
+    - time: 17:00 - 17:40
+      rooms:
+        a:
+          speaker: ManabuNakamura_1
+        b:
+          speaker: SahilSawhney_1
+        c:
+          speaker: YoshitakaFujii_1
+    # 21
+    - time: 17:40 - 18:00
+      rooms:
+        a:
+          title: closing + moving
+    # 22
+    - time: 18:00 - 20:00
+      rooms:
+        a:
+          title: Party sponsored by Utage sponsors
+
+day2:
+  date: Saturday, June 29th
+  abstract: |
+    Unconference DAY
+    in unconference format, except for Room A.
+    Doors open at 9:00, and scheduled to end at 18:00.
+    Breakfast and lunch will be served.
+  about: What is unconference?
+  explanation: /ja/unconference/
+  rooms:
+    a:
+      name: Room A<br>(400 seats; live interpreters)
+      abbr: Room A
+    b:
+      name: Room B<br>(100 seats; live interpreters)
+      abbr: Room B
+    c:
+      name: Room C<br>(100 seats)
+      abbr: Room C
+    d:
+      name: Room D
+      abbr: Room D
+    e:
+      name: Room E
+      abbr: Room E
+    f:
+      name: Room F
+      abbr: Room F
+  slots:
+    # 0
+    - time: 9:20 - 10:00
+      rooms:
+        a:
+          title: Breakfast
+
+    # 1
+    - time: 10:00 - 11:00
+      rooms:
+        a:
+          title: Morning assembly (for unconference topics)
+
+    # 2
+    - time: 11:00 - 11:40
+      rooms:
+        a:
+          speaker: TaroLSaito_1
+        b:
+          title: TBD
+          speaker: ""
+          slide: ""
+          youtube: ""
+        c:
+          title: TBD
+          speaker: ""
+          slide: ""
+          youtube: ""
+        d:
+          title: TBD
+          speaker: ""
+          slide: ""
+        e:
+          title: TBD
+          speaker: ""
+          slide: ""
+        f:
+          title: TBD
+          speaker: ""
+          slide: ""
+
+    # 3
+    - time: 11:40 - 12:00
+      rooms:
+        a:
+          title: Break
+
+    # 4
+    - time: 12:00 - 12:40
+      rooms:
+        a:
+          speaker: tanishiking_1
+        b:
+          title: TBD
+          speaker: ""
+          slide: ""
+        c:
+          title: TBD
+          speaker: ""
+          slide: ""
+        d:
+          title: TBD
+          speaker: ""
+          slide: ""
+        e:
+          title: TBD
+          speaker: ""
+          slide: ""
+        f:
+          title: TBD
+          speaker: ""
+          slide: ""
+
+    # 5
+    - time: 12:40 - 13:10
+      rooms:
+        a:
+          title: Lunch
+
+    # 6
+    - time: 13:10 - 13:50
+      rooms:
+        a:
+          speaker: LarsHupel_2
+        b:
+          title: TBD
+          speaker: ""
+          slide: ""
+          youtube: ""
+        c:
+          title: TBD
+          speaker: ""
+          slide: ""
+        d:
+          title: TBD
+          speaker: ""
+          slide: ""
+        e:
+          title: TBD
+          speaker: ""
+          slide: ""
+        f:
+          title: TBD
+          speaker: ""
+          slide: ""
+
+    # 7
+    - time: 13:50 - 14:00
+      rooms:
+        a:
+          title: Break
+
+    # 8
+    - time: 14:00 - 14:40
+      rooms:
+        a:
+          speaker: MichalPlachta_1
+        b:
+          title: TBD
+          speaker: ""
+          slide: ""
+          youtube: ""
+        c:
+          title: TBD
+          speaker:
+          slide: ""
+        d:
+          title: TBD
+          speaker: ""
+          slide: ""
+        e:
+          title: TBD
+          speaker: ""
+          slide: ""
+        f:
+          title: TBD
+          speaker: ""
+          slide: ""
+
+    # 9
+    - time: 14:40 - 15:00
+      rooms:
+        a:
+          title: Break
+
+    # 10
+    - time: 15:00 - 15:40
+      rooms:
+#        a:
+#          title: TBD
+#          speaker: ""
+#          slide: ""
+#          youtube: ""
+        b:
+          title: TBD
+          speaker: ""
+          slide: ""
+          youtube: ""
+        c:
+          title: TBD
+          speaker: ""
+          slide: ""
+        d:
+          title: TBD
+          speaker: ""
+          slide: ""
+        e:
+          title: TBD
+          speaker: ""
+          slide: ""
+        f:
+          title: TBD
+          speaker: ""
+          slide: ""
+
+    # 11
+    - time: 15:40 - 16:00
+      rooms:
+        a:
+          title: Break
+
+    # 12
+    - time: 16:00 - 16:40
+      rooms:
+        a:
+          speaker: JunichiKato_1
+        b:
+          title: TBD
+          speaker: ""
+          slide: ""
+          youtube: ""
+        c:
+          title: TBD
+          speaker: ""
+          slide: ""
+        d:
+          title: TBD
+          speaker: ""
+          slide: ""
+        e:
+          title: TBD
+          speaker: ""
+          slide: ""
+        f:
+          title: TBD
+          speaker: ""
+          slide: ""
+
+    # 13
+    - time: 16:40 - 17:00
+      rooms:
+        a:
+          title: Break
+
+    # 14
+    - time: 17:00 - 17:40
+      rooms:
+#        a:
+#          title: TBD
+#          speaker:
+#          slide: ""
+#          youtube: ""
+        b:
+          title: TBD
+          speaker:
+          slide: ""
+          youtube: ""
+        c:
+          title: TBD
+          speaker:
+          slide: ""
+          youtube: ""
+        d:
+          title: TBD
+          speaker:
+          slide: ""
+        e:
+          title: TBD
+          speaker:
+          slide: ""
+        f:
+          title: TBD
+          speaker:
+          slide: ""
+
+    # 15
+    - time: 17:40 - 18:00
+      rooms:
+        a:
+          title: Closing

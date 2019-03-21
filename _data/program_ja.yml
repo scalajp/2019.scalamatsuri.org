@@ -2,3 +2,546 @@ section:
   title: プログラム
   text: 本カンファレスのセッションについての情報です。
   back_to_top: プログラムトップへ戻る
+
+schedule:
+  time: 時間
+  template: schedule_ja.html
+  party:
+    title: 懇親会
+    sponsor: 宴スポンサー
+    venue: 会場
+    conference: カンファレンス会場
+    seagull: スカイレストラン「シーガル」
+    seagull_guide_path: /ja/seagull
+    seagull_guide: 会場への道案内はこちら
+    description: 宴スポンサー協賛による懇親会
+
+day0:
+  date: 6月27日 (木曜日)
+  abstract: ワークショップ DAY
+  explanation: 初心者向けワークショップ、およびOSSハッカソンの開催を予定しています。
+  rooms:
+    c:
+      name: 会場C<br>トレーニング
+      abbr: 会場C
+    d:
+      name: 会場D<br>トレーニング
+      abbr: 会場D
+    e:
+      name: 会場E
+      abbr: 会場E
+  slots:
+    # 0
+    - time: 13:00 - 13:30
+      rooms:
+        c:
+          title: 受付開始
+    # 1
+    - time: 13:30 - 14:10
+      rooms:
+        d:
+          speaker: ""
+        c:
+          speaker: ""
+        e:
+          title:
+    # 2
+    - time: 14:10 - 14:30
+      rooms:
+        c:
+          title: 休憩
+    # 3
+    - time: 14:30 - 15:10
+      rooms:
+        d:
+          speaker: ""
+        c:
+          speaker: ""
+        e:
+          title:
+    # 4
+    - time: 15:10 - 15:30
+      rooms:
+        c:
+          title: 休憩
+    # 5
+    - time: 15:30 - 16:10
+      rooms:
+        d:
+          speaker: ""
+        c:
+          speaker: ""
+        e:
+          title:
+    # 6
+    - time: 16:10 - 16:30
+      rooms:
+        c:
+          title: 休憩
+    # 7
+    - time: 16:30 - 17:10
+      rooms:
+        d:
+          title:
+        c:
+          speaker: ""
+        e:
+          title:
+    # 8
+    - time: 17:10 - 17:30
+      rooms:
+        c:
+          title: 休憩
+    # 9
+    - time: 17:30 - 18:10
+      rooms:
+        d:
+          title:
+        c:
+          title: ""
+        e:
+          title:
+
+
+day1:
+  date: 6月28日 (金曜日)
+  abstract: |
+    カンファレンス DAY
+    カンファレンス形式(3パラレルセッション) 9時00分入場開始 20時終了予定。
+    昼食および懇親会での軽食をご用意しています。
+  rooms:
+    a:
+      name: 会場A (400席; 通訳付き)
+      abbr: 会場A
+    b:
+      name: 会場B (100席; 通訳付き)
+      abbr: 会場B
+    c:
+      name: 会場C (100席)
+      abbr: 会場C
+  slots:
+    # 0
+    - time: 9:00 - 9:50
+      rooms:
+        a:
+          title: 受付開始
+    # 1
+    - time: 9:50 - 10:10
+      rooms:
+        a:
+          title: オープニング
+    # 2
+    - time: 10:10 - 10:50
+      rooms:
+        a:
+          speaker: SebastienDoeraene_2
+        b:
+          speaker: JoanGoyeau_1
+        c:
+          speaker: MitsuhiroShibuya_1
+    # 3
+    - time: 10:50 - 11:10
+      rooms:
+        a:
+          title: 休憩
+    # 4
+    - time: 11:10 - 11:50
+      rooms:
+        a:
+          speaker: negokaz_1
+        b:
+          speaker: AlexanderKonovalov_1
+        c:
+          speaker: KazuhiroIchikawa_1
+    # 5
+    - time: 11:50 - 12:10
+      rooms:
+        a:
+          title: 休憩
+    # 6
+    - time: 12:10 - 12:50
+      rooms:
+        a:
+          speaker: JulienTournay_1
+#        b:
+#          speaker:
+        c:
+          speaker: MotoyasuSaburi_1
+    # 7
+    - time: 12:50 - 13:00
+      rooms:
+        a:
+          title: 休憩
+        b:
+          title: ランチ
+        c:
+          title: ランチ
+    # 8
+    - time: 13:00 - 13:10
+      rooms:
+        a:
+          speaker: JiroHiraiwa_1
+    # 9
+    - time: 13:10 - 13:15
+      rooms:
+        a:
+          title: 休憩
+    # 10
+    - time: 13:15 - 13:25
+      rooms:
+        a:
+          speaker: ma2k8_1
+    # 11
+    - time: 13:25 - 13:30
+      rooms:
+        a:
+          title: 休憩
+    # 12
+    - time: 13:30 - 13:40
+      rooms:
+        a:
+          speaker: YuichiMaekawa_1
+    # 13
+    - time: 13:40 - 14:00
+      rooms:
+        a:
+          title: 休憩
+    # 14
+    - time: 14:00 - 14:40
+      rooms:
+        a:
+          speaker: kmizu_1
+        b:
+          speaker: PiotrGawrys_1
+        c:
+          speaker: EugeneYokota_2
+    # 15
+    - time: 14:40 - 15:00
+      rooms:
+        a:
+          title: 休憩
+    # 16
+    - time: 15:00 - 15:40
+      rooms:
+        a:
+          speaker: HirokiFujino_1
+        b:
+          speaker: halcat0x15a_1
+        c:
+          speaker: ShunsukeTadokoro_1
+    # 17
+    - time: 15:40 - 16:00
+      rooms:
+        a:
+          title: 休憩
+    # 18
+    - time: 16:00 - 16:40
+      rooms:
+        a:
+          speaker: FlavioBrasil_1
+        b:
+          speaker: HungaiAmuhinda_1
+        c:
+          speaker: petitviolet_1
+    # 19
+    - time: 16:40 - 17:00
+      rooms:
+        a:
+          title: 休憩
+    # 20
+    - time: 17:00 - 17:40
+      rooms:
+        a:
+          speaker: ManabuNakamura_1
+        b:
+          speaker: SahilSawhney_1
+        c:
+          speaker: YoshitakaFujii_1
+    # 21
+    - time: 17:40 - 18:00
+      rooms:
+        a:
+          title: 挨拶 + 移動
+    # 22
+    - time: 18:00 - 20:00
+      rooms:
+        a:
+          title: 宴スポンサー協賛による懇親会
+
+day2:
+  date: 6月29日 (土曜日)
+  abstract: |
+    アンカンファレンス DAY
+    ただし会場Aはカンファレンス形式 9時00分入場開始 18:00時終了予定。
+    朝食と昼食をご用意しています。
+  about: アンカンファレンスとは?
+  explanation: /ja/unconference/
+  rooms:
+    a:
+      name: 会場A<br>(400席; 通訳付き)
+      abbr: 会場A
+    b:
+      name: 会場B<br>(100席; 通訳付き)
+      abbr: 会場B
+    c:
+      name: 会場C<br>(100席)
+      abbr: 会場C
+    d:
+      name: 会場D
+      abbr: 会場D
+    e:
+      name: 会場E
+      abbr: 会場E
+    f:
+      name: 会場F
+      abbr: 会場F
+  slots:
+    # 0
+    - time: 9:20 - 10:00
+      rooms:
+        a:
+          title: 朝食
+
+    # 1
+    - time: 10:00 - 11:00
+      rooms:
+        a:
+          title: 朝会 (アンカンファレンスのネタ出し)
+
+    # 2
+    - time: 11:00 - 11:40
+      rooms:
+        a:
+          speaker: TaroLSaito_1
+        b:
+          title: TBD
+          speaker: ""
+          slide: ""
+          youtube: ""
+        c:
+          title: TBD
+          speaker: ""
+          slide: ""
+          youtube: ""
+        d:
+          title: TBD
+          speaker: ""
+          slide: ""
+        e:
+          title: TBD
+          speaker: ""
+          slide: ""
+        f:
+          title: TBD
+          speaker: ""
+          slide: ""
+
+    # 3
+    - time: 11:40 - 12:00
+      rooms:
+        a:
+          title: 休憩
+
+    # 4
+    - time: 12:00 - 12:40
+      rooms:
+        a:
+          speaker: tanishiking_1
+        b:
+          title: TBD
+          speaker: ""
+          slide: ""
+        c:
+          title: TBD
+          speaker: ""
+          slide: ""
+        d:
+          title: TBD
+          speaker: ""
+          slide: ""
+        e:
+          title: TBD
+          speaker: ""
+          slide: ""
+        f:
+          title: TBD
+          speaker: ""
+          slide: ""
+
+    # 5
+    - time: 12:40 - 13:10
+      rooms:
+        a:
+          title: 昼食
+
+    # 6
+    - time: 13:10 - 13:50
+      rooms:
+        a:
+          speaker: LarsHupel_2
+        b:
+          title: TBD
+          speaker: ""
+          slide: ""
+          youtube: ""
+        c:
+          title: TBD
+          speaker: ""
+          slide: ""
+        d:
+          title: TBD
+          speaker: ""
+          slide: ""
+        e:
+          title: TBD
+          speaker: ""
+          slide: ""
+        f:
+          title: TBD
+          speaker: ""
+          slide: ""
+
+    # 7
+    - time: 13:50 - 14:00
+      rooms:
+        a:
+          title: 休憩
+
+    # 8
+    - time: 14:00 - 14:40
+      rooms:
+        a:
+          speaker: MichalPlachta_1
+        b:
+          title: TBD
+          speaker: ""
+          slide: ""
+          youtube: ""
+        c:
+          title: TBD
+          speaker:
+          slide: ""
+        d:
+          title: TBD
+          speaker: ""
+          slide: ""
+        e:
+          title: TBD
+          speaker: ""
+          slide: ""
+        f:
+          title: TBD
+          speaker: ""
+          slide: ""
+
+    # 9
+    - time: 14:40 - 15:00
+      rooms:
+        a:
+          title: 休憩
+
+    # 10
+    - time: 15:00 - 15:40
+      rooms:
+#        a:
+#          title: TBD
+#          speaker: ""
+#          slide: ""
+#          youtube: ""
+        b:
+          title: TBD
+          speaker: ""
+          slide: ""
+          youtube: ""
+        c:
+          title: TBD
+          speaker: ""
+          slide: ""
+        d:
+          title: TBD
+          speaker: ""
+          slide: ""
+        e:
+          title: TBD
+          speaker: ""
+          slide: ""
+        f:
+          title: TBD
+          speaker: ""
+          slide: ""
+
+    # 11
+    - time: 15:40 - 16:00
+      rooms:
+        a:
+          title: 休憩
+
+    # 12
+    - time: 16:00 - 16:40
+      rooms:
+        a:
+          speaker: JunichiKato_1
+        b:
+          title: TBD
+          speaker: ""
+          slide: ""
+          youtube: ""
+        c:
+          title: TBD
+          speaker: ""
+          slide: ""
+        d:
+          title: TBD
+          speaker: ""
+          slide: ""
+        e:
+          title: TBD
+          speaker: ""
+          slide: ""
+        f:
+          title: TBD
+          speaker: ""
+          slide: ""
+
+    # 13
+    - time: 16:40 - 17:00
+      rooms:
+        a:
+          title: 休憩
+
+    # 14
+    - time: 17:00 - 17:40
+      rooms:
+#        a:
+#          title: TBD
+#          speaker:
+#          slide: ""
+#          youtube: ""
+        b:
+          title: TBD
+          speaker:
+          slide: ""
+          youtube: ""
+        c:
+          title: TBD
+          speaker:
+          slide: ""
+          youtube: ""
+        d:
+          title: TBD
+          speaker:
+          slide: ""
+        e:
+          title: TBD
+          speaker:
+          slide: ""
+        f:
+          title: TBD
+          speaker:
+          slide: ""
+
+    # 15
+    - time: 17:40 - 18:00
+      rooms:
+        a:
+          title: クロージング + 挨拶

@@ -2,7 +2,7 @@
 {% assign day1 = include.program.day1 %}
 
 <div class="programDailyTable" id="day1table">
-  <h3 id="day1">{{ day1.date }}</h3>
+  <h3 id="conference-day">{{ day1.date }}</h3>
   <p class="txtAbstract">
     {{ day1.abstract }}
   </p>
@@ -62,7 +62,7 @@
         {% capture speaker %}{{ day1.slots[4].rooms.a.speaker }}{% endcapture %}
         {% include {{template}} id=speaker %}
       </td>
-      <td class="day1RoomB">
+      <td class="day1RoomB" rowspan="3">
         {% capture speaker %}{{ day1.slots[4].rooms.b.speaker }}{% endcapture %}
         {% include {{template}} id=speaker %}
       </td>
@@ -74,17 +74,14 @@
     <!--slot5-->
     <tr>
       <th>{{ day1.slots[5].time }}</th>
-      <td colspan="3">{{ day1.slots[5].rooms.a.title }}</td>
+      <td class="day1RoomA">{{ day1.slots[5].rooms.a.title }}</td>
+      <td class="day1RoomC">{{ day1.slots[5].rooms.a.title }}</td>
     </tr>
     <!-- slot6 -->
     <tr>
       <th>{{ day1.slots[6].time }}</th>
       <td class="day1RoomA">
         {% capture speaker %}{{ day1.slots[6].rooms.a.speaker }}{% endcapture %}
-        {% include {{template}} id=speaker %}
-      </td>
-      <td class="day1RoomB">
-        {% capture speaker %}{{ day1.slots[6].rooms.b.speaker }}{% endcapture %}
         {% include {{template}} id=speaker %}
       </td>
       <td class="day1RoomC">
@@ -141,7 +138,7 @@
     <!--slot14-->
     <tr>
       <th>{{ day1.slots[14].time }}</th>
-      <td class="day1RoomA" rowspan="3">
+      <td class="day1RoomA">
         {% capture speaker %}{{ day1.slots[14].rooms.a.speaker }}{% endcapture %}
         {% include {{template}} id=speaker %}
       </td>
@@ -157,15 +154,15 @@
     <!-- slot15 -->
     <tr>
       <th>{{ day1.slots[15].time }}</th>
-      <td class="day1RoomB" colspan="2">{{ day1.slots[15].rooms.a.title }}</td>
+      <td colspan="3">{{ day1.slots[15].rooms.a.title }}</td>
     </tr>
     <!--slot16-->
     <tr>
       <th>{{ day1.slots[16].time }}</th>
-      <!--<td class="day1RoomA">-->
-      <!--{% capture speaker %}{{ day1.slots[16].rooms.a.speaker }}{% endcapture %}-->
-      <!--{% include {{template}} id=speaker %}-->
-      <!--</td>-->
+      <td class="day1RoomA">
+        {% capture speaker %}{{ day1.slots[16].rooms.a.speaker }}{% endcapture %}
+        {% include {{template}} id=speaker %}
+      </td>
       <td class="day1RoomB">
         {% capture speaker %}{{ day1.slots[16].rooms.b.speaker }}{% endcapture %}
         {% include {{template}} id=speaker %}
