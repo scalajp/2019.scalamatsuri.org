@@ -2,8 +2,8 @@
 #   title: セッション募集
 - href: "/#info"
   title: 開催概要
-# - href: "/#schedule"
-#   title: プログラム
+- href: "/#schedule"
+  title: プログラム
 - href: "/#tickets"
   title: チケット
 - href: "/#sp"
