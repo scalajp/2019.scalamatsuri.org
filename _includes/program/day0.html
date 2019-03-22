@@ -2,10 +2,19 @@
 {% assign day0 = include.program.day0 %}
 
 <div class="programDailyTable" id="day0Table">
-  <h3 id="day0">{{ day0.date }}</h3>
+  <h3 id="workshop-day">{{ day0.date }}</h3>
   <p class="txtAbstract">
     {{ day0.abstract }}
   </p>
+
+  <article>
+    <div class="pdogTop">
+      <p>{{ day0.explanation }}</p>
+    </div>
+  </article>
+
+  <!-- TODO 詳細が決まり次第 -->
+  {% comment %}
   <nav class="navLinks day0roomswitch" style="display: none;">
     <ul class="clearfix">
       <li id="day0Switch1"><span>{{ day0.rooms.c.abbr }}</span></li>
@@ -127,6 +136,7 @@
         {% include program/slot.html title=title %}
       </td>
     </tr>
-
   </table>
+  {% endcomment %}
+
 </div>
