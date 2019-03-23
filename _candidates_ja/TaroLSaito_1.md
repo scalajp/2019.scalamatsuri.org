@@ -1,7 +1,7 @@
 ---
-name: 斉藤 太郎
-title: "仕事でScalaを使おう"
-length: 90
+name: Taro L. Saito
+title: "仕事でScalaを使おう - Arm Treasure DataでのAirframe活用事例"
+length: 40
 audience: Intermediate
 language: Japanese
 twitter: taroleo
@@ -21,6 +21,4 @@ speaker_experience:
   - Scala Matsuri, SIGMOD (データベース国際会議)、Presto Meetupなど。
   - "過去の発表資料: <a href='https://www.slideshare.net/taroleo/presentations'>https://www.slideshare.net/taroleo/presentations</a>"
 ---
-Scalaを使ってみたいけれど、どう導入して良いかわからない？上司や周りのエンジニアを説得するには？ Scalaエンジニアが社内にいない状態から、プロダクション開発でScala使うにまでに至った経緯をArm Treasure Dataでのプロジェクトの実例をもとに紹介していきます。
-
-後半はScala開発での知見を凝集したライブラリであるAirframeをベースに、Scalaを使って短期間で実用的なシステムを作るまでのチュートリアルを行います。このようなオープンソースエコシステムを活用して、Scala資産を上手に貯めて運用していく手助けになれば幸いです。
+Scalaを使ってみたいけれど、どう導入して良いかわからない？上司や周りのエンジニアを説得するには？ Arm Treasure Dataでは、Scalaのコード資産やデザインパターンをOSSプロジェクトであるAirframeに貯めて運用する戦略を取ることで、Scalaエンジニアがいない状態から、プロダクションで安定的にScalaを使うまでに至りました。このセッションでは、Airframeを活用して短期間で実用的なシステムを作るためのノウハウを、社内のScalaプロジェクトの事例とともに紹介していきます。
