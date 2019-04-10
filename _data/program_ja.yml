@@ -214,7 +214,7 @@ day1:
         b:
           speaker: PiotrGawrys_1
         c:
-          speaker: EugeneYokota_2
+          speaker: ShunsukeTadokoro_1
     # 15
     - time: 14:40 - 15:00
       rooms:
@@ -228,7 +228,7 @@ day1:
         b:
           speaker: halcat0x15a_1
         c:
-          speaker: ShunsukeTadokoro_1
+          speaker: KojiAGAWA_1
     # 17
     - time: 15:40 - 16:00
       rooms:
@@ -240,7 +240,7 @@ day1:
         a:
           speaker: FlavioBrasil_1
         b:
-          speaker: HungaiAmuhinda_1
+          speaker: EugeneYokota_2
         c:
           speaker: petitviolet_1
     # 19
