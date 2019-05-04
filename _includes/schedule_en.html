@@ -73,13 +73,13 @@
 <a href="https://twitter.com/{{ candidate.twitter }}">@{{ candidate.twitter }}</a>
 {% endif %}
 <span class="session_details">
-  {% if candidate.language == "Japanese" %}J
-  {% elsif candidate.language == "English" %}E
-  {% else %}E/J
-  {% endif %}
-  {% if candidate.audience == "Beginner" %}+
-  {% elsif candidate.audience == "Intermediate" %}++
-  {% else %}+++
+  {% if candidate.language == "Japanese" %}Japanese
+  {% elsif candidate.language == "English" %}English
+  {% else %}English/Japanese
+  {% endif %},&nbsp;
+  {% if candidate.audience == "Beginner" %}Beginner
+  {% elsif candidate.audience == "Intermediate" %}Intermediate
+  {% else %}Advanced
   {% endif %}
 </span>
 <div>
