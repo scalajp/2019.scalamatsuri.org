@@ -61,5 +61,7 @@ plans:
 doorkeeper:
   event:
     id: "86688"
-  day0:
-    id: ""
+  scala_bridge:
+    id: "91205"
+  scala_classroom:
+    id: "91443"

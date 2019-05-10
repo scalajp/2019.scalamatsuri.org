@@ -22,10 +22,10 @@ day0:
   explanation: We plan to hold a workshop for beginners and an OSS hackathon.
   rooms:
     c:
-      name: Room C<br>training
+      name: Room C
       abbr: Room C
     d:
-      name: Room D<br>training
+      name: Room D
       abbr: Room D
     e:
       name: Room E
@@ -39,68 +39,12 @@ day0:
     # 1
     - time: 13:30 - 14:10
       rooms:
+        c:
+          title: Scala classroom
         d:
-          speaker: ""
-        c:
-          speaker: ""
-        e:
-          title:
-    # 2
-    - time: 14:10 - 14:30
-      rooms:
-        c:
-          title: Break
-    # 3
-    - time: 14:30 - 15:10
-      rooms:
-        d:
-          speaker: ""
-        c:
-          speaker: ""
-        e:
-          title:
-    # 4
-    - time: 15:10 - 15:30
-      rooms:
-        c:
-          title: Break
-    # 5
-    - time: 15:30 - 16:10
-      rooms:
-        d:
-          speaker: ""
-        c:
-          speaker: ""
-        e:
-          title:
-    # 6
-    - time: 16:10 - 16:30
-      rooms:
-        c:
-          title: Break
-    # 7
-    - time: 16:30 - 17:10
-      rooms:
-        d:
-          title:
-        c:
-          speaker: ""
-        e:
-          title:
-    # 8
-    - time: 17:10 - 17:30
-      rooms:
-        c:
-          title: Break
-    # 9
-    - time: 17:30 - 18:10
-      rooms:
-        d:
-          title:
-        c:
           title: ""
         e:
-          title:
+          title: OSS Hackathon
 
 
 day1:
@@ -278,6 +222,12 @@ day2:
     Breakfast and lunch will be served.
   about: What is unconference?
   explanation: /ja/unconference/
+  scala_bridge:
+    abstract: |
+      <a href="http://www.scalabridge.org/">ScalaBridge</a> is a workshop program held overseas as a workshop for women and minority engineers.
+    ticket:
+      - Apply from
+      - here
   rooms:
     a:
       name: Room A<br>(400 seats; live interpreters)
@@ -297,6 +247,9 @@ day2:
     f:
       name: Room F
       abbr: Room F
+    g:
+      name: Room G
+      abbr: Room G
   slots:
     # 0
     - time: 9:20 - 10:00
