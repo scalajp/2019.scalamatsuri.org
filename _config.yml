@@ -65,3 +65,5 @@ doorkeeper:
     id: "91205"
   scala_classroom:
     id: "91443"
+  oss_hackathon:
+    id: "91355"

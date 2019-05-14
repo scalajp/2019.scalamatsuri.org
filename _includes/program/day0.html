@@ -34,10 +34,11 @@
         </a>
       </td>
       <td class="day0RoomD">
-        {% capture title %}{{ day0.slots[1].rooms.e.title }}{% endcapture %}
-        {% include program/slot.html title=title %}
+        <a class="doorkeeper-registration-widget"
+           href="https://scalaconfjp.doorkeeper.jp/events/{{ site.doorkeeper.oss_hackathon.id }}">
+          {{ day0.slots[1].rooms.e.title }}
+        </a>
       </td>
     </tr>
   </table>
-
 </div>
