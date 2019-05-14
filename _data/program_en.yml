@@ -224,7 +224,7 @@ day2:
   explanation: /ja/unconference/
   scala_bridge:
     abstract: |
-      <a href="http://www.scalabridge.org/">ScalaBridge</a> is a workshop program held overseas as a workshop for women and minority engineers.
+      <a href="http://www.scalabridge.org/">ScalaBridge</a> Tokyo is an introductory Scala programming workshop for women and engineers from all underrepresented background (race, gender, age etc) to build more inclusive Scala community.
     ticket:
       - Apply from
       - here
