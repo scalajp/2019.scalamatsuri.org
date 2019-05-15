@@ -22,10 +22,10 @@ day0:
   explanation: 初心者向けワークショップ、およびOSSハッカソンの開催を予定しています。
   rooms:
     c:
-      name: 会場C<br>トレーニング
+      name: 会場C
       abbr: 会場C
     d:
-      name: 会場D<br>トレーニング
+      name: 会場D
       abbr: 会場D
     e:
       name: 会場E
@@ -37,70 +37,14 @@ day0:
         c:
           title: 受付開始
     # 1
-    - time: 13:30 - 14:10
+    - time: 13:30 - 18:10
       rooms:
+        c:
+          title: お絵かきで学ぶScala教室
         d:
-          speaker: ""
-        c:
-          speaker: ""
-        e:
-          title:
-    # 2
-    - time: 14:10 - 14:30
-      rooms:
-        c:
-          title: 休憩
-    # 3
-    - time: 14:30 - 15:10
-      rooms:
-        d:
-          speaker: ""
-        c:
-          speaker: ""
-        e:
-          title:
-    # 4
-    - time: 15:10 - 15:30
-      rooms:
-        c:
-          title: 休憩
-    # 5
-    - time: 15:30 - 16:10
-      rooms:
-        d:
-          speaker: ""
-        c:
-          speaker: ""
-        e:
-          title:
-    # 6
-    - time: 16:10 - 16:30
-      rooms:
-        c:
-          title: 休憩
-    # 7
-    - time: 16:30 - 17:10
-      rooms:
-        d:
-          title:
-        c:
-          speaker: ""
-        e:
-          title:
-    # 8
-    - time: 17:10 - 17:30
-      rooms:
-        c:
-          title: 休憩
-    # 9
-    - time: 17:30 - 18:10
-      rooms:
-        d:
-          title:
-        c:
           title: ""
         e:
-          title:
+          title: OSSハッカソン
 
 
 day1:
@@ -276,6 +220,12 @@ day2:
     朝食と昼食をご用意しています。
   about: アンカンファレンスとは?
   explanation: /ja/unconference/
+  scala_bridge:
+    abstract: |
+      <a href="http://www.scalabridge.org/">ScalaBridge</a>は、女性やマイノリティのエンジニア向けのワークショップとして海外で開催されてきたワークショッププログラムです。
+    ticket:
+      - 申し込みは
+      - コチラから
   rooms:
     a:
       name: 会場A<br>(400席; 通訳付き)
@@ -295,6 +245,9 @@ day2:
     f:
       name: 会場F
       abbr: 会場F
+    g:
+      name: 会場G
+      abbr: 会場G
   slots:
     # 0
     - time: 9:20 - 10:00

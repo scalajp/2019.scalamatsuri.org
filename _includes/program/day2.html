@@ -9,6 +9,9 @@
   <p class="txtUnconference">
     <a href="{{ day2.explanation }}">{{ day2.about }}</a>
   </p>
+  <p class="txtAbstract">
+    {{ day2.scala_bridge.abstract }}
+  </p>
   <nav class="navLinks day2roomswitch" style="display: none;">
     <ul class="clearfix">
       <li id="day2Switch1"><span>{{ day2.rooms.a.abbr }}</span></li>
@@ -17,6 +20,7 @@
       <li id="day2Switch4"><span>{{ day2.rooms.d.abbr }}</span></li>
       <li id="day2Switch5"><span>{{ day2.rooms.e.abbr }}</span></li>
       <li id="day2Switch6"><span>{{ day2.rooms.f.abbr }}</span></li>
+      <li id="day2Switch7"><span>{{ day2.rooms.g.abbr }}</span></li>
     </ul>
   </nav>
   <table class="programTable space1area">
@@ -28,11 +32,12 @@
       <th class="day2RoomD day2RoomWidth">{{ day2.rooms.d.name }}</th>
       <th class="day2RoomE day2RoomWidth">{{ day2.rooms.e.name }}</th>
       <th class="day2RoomF day2RoomWidth">{{ day2.rooms.f.name }}</th>
+      <th class="day2RoomG day2RoomWidth">{{ day2.rooms.g.name }}</th>
     </tr>
     <!--slot0-->
     <tr>
       <th>{{ day2.slots[0].time }}</th>
-      <td colspan="6">{{ day2.slots[0].rooms.a.title }}</td>
+      <td class="day2RoomA" colspan="7">{{ day2.slots[0].rooms.a.title }}</td>
     </tr>
     <!--slot1-->
     <tr>
@@ -40,11 +45,12 @@
       <td class="day2RoomA">
         {{ day2.slots[1].rooms.a.title }}
       </td>
-      <td class="day2RoomB">&nbsp;</td>
-      <td class="day2RoomC">&nbsp;</td>
-      <td class="day2RoomD">&nbsp;</td>
-      <td class="day2RoomE">&nbsp;</td>
-      <td class="day2RoomF">&nbsp;</td>
+      <td class="day2RoomB">-</td>
+      <td class="day2RoomC">-</td>
+      <td class="day2RoomD">-</td>
+      <td class="day2RoomE">-</td>
+      <td class="day2RoomF">-</td>
+      <td class="day2RoomG" rowspan="5">-</td>
     </tr>
     <!--slot2-->
     <tr>
@@ -92,7 +98,7 @@
     <!--slot3-->
     <tr>
       <th>{{ day2.slots[3].time }}</th>
-      <td colspan="6">{{ day2.slots[3].rooms.a.title }}</td>
+      <td class="day2RoomA" colspan="6">{{ day2.slots[3].rooms.a.title }}</td>
     </tr>
     <!--slot4-->
     <tr>
@@ -140,7 +146,7 @@
     <!--slot5-->
     <tr>
       <th>{{ day2.slots[5].time }}</th>
-      <td colspan="6">{{ day2.slots[5].rooms.a.title }}</td>
+      <td class="day2RoomA" colspan="6">{{ day2.slots[5].rooms.a.title }}</td>
     </tr>
     <!--slot6-->
     <tr>
@@ -184,11 +190,20 @@
         {% capture youtube %}{{ day2.slots[6].rooms.f.youtube }}{% endcapture %}
         {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
       </td>
+      <td class="day2RoomG" rowspan="9">
+        <p>ScalaBridge Tokyo</p>
+        <p>
+          {{ day2.scala_bridge.ticket[0] }}
+          <a href="https://scalaconfjp.doorkeeper.jp/events/{{ site.doorkeeper.scala_bridge.id }}">
+            {{ day2.scala_bridge.ticket[1] }}
+          </a>
+        </p>
+      </td>
     </tr>
     <!--slot7-->
     <tr>
       <th>{{ day2.slots[7].time }}</th>
-      <td colspan="6">{{ day2.slots[7].rooms.a.title }}</td>
+      <td class="day2RoomA" colspan="6">{{ day2.slots[7].rooms.a.title }}</td>
     </tr>
     <!--slot8-->
     <tr>
@@ -287,7 +302,7 @@
     <!--slot11-->
     <tr>
       <th>{{ day2.slots[11].time }}</th>
-      <td colspan="6">{{ day2.slots[11].rooms.a.title }}</td>
+      <td class="day2RoomA" colspan="6">{{ day2.slots[11].rooms.a.title }}</td>
     </tr>
     <!--slot12-->
     <tr>
@@ -394,6 +409,7 @@
       <td class="day2RoomD">&nbsp;</td>
       <td class="day2RoomE">&nbsp;</td>
       <td class="day2RoomF">&nbsp;</td>
+      <td class="day2RoomG">&nbsp;</td>
     </tr>
   </table>
 </div>

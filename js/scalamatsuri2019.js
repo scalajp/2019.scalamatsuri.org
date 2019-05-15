@@ -33,9 +33,9 @@ scalamatsuri.displayDescription = function (id, raw) {
 $(document).ready(function () {
 
   var rooms = [
-    {name: "day0", maxNo: 3, firstRoom: "C"},
+    {name: "day0", maxNo: 2, firstRoom: "C"},
     {name: "day1", maxNo: 3, firstRoom: "A"},
-    {name: "day2", maxNo: 6, firstRoom: "A"}
+    {name: "day2", maxNo: 7, firstRoom: "A"}
   ];
 
   /**

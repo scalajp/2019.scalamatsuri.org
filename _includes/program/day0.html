@@ -6,137 +6,39 @@
   <p class="txtAbstract">
     {{ day0.abstract }}
   </p>
-
-  <article>
-    <div class="pdogTop">
-      <p>{{ day0.explanation }}</p>
-    </div>
-  </article>
-
-  <!-- TODO 詳細が決まり次第 -->
-  {% comment %}
   <nav class="navLinks day0roomswitch" style="display: none;">
     <ul class="clearfix">
       <li id="day0Switch1"><span>{{ day0.rooms.c.abbr }}</span></li>
-      <li id="day0Switch2"><span>{{ day0.rooms.d.abbr }}</span></li>
-      <li id="day0Switch3"><span>{{ day0.rooms.e.abbr }}</span></li>
+      <li id="day0Switch2"><span>{{ day0.rooms.e.abbr }}</span></li>
     </ul>
   </nav>
   <table class="programTable space1area">
     <tr>
       <th class="sectionTimeWidth">{{ schedule.time }}</th>
       <th class="day0RoomC day0RoomWidth">{{ day0.rooms.c.name }}</th>
-      <th class="day0RoomD day0RoomWidth">{{ day0.rooms.d.name }}</th>
-      <th class="day0RoomE day0RoomWidth">{{ day0.rooms.e.name }}</th>
+      <!-- jsの関数が会場名を連続で利用するのを前提としているため、class名と会場名が一致しないのは仕様 -->
+      <th class="day0RoomD day0RoomWidth">{{ day0.rooms.e.name }}</th>
     </tr>
     <!-- slot0 -->
     <tr>
       <th>{{ day0.slots[0].time }}</th>
-      <td colspan="3">{{ day0.slots[0].rooms.c.title }}</td>
+      <td colspan="2">{{ day0.slots[0].rooms.c.title }}</td>
     </tr>
     <!-- slot1 -->
     <tr>
       <th>{{ day0.slots[1].time }}</th>
       <td class="day0RoomC">
-        {% capture speaker %}{{ day0.slots[1].rooms.c.speaker }}{% endcapture %}
-        {% include {{template}} id=speaker %}
+        <a class="doorkeeper-registration-widget"
+           href="https://scalaconfjp.doorkeeper.jp/events/{{ site.doorkeeper.scala_classroom.id }}">
+          {{ day0.slots[1].rooms.c.title }}
+        </a>
       </td>
       <td class="day0RoomD">
-        {% capture speaker %}{{ day0.slots[1].rooms.d.speaker }}{% endcapture %}
-        {% include {{template}} id=speaker %}
-      </td>
-      <td class="day0RoomE">
-        {% capture title %}{{ day0.slots[1].rooms.e.title }}{% endcapture %}
-        {% include program/slot.html title=title %}
-      </td>
-    </tr>
-    <!-- slot2 -->
-    <tr>
-      <th>{{ day0.slots[2].time }}</th>
-      <td colspan="3">{{ day0.slots[2].rooms.c.title }}</td>
-    </tr>
-    <!-- slot3 -->
-    <tr>
-      <th>{{ day0.slots[3].time }}</th>
-      <td class="day0RoomC">
-        {% capture speaker %}{{ day0.slots[3].rooms.c.speaker }}{% endcapture %}
-        {% include {{template}} id=speaker %}
-      </td>
-      <td class="day0RoomD">
-        {% capture speaker %}{{ day0.slots[3].rooms.d.speaker }}{% endcapture %}
-        {% include {{template}} id=speaker %}
-      </td>
-      <td class="day0RoomE">
-        {% capture title %}{{ day0.slots[3].rooms.e.title }}{% endcapture %}
-        {% include program/slot.html title=title %}
-      </td>
-    </tr>
-    <!-- slot4 -->
-    <tr>
-      <th>{{ day0.slots[4].time }}</th>
-      <td colspan="3">{{ day0.slots[4].rooms.c.title }}</td>
-    </tr>
-    <!-- slot5 -->
-    <tr>
-      <th>{{ day0.slots[5].time }}</th>
-      <td class="day0RoomC">
-        {% capture speaker %}{{ day0.slots[5].rooms.c.speaker }}{% endcapture %}
-        {% include {{template}} id=speaker %}
-      </td>
-      <td class="day0RoomD">
-        {% capture speaker %}{{ day0.slots[5].rooms.d.speaker }}{% endcapture %}
-        {% include {{template}} id=speaker %}
-      </td>
-      <td class="day0RoomE">
-        {% capture title %}{{ day0.slots[5].rooms.e.title }}{% endcapture %}
-        {% include program/slot.html title=title %}
-      </td>
-    </tr>
-    <!-- slot6 -->
-    <tr>
-      <th>{{ day0.slots[6].time }}</th>
-      <td colspan="3">{{ day0.slots[6].rooms.c.title }}</td>
-    </tr>
-    <!-- slot7 -->
-    <tr>
-      <th>{{ day0.slots[7].time }}</th>
-      <td class="day0RoomC">
-        {% capture speaker %}{{ day0.slots[7].rooms.c.speaker }}{% endcapture %}
-        {% include {{template}} id=speaker %}
-      </td>
-      <td class="day0RoomD">
-        {% capture speaker %}{{ day0.slots[7].rooms.d.speaker }}{% endcapture %}
-        {% include {{template}} id=speaker %}
-      </td>
-      <td class="day0RoomE">
-        {% capture title %}{{ day0.slots[7].rooms.e.title }}{% endcapture %}
-        {% include program/slot.html title=title %}
-      </td>
-    </tr>
-    <!-- slot8 -->
-    <tr>
-      <th>{{ day0.slots[8].time }}</th>
-      <td colspan="3">{{ day0.slots[8].rooms.c.title }}</td>
-    </tr>
-    <!-- slot9 -->
-    <tr>
-      <th>{{ day0.slots[9].time }}</th>
-      <td class="day0RoomC">
-        {% capture title %}{{ day0.slots[9].rooms.c.title }}{% endcapture %}
-        {% capture youtube %}{{ day0.slots[9].rooms.c.youtube }}{% endcapture %}
-        {% capture slide %}{{ day0.slots[9].rooms.c.slide }}{% endcapture %}
-        {% include program/slot.html title=title youtube=youtube slide_url=slide %}
-      </td>
-      <td class="day0RoomD">
-        {% capture speaker %}{{ day0.slots[9].rooms.d.speaker }}{% endcapture %}
-        {% include {{template}} id=speaker %}
-      </td>
-      <td class="day0RoomE">
-        {% capture title %}{{ day0.slots[9].rooms.e.title }}{% endcapture %}
-        {% include program/slot.html title=title %}
+        <a class="doorkeeper-registration-widget"
+           href="https://scalaconfjp.doorkeeper.jp/events/{{ site.doorkeeper.oss_hackathon.id }}">
+          {{ day0.slots[1].rooms.e.title }}
+        </a>
       </td>
     </tr>
   </table>
-  {% endcomment %}
-
 </div>
