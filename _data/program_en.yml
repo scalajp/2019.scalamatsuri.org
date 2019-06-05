@@ -15,6 +15,9 @@ schedule:
     seagull_guide_path: /en/seagull
     seagull_guide: guide to seagull
     description: Party sponsored by Utage sponsors
+  session:
+    disclaimer:
+      slides_contains_japanese: ⚠Some slides are in Japanese
 
 day0:
   date: Thursday, June 27th
