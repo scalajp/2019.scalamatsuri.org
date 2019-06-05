@@ -65,7 +65,7 @@ day1:
       abbr: 会場C
   slots:
     # 0
-    - time: 9:00 - 9:50
+    - time: 9:20 - 9:50
       rooms:
         a:
           title: 受付開始
