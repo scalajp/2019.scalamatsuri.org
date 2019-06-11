@@ -275,10 +275,7 @@ day2:
           slide: ""
           youtube: ""
         c:
-          title: TBD
-          speaker: ""
-          slide: ""
-          youtube: ""
+          speaker: TomoyukiShimomuraYoshimasaTanabe_1
         d:
           title: TBD
           speaker: ""
@@ -307,10 +304,10 @@ day2:
           title: TBD
           speaker: ""
           slide: ""
-        c:
-          title: TBD
-          speaker: ""
-          slide: ""
+#        c:
+#          title: TBD
+#          speaker: ""
+#          slide: ""
         d:
           title: TBD
           speaker: ""
