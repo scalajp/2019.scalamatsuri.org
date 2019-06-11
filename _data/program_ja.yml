@@ -15,6 +15,9 @@ schedule:
     seagull_guide_path: /ja/seagull
     seagull_guide: 会場への道案内はこちら
     description: 宴スポンサー協賛による懇親会
+  session:
+    disclaimer:
+      slides_contains_japanese: ⚠スライド本文に日本語も含まれています
 
 day0:
   date: 6月27日 (木曜日)
