@@ -14,7 +14,7 @@ Java/Scala + アジャイル + クラウド を軸として、小規模から大
 
 その他の活動
 
-    Scala先駆者インタビュー( <a href="http://tech.atware.co.jp/scalainterview/">http://tech.atware.co.jp/scalainterview/</a> )
+- Scala先駆者インタビュー( [http://tech.atware.co.jp/scalainterview/](http://tech.atware.co.jp/scalainterview/) )
 
 アットウェアでは、一緒に働いてくださる仲間を募集しています。Scala 未経験でもかまいません。  
 顧客との直接取引で、技術的決定権があり、プロジェクト推進に裁量をもって、企画から開発・運用まで携わることができます。  
