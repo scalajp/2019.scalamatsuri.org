@@ -66,12 +66,10 @@
         {% capture youtube %}{{ day2.slots[2].rooms.b.youtube }}{% endcapture %}
         {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
       </td>
-      <td class="day2RoomC" >
-        {% capture title %}{{ day2.slots[2].rooms.c.title }}{% endcapture %}
+      <td class="day2RoomC" rowspan="3">
         {% capture speaker %}{{ day2.slots[2].rooms.c.speaker }}{% endcapture %}
-        {% capture slide %}{{ day2.slots[2].rooms.c.slide }}{% endcapture %}
-        {% capture youtube %}{{ day2.slots[2].rooms.c.youtube }}{% endcapture %}
-        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+        {% include {{template}} id=speaker %}
+        <p>{{ include.program.schedule.session.disclaimer.slides_contains_japanese }}</p>
       </td>
       <td class="day2RoomD" >
         {% capture title %}{{ day2.slots[2].rooms.d.title }}{% endcapture %}
@@ -98,7 +96,8 @@
     <!--slot3-->
     <tr>
       <th>{{ day2.slots[3].time }}</th>
-      <td class="day2RoomA" colspan="6">{{ day2.slots[3].rooms.a.title }}</td>
+      <td class="day2RoomA" colspan="2">{{ day2.slots[3].rooms.a.title }}</td>
+      <td class="day2RoomD" colspan="3">{{ day2.slots[3].rooms.a.title }}</td>
     </tr>
     <!--slot4-->
     <tr>
@@ -114,13 +113,13 @@
         {% capture youtube %}{{ day2.slots[4].rooms.b.youtube }}{% endcapture %}
         {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
       </td>
-      <td class="day2RoomC" >
+      <!-- <td class="day2RoomC" >
         {% capture title %}{{ day2.slots[4].rooms.c.title }}{% endcapture %}
         {% capture speaker %}{{ day2.slots[4].rooms.c.speaker }}{% endcapture %}
         {% capture slide %}{{ day2.slots[4].rooms.c.slide }}{% endcapture %}
         {% capture youtube %}{{ day2.slots[4].rooms.c.youtube }}{% endcapture %}
         {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
-      </td>
+      </td> -->
       <td class="day2RoomD" >
         {% capture title %}{{ day2.slots[4].rooms.d.title }}{% endcapture %}
         {% capture speaker %}{{ day2.slots[4].rooms.d.speaker }}{% endcapture %}
