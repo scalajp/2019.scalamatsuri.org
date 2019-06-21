@@ -60,11 +60,8 @@
         {% include {{template}} id=speaker %}
       </td>
       <td class="day2RoomB" >
-        {% capture title %}{{ day2.slots[2].rooms.b.title }}{% endcapture %}
         {% capture speaker %}{{ day2.slots[2].rooms.b.speaker }}{% endcapture %}
-        {% capture slide %}{{ day2.slots[2].rooms.b.slide }}{% endcapture %}
-        {% capture youtube %}{{ day2.slots[2].rooms.b.youtube }}{% endcapture %}
-        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+        {% include {{template}} id=speaker %}
       </td>
       <td class="day2RoomC" rowspan="3">
         {% capture speaker %}{{ day2.slots[2].rooms.c.speaker }}{% endcapture %}
