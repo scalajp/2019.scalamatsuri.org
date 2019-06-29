@@ -312,7 +312,7 @@ day2:
           speaker: ""
           slide: ""
         e:
-          title: 新卒の参加者に皆でScalaを教える
+          title: A meeting to teach Scala to all new graduate students
           speaker: ""
           slide: ""
         f:
@@ -345,7 +345,7 @@ day2:
           speaker: ""
           slide: ""
         e:
-          title: TBD
+          title: Successful career change cases over 40
           speaker: ""
           slide: ""
         f:
@@ -374,7 +374,7 @@ day2:
           speaker:
           slide: ""
         d:
-          title: Scala script
+          title: Scala scripts(Ammonite)
           speaker: ""
           slide: ""
         e:
