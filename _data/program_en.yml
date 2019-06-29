@@ -276,11 +276,11 @@ day2:
         c:
           speaker: TomoyukiShimomuraYoshimasaTanabe_1
         d:
-          title: TBD
+          title: Scala and SRE
           speaker: ""
           slide: ""
         e:
-          title: TBD
+          title: Arrowkt for scalalian
           speaker: ""
           slide: ""
         f:
@@ -300,7 +300,7 @@ day2:
         a:
           speaker: tanishiking_1
         b:
-          title: TBD
+          title: Dotty Cats
           speaker: ""
           slide: ""
 #        c:
@@ -308,11 +308,11 @@ day2:
 #          speaker: ""
 #          slide: ""
         d:
-          title: TBD
+          title: Scala Code Golf
           speaker: ""
           slide: ""
         e:
-          title: TBD
+          title: 新卒の参加者に皆でScalaを教える
           speaker: ""
           slide: ""
         f:
@@ -332,16 +332,16 @@ day2:
         a:
           speaker: LarsHupel_2
         b:
-          title: TBD
+          title: Programming with Algebraic Data Types
           speaker: ""
           slide: ""
           youtube: ""
         c:
-          title: TBD
+          title: DOT Calculus I didn't explain yesterday
           speaker: ""
           slide: ""
         d:
-          title: TBD
+          title: VS Rust
           speaker: ""
           slide: ""
         e:
@@ -374,7 +374,7 @@ day2:
           speaker:
           slide: ""
         d:
-          title: TBD
+          title: Scala script
           speaker: ""
           slide: ""
         e:
