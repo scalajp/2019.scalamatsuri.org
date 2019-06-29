@@ -10,7 +10,7 @@
   <div class="contTxtArea">
     <p>{{ include.program.section.text }}</p>
     <div>
-      {% comment %} <p>
+      <p>
         <a href="#workshop-day">
           <i class="fa fa-arrow-down" aria-hidden="true"></i>&nbsp;{{ include.program.day0.date }}
         </a>
@@ -24,7 +24,7 @@
         <a href="#utage">
           <i class="fa fa-arrow-down" aria-hidden="true"></i>&nbsp;{{ include.program.schedule.party.title }}
         </a>
-      </p> {% endcomment %}
+      </p>
       <p>
         <a href="#unconference-day">
           <i class="fa fa-arrow-down" aria-hidden="true"></i>&nbsp;{{ include.program.day2.date }}
@@ -34,7 +34,7 @@
   </div>
   <div class="programTableArea">
     <div class="programTableOutSide">
-{% comment %} 
+
       {% include program/day0.html %}
 
       <div>
@@ -55,7 +55,7 @@
         </p>
       </div>
 
-      {% include program/utage.html %} {% endcomment %}
+      {% include program/utage.html %}
 
       {% include program/day2.html %}
 
