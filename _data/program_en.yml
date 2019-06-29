@@ -284,7 +284,7 @@ day2:
           speaker: ""
           slide: ""
         f:
-          title: TBD
+          title: "-"
           speaker: ""
           slide: ""
 
@@ -316,7 +316,7 @@ day2:
           speaker: ""
           slide: ""
         f:
-          title: TBD
+          title: "-"
           speaker: ""
           slide: ""
 
@@ -349,7 +349,7 @@ day2:
           speaker: ""
           slide: ""
         f:
-          title: TBD
+          title: "-"
           speaker: ""
           slide: ""
 
@@ -382,7 +382,7 @@ day2:
           speaker: ""
           slide: ""
         f:
-          title: TBD
+          title: Discussion about Scala DSL
           speaker: ""
           slide: ""
 
@@ -408,15 +408,16 @@ day2:
         c:
           title: |
             (LT) Wifi and Scala<br>
-            (LT) Write stacksafe non-tailrec recursions
+            (LT) Write stacksafe non-tailrec recursions<br>
+            (LT) Fujitask meets Extensible Effects
           speaker: ""
           slide: ""
         d:
-          title: TBD
+          title: grpc gateway with Scala
           speaker: ""
           slide: ""
         e:
-          title: TBD
+          title: How to develop Scala with Emacs + Ensime
           speaker: ""
           slide: ""
         f:
@@ -436,7 +437,7 @@ day2:
         a:
           speaker: JunichiKato_1
         b:
-          title: TBD
+          title: 9M measurements per sec with Scala
           speaker: ""
           slide: ""
           youtube: ""
