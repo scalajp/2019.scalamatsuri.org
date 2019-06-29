@@ -370,7 +370,7 @@ day2:
           slide: ""
           youtube: ""
         c:
-          title: TBD
+          title: Understanding the vulnerabilities of Play through its code base Part.2
           speaker:
           slide: ""
         d:
@@ -378,7 +378,7 @@ day2:
           speaker: ""
           slide: ""
         e:
-          title: TBD
+          title: De facto standard when developing web app with Scala
           speaker: ""
           slide: ""
         f:
@@ -406,7 +406,9 @@ day2:
           slide: ""
           youtube: ""
         c:
-          title: TBD
+          title: |
+            (LT) Wifi and Scala<br>
+            (LT) Write stacksafe non-tailrec recursions
           speaker: ""
           slide: ""
         d:
@@ -439,7 +441,7 @@ day2:
           slide: ""
           youtube: ""
         c:
-          title: TBD
+          title: From Go To Scala Easy vs Simple
           speaker: ""
           slide: ""
         d:

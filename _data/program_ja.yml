@@ -368,7 +368,7 @@ day2:
           slide: ""
           youtube: ""
         c:
-          title: TBD
+          title: コードから理解するPlayframeworkの脆弱性 Part.2
           speaker:
           slide: ""
         d:
@@ -376,7 +376,7 @@ day2:
           speaker: ""
           slide: ""
         e:
-          title: TBD
+          title: ScalaでWeb開発するときのデファクトな構成が知りたい
           speaker: ""
           slide: ""
         f:
@@ -404,7 +404,9 @@ day2:
           slide: ""
           youtube: ""
         c:
-          title: TBD
+          title: |
+            (LT) Wifi and Scala<br>
+            (LT) Write stacksafe non-tailrec recursions
           speaker: ""
           slide: ""
         d:
@@ -437,7 +439,7 @@ day2:
           slide: ""
           youtube: ""
         c:
-          title: TBD
+          title: From Go To Scala Easy vs Simple
           speaker: ""
           slide: ""
         d:
