@@ -471,13 +471,16 @@ day2:
 #          slide: ""
 #          youtube: ""
         b:
-          title: TBD
+          title: |
+            Applicative Functor<br>
+            - Selective Functor<br>
+            - Monad
           speaker:
           slide: ""
           youtube: ""
         c:
-          title: TBD
-          speaker:
+          title: 面白論文紹介するよ
+          speaker: "@kmizu"
           slide: ""
           youtube: ""
         d:
