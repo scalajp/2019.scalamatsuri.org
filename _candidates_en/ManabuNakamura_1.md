@@ -20,6 +20,8 @@ contributes:
 speaker_experience:
   - Scala Fukuoka 2019 slides are not open to public
   - Scala Kansai Summit 2018 <a href='http://gakuzzzz.github.io/slides/error_handling_practice/#1'>http://gakuzzzz.github.io/slides/error_handling_practice/#1</a>
+slide_url: https://gakuzzzz.github.io/slides/cps_or_di/
+youtube:
 ---
 Information system are solving more and more complex problems.
 To solve complex problems, you need to utilize the divide and conquer approach, which divides the problem first then composes solutions.

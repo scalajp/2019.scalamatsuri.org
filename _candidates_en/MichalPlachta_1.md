@@ -22,6 +22,8 @@ speaker_experience:
   - "Scala eXchange: <a href='https://skillsmatter.com/skillscasts/10961-freestyle-free-and-tagless-separation-of-concerns-on-steroids'>https://skillsmatter.com/skillscasts/10961-freestyle-free-and-tagless-separation-of-concerns-on-steroids</a>"
   - "Devoxx PL: <a href='https://www.youtube.com/watch?v=0o3yJ5HbkAU'>https://www.youtube.com/watch?v=0o3yJ5HbkAU</a>"
   - "Lambda Days: <a href='https://www.youtube.com/watch?v=oMfF9V52DT4'>https://www.youtube.com/watch?v=oMfF9V52DT4</a>"
+slide_url: https://speakerdeck.com/miciek/fast-and-functional-scala-matsuri-jp
+youtube:
 ---
 In this talk we are going to create a functional and blazingly fast microservice. We will use functional programming abstractions to quickly mix & match different HTTP libraries, state implementations and concurrency configurations. Each step will be followed by a performance analysis using different tools from JVM toolbox.
 

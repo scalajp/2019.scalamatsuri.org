@@ -15,6 +15,8 @@ contributes:
   - 
 speaker_experience:
   - 
+slide_url: https://speakerdeck.com/kumagoro_alice/understanding-the-vulnerabilities-of-play-through-its-code-base
+youtube:
 ---
 Have you ever wondered about the vulnerabilities in your web frameworks?
 

@@ -18,5 +18,7 @@ contributes:
 speaker_experience:
   - "ScalaMatsuri 2016: <a href='https://www.slideshare.net/kazukinegoro5/akka-streams-100-scalamatsuri'>https://www.slideshare.net/kazukinegoro5/akka-streams-100-scalamatsuri</a>"
   - "Reactive System Meetup in Nishishinjuku: <a href='https://www.slideshare.net/negokaz/lagom-reactive-microservices-architecture'>https://www.slideshare.net/negokaz/lagom-reactive-microservices-architecture</a>"
+slide_url: https://speakerdeck.com/negokaz/using-akka-cluster-for-a-payment-service
+youtube:
 ---
 We have released a payment transaction service adopting Akka Cluster. In this case study, I would like to discuss lessons learned from developing with Akka Cluster. I will describe how we migrated from a traditional CRUD (Create, Read, Update, Delete) -based system using a relational database to a model using actor model and Event Sourcing / CQRS (Command Query Responsibility Segregation) based on this project.

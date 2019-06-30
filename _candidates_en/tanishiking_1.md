@@ -19,5 +19,7 @@ contributes:
   - scalafix
 speaker_experience:
   - "<a href='https://speakerdeck.com/tanishiking/format-things-with-scalafmt'>Scala Kansai Summit 2018</a>"
+slide_url: https://speakerdeck.com/tanishiking/how-we-replaced-a-10-year-old-perl-product-using-scala
+youtube:
 ---
 Our product, Hatena::Bookmark, had been running on a 10-year-old Perl system with a huge complicated codebase and legacy architecture, which caused us to suffer from increasing maintenance costs. We'd began a project to replace the system in 2015 and have recently finished (still a work-in-progress in March 2019). The codebase and architecture (including the database schema) have been completely replaced. For the implementation of the core application server, we chose Scala, which we think is a language suitable for building a solid system with less complexity. In this session, we will explain the good and bad parts of this project.

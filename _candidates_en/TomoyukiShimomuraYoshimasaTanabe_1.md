@@ -21,6 +21,8 @@ speaker_experience:
   - Scala Matsuri 2018 Unconference
   - Ichigaya Geek Night
   - JJUG
+slide_url: https://gitpitch.com/s10myk4/scalamaturi2019-slide#/
+youtube:
 ---
 When you are developing in a team, have you ever found the requirements to be vague, or felt that something was not right about the domain model? We often hear about projects where the modeling and design are done based on some individual's sense or skills. It's not hard to imagine where that road could lead - a spiral of harmful effects such as increasing costs to add new features and technical debts.
 

@@ -19,6 +19,8 @@ contributes:
   - scalafix
 speaker_experience:
  - "<a href='https://speakerdeck.com/tanishiking/format-things-with-scalafmt'>Scala関西Summit 2018</a>"
+slide_url: https://speakerdeck.com/tanishiking/how-we-replaced-a-10-year-old-perl-product-using-scala
+youtube:
 ---
 はてなブックマークはサービス開始から10年以上が経ち、Perlで書かれたコードベースの肥大化・複雑化、アーキテクチャの老朽化によるメンテナンスコスト増大という課題を抱えていました。これらの課題への対処のため2015年にいちからシステムを作り直すプロジェクトがスタートし、最近このプロジェクトが完了しました！(※2019年3月現在は開発中)
 作り直しに際して、すべてのコードベース・DBスキーマ・アーキテクチャなどを刷新し、コアアプリケーションの実装には堅牢なシステムの開発/運用に適しており社内での採用実績のあるScalaを採用しました。

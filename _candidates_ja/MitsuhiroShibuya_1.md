@@ -30,6 +30,8 @@ speaker_experience:
   - "広告代理店でSREチームを立ち上げるためにやったこと
     2018/9/26「SRE Lounge #5」にて
     <a href='https://qiita.com/mshibuya/items/5570ac551dbddbcb94b1'>https://qiita.com/mshibuya/items/5570ac551dbddbcb94b1</a>"
+slide_url: https://speakerdeck.com/mshibuya/scalaraiburariwozuo-ruqian-nizhi-tuteokitaimentenansufalsekoto
+youtube:
 ---
 「コードの再利用」がいかに強力であるかについては議論の余地はないでしょう。我々は何度も誰かがどこかで解いたことのある問題を繰り返し別の手段で解く必要などないのです。
 そのための仕組みが「ライブラリ」になるわけですが、当然作っておしまいではダメで、利用者が今後も困ることなく使っていけるようにメンテナンスされる必要があります。

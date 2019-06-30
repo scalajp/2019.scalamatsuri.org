@@ -18,6 +18,8 @@ contributes:
 speaker_experience:
   - "ScalaMatsuri 2018 Extensible Effects in Dotty: <a href='https://www.youtube.com/watch?v=QeW8Cka28vs'>https://www.youtube.com/watch?v=QeW8Cka28vs</a>"
   - "ScalaMatsuri 2016 Freer Monad Extensible Effect in Scala: <a href='https://www.youtube.com/watch?v=xXM30PuU_bY'>https://www.youtube.com/watch?v=xXM30PuU_bY</a>"
+slide_url: https://www.slideshare.net/SanshiroYoshida/making-logic-monad
+youtube:
 ---
 Prologに代表される論理プログラミングをご存知ですか？では、論理プログラミングがMonadPlusによって表現されることは知っていますか？バックトラッキングやユニフィケーションを使ったプログラミングをScalaでもやってみたいと思いませんか？
 

@@ -22,6 +22,8 @@ contributes:
 speaker_experience:
   - この話題で今年2月末に Lambda Days 2019 でワークショップを行います
   - "Kraków Scala User Group や大学時代のプレゼンテーション: <a href='https://slides.com/avasil'>https://slides.com/avasil</a>"
+slide_url: https://slides.com/avasil/fp-concurrency-scalamatsuri2019
+youtube:
 ---
 IO モナドを使った並行処理が最近注目を浴びています。しかし、関数型プログラミングと JVM における並行性モデルは別々で習うのでも難しいのに、一緒となると一層難しいものとなります。グリーンスレッド、thread shifting、ブラケット、フェアさなどといった用語が色々出てきますが、それらは一体どういう意味で、何故考える必要があるのでしょうか?
 

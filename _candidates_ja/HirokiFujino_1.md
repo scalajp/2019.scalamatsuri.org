@@ -18,6 +18,8 @@ contributes:
 speaker_experience:
   - <a href="https://speakerdeck.com/hiroki6/strategy-for-concurrency-and-parallel-by-scala">Scala関西サミット2018</a>
   - '<a href="https://speakerdeck.com/hiroki6/gae-bq-load-strategy">bq_sushi #7</a>'
+slide_url: https://speakerdeck.com/hiroki6/high-performance-scala
+youtube:
 ---
 ScalaはJVM上で実行されるため、パフォーマンスが良い言語と言われています。
 しかし（どの言語でもそうであるように）実際に開発した際にパフォーマンスに悩まされる方も多々いるのではないでしょうか？
