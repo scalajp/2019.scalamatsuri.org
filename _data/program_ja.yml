@@ -404,12 +404,15 @@ day2:
           slide: ""
           youtube: ""
         c:
-          title: |
-            (LT) Wifi and Scala<br>
-            (LT) Write stacksafe non-tailrec recursions<br>
-            (LT) Fujitask meets Extensible Effects
-          speaker: ""
-          slide: ""
+          - title: Wifi and Scala
+            speaker: kuro_m88
+            slide: https://speakerdeck.com/kurochan/wifi-x-scala-implementing-captive-portal-in-scala-and-deploy-into-number-scalamatsuri
+          - title: Write stacksafe non-tailrec recursions
+            speaker: jooohn1234
+            slide: https://speakerdeck.com/jooohn/write-stack-safe-non-tailrec-recursive-functions
+          - title: Fujitask meets Extensible Effects
+            speaker: y-yu
+            slide: https://y-yu.github.io/fujitask-eff-slide/fujitask_without_animation.pdf
         d:
           title: grpc gateway with Scala
           speaker: ""

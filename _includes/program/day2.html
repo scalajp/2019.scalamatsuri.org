@@ -267,11 +267,17 @@
         {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
       </td>
       <td class="day2RoomC">
-        {% capture title %}{{ day2.slots[10].rooms.c.title }}{% endcapture %}
-        {% capture speaker %}{{ day2.slots[10].rooms.c.speaker }}{% endcapture %}
-        {% capture slide %}{{ day2.slots[10].rooms.c.slide }}{% endcapture %}
-        {% capture youtube %}{{ day2.slots[10].rooms.c.youtube }}{% endcapture %}
-        {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+        <ul>
+          {% for item in day2.slots[10].rooms.c %}
+            {% capture title %}{{ item.title }}{% endcapture %}
+            {% capture speaker %}{{ item.speaker }}{% endcapture %}
+            {% capture slide %}{{ item.slide }}{% endcapture %}
+            {% capture youtube %}{{ item.youtube }}{% endcapture %}
+          <li>
+            {% include program/slot.html title=title speaker=speaker youtube=youtube slide_url=slide %}
+          </li>
+          {% endfor %}
+        </ul>
       </td>
       <td class="day2RoomD">
         {% capture title %}{{ day2.slots[10].rooms.d.title }}{% endcapture %}
