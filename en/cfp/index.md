@@ -55,7 +55,7 @@ Because ScalaMatsuri is run by a non-profit association, the travel grant must o
 
 1. Airfare and other transportation to Tokyo.
 2. Other transportation during ScalaMatsuri
-3. Hotel fares during ScalaMatsuri sessions.
+3. Hotel fares during ScalaMatsuri sessions. (June 26th, 2019 checkin - June 30th checkout)
 
 Any other expenses, including ones incurred from sightseeing or hotel fares (priced per person in Japan) for accompanying travellers, cannot be expensed by us.
 
