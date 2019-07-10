@@ -20,5 +20,7 @@ speaker_experience:
   - Scala Days
   - NE Scala
   - ScalaWave
+slide_url: https://www.slideshare.net/EugeneYokota/sbt-core-concepts-scalamatsuri-2019
+youtube:
 ---
 sbt は Scala のために作られたインタラクティブなビルドツールです。このトークでは、タスクとコマンドの違い、スコープなど sbt の基礎概念を解説します。また、よく使われるプラグインや sbt 1.x で最近開発中の新機能なども紹介します。
