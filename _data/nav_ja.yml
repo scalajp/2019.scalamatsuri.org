@@ -10,8 +10,8 @@
   title: スポンサー
 - href: "/notice/"
   title: スポンサーからのお知らせ
-# - href: "/ja/commercial"
-#   title: CM
+- href: "/ja/commercial"
+  title: CM
 # - href: "/ja/staff"
 #   title: スタッフ
 - href: "/ja/code-of-conduct/"
