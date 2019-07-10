@@ -20,5 +20,7 @@ speaker_experience:
   - Scala Days
   - NE Scala
   - ScalaWave
+slide_url: https://www.slideshare.net/EugeneYokota/sbt-core-concepts-scalamatsuri-2019
+youtube:
 ---
 sbt is an interactive build tool created for Scala. In this talk I will go over the core concepts of sbt such as tasks vs commands, and scoping. I will also introduce handful of popular plugins, and introduce some of the recent development that's been done in sbt 1.x.
