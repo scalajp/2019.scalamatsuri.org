@@ -158,6 +158,22 @@ body {
   height: 100% !important;
 }
 
+.presentation-wrap {
+  position: relative;
+  padding-bottom: 56.25%;
+  margin-top: 14%;
+  max-width: 100%;
+  height: 0;
+}
+
+.presentation-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
 .sns-button-list {
   text-align: center;
   list-style: none;

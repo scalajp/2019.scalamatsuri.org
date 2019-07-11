@@ -8,8 +8,8 @@
   title: Tickets
 # - href: "/index_en.html#sp"
 #   title: Sponsors
-# - href: "/en/commercial"
-#   title: CM
+- href: "/en/commercial"
+  title: CM
 # - href: "/en/staff"
 #   title: Staff
 - href: "/en/code-of-conduct/"
