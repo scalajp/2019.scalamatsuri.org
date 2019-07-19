@@ -18,5 +18,7 @@ speaker_experience:
   - Scala world
   - scala.io
   - scale by the bay
+slide_url: https://docs.google.com/presentation/d/14NQDO8Taw3-tO34_seR_ki2_9OYAPpsBcTvB9bsn078/edit?usp=sharing
+youtube: 
 ---
 Two years ago, Spotify introduced Scio, an open-source Scala framework to develop data pipelines and deploy them on Google Dataflow. In this talk, we will discuss the evolution of Scio, and share the highlights of running Scio in production for two years. We will showcase several interesting data processing workflows ran at Spotify, what we learned from running them in production, and how we leveraged that knowledge to make Scio faster, and safer and easier to use.

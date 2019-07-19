@@ -18,6 +18,8 @@ contributes:
 speaker_experience:
   - Scala Days 2013-2017
   - Scala Matsuri 2017
+slide_url: https://www.slideshare.net/scalaconfjp/functional-objectoriented-imperative-scala-scala-by-sbastien-doeraene
+youtube: 
 ---
 Scala combines several paradigms, among which object-orientation, functional programming, and imperative programming.
 It is often tempting to use Scala as either a "better Java", using object-orientation with less boilerplate, or a "worse Haskell", focusing on purely functional code.

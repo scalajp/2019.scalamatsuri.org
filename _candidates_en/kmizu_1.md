@@ -23,5 +23,7 @@ speaker_experience:
   - Scala Days 2010
   - ScalaMatsuri 2018
   - Scala Fukuoka 2019
+slide_url: https://kmizu.github.io/ScalaMatsuri2019/
+youtube: 
 ---
 The Dependent Object Types (DOT) calculus is the theory on which Dotty (which will be Scala 3.0) is based. The DOT calculus is a model to understand the theoretical backbone of Scala. Such a model is called a "core calculus", and it is used to prove the characteristics of a programming language. In this session, I'll give a gentle introduction to the DOT calculus.

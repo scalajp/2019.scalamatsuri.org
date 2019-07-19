@@ -22,6 +22,8 @@ speaker_experience:
   - LavaOne - Honolulu, 01/2018 “Building a high-performance Future for the JVM” <a href='https://youtu.be/grz4uIi0McI'>https://youtu.be/grz4uIi0McI</a>
   - "Scale by the bay - San Francisco, 11/2017 “Spark Datasets: why they aren't great and what could be done” <a href='https://youtu.be/gIq1zRUE4as'>https://youtu.be/gIq1zRUE4as</a>"
   - ScalaDays - Berlin, 06/2016 “Scylla, Charybdis, and the mystery of Quill” <a href='https://youtu.be/nqSYccoSeio'>https://youtu.be/nqSYccoSeio</a>
+slide_url: https://www.slideshare.net/scalaconfjp/scala-graal-by-flavio-brasil
+youtube: 
 ---
 The #TwitterVMTeam is investing in optimizing the JVM to improve the performance of Scala applications. We've migrated to Graal as the JIT compiler and observed a significant performance improvement. The migration also opened the path to implementing optimizations since its codebase is in Java and more manageable.
 
