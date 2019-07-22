@@ -15,3 +15,150 @@
 
 # 運営メンバー
 member:
+- github: ik11235
+  gravatar: 0bf6cf78d2177b6eeccc798b3be1fcb1
+  handle: ik-fib
+  nameEn: IKEDA YUICHI
+  nameJa: 池田 祐一
+  note: プログラム、翻訳レシーバー受付
+  twitter: ik11235
+- github: kencharos
+  gravatar: 96bb87f5017cc4190a544bc040995f45
+  handle: kencharos
+  nameEn: ''
+  nameJa: ''
+  note: 翻訳レシーバ担当
+  twitter: kencharos
+- github: taisukeoe
+  gravatar: 25fb3e7054e52e524817044853c2d4c3
+  handle: ''
+  nameEn: Taisuke Oe
+  nameJa: 麻植 泰輔
+  note: 座長
+  twitter: OE_uia
+- github: grimrose
+  gravatar: afef2fcf56cef5e90af94a1640d95fbc
+  handle: grimrose
+  nameEn: ''
+  nameJa: ''
+  note: web, 翻訳, 当日司会等
+  twitter: grimrose
+- github: omiend
+  gravatar: 93f52b85c90d3fc6afdfa7c61ce2a89e
+  handle: omiend
+  nameEn: omiend
+  nameJa: オミエンド
+  note: トートバッグの制作や、司会などを担当しました。
+  twitter: omiend
+- github: daneko
+  gravatar: d2490ac07518af943faba9c0eb6ed329
+  handle: daneko
+  nameEn: ''
+  nameJa: ''
+  note: 次こそWeb更新するぞ！
+  twitter: daneko0123
+- github: ''
+  gravatar: 30bfb0621f8a63e5c43b128dd6773253
+  handle: ''
+  nameEn: Masaru Irisawa
+  nameJa: 入澤 賢
+  note: タイムキーパー、受付など
+  twitter: ''
+- github: haidrant
+  gravatar: eb9c41e3483081bc21ea7c0a2c5c2f05
+  handle: haidrant
+  nameEn: Atsumine Kondo
+  nameJa: 近藤 豊峰
+  note: 2日目は翻訳レシーバーの受付を、3日目の受付を担当していました！
+  twitter: sugoikondo
+- github: Keita-N
+  gravatar: c7570ecdf1dd5867313d053a4a9b4f1e
+  handle: Keita-N
+  nameEn: Keita Nagatomi
+  nameJa: 永冨敬太
+  note: ' 翻訳、通訳サポート'
+  twitter: ''
+- github: KentarouSuzuki
+  gravatar: 5df92c9a1b7abbf03f7b32a4f137441a
+  handle: Sue
+  nameEn: KentaroSuzuki
+  nameJa: 鈴木健太郎
+  note: 受付とA会場のレシーバー回収を担当しました!!
+  twitter: sue_tarou
+- github: showmant
+  gravatar: a9d3e491d1e9413abe69177757e14036
+  handle: showmant
+  nameEn: Shoma Takeo
+  nameJa: 竹尾 正馬
+  note: プログラム・OSSハッカソン
+  twitter: showmant_
+- github: ''
+  gravatar: ''
+  handle: ''
+  nameEn: Sumiya Kogo
+  nameJa: 向後 澄哉
+  note: ''
+  twitter: 'sumi0043'
+- github: qtamaki
+  gravatar: bbe6c1410c58d259115bc271b5694f96
+  handle: qtamaki
+  nameEn: Tamaki Tatsunori
+  nameJa: 玉置　龍範
+  note: カメラマンをしました
+  twitter: qtamaki
+- github: takezoux2
+  gravatar: 5e1313c5d1166060f2e2ca677b4e40da
+  handle: takezoux2
+  nameEn: Yoshiteru Takeshita
+  nameJa: 竹下義晃
+  note: 本部、プログラム、会場
+  twitter: takezoux2
+- github: aoiroaoino
+  gravatar: 0b8291daeda1cd55e445af644d402bb0
+  handle: aoiroaoino
+  nameEn: Naoki Aoyama
+  nameJa: Naoki Aoyama
+  note: 受付とか司会とか
+  twitter: aoiroaoino
+- github: ''
+  gravatar: f10bf73ac662a43ad9cb644151fdcbf8
+  handle: takahashi
+  nameEn: ''
+  nameJa: ''
+  note: バックオフィス
+  twitter: ''
+- github: tiqwab
+  gravatar: 91e7684b262c1b8dca86719f09896f62
+  handle: tiqwab
+  nameEn: Naohisa Murakami
+  nameJa: 村上 直央
+  note: 受付、レシーバ係など
+  twitter: tiqwab
+- github: strong-zero
+  gravatar: 3074b8f731f3196c93f828172298f071
+  handle: strong-zero
+  nameEn: Tatsuya NAKAMOTO
+  nameJa: 中本達哉
+  note: 準備片付け、レシーバー係、😎
+  twitter: ''
+- github: mopinfish
+  gravatar: 51b1de3460a3571303ba4dce6d771de7
+  handle: mopinfish
+  nameEn: Noboru Otsuka
+  nameJa: 大塚昇
+  note: 会場設営とレシーバーの貸し出し管理を主に担当しました。
+  twitter: 'mopin'
+- github: tae124
+  gravatar: 384dde58337e54c3884812e0729acf9c
+  handle: tae
+  nameEn: Tae Matsumoto
+  nameJa: 松本　妙
+  note: ワークショップ、司会
+  twitter: tae124m
+- github: umeneri
+  gravatar: 7e5c469c0a128ee8ee9f665c604c4cb2
+  handle: umeneri
+  nameEn: Koishi Masato
+  nameJa: 小石 真人
+  note: ドリンクコーナー・レシーバー配布
+  twitter: m_umeneri
