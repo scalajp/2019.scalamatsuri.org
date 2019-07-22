@@ -10,8 +10,8 @@
 #   title: Sponsors
 - href: "/en/commercial"
   title: CM
-# - href: "/en/staff"
-#   title: Staff
+- href: "/en/staff"
+  title: Staff
 - href: "/en/code-of-conduct/"
   title: Code of Conduct
 - href: "/en/candidates/"

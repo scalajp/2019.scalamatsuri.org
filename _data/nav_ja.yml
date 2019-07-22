@@ -12,15 +12,15 @@
   title: スポンサーからのお知らせ
 - href: "/ja/commercial"
   title: CM
-# - href: "/ja/staff"
-#   title: スタッフ
+- href: "/ja/staff"
+  title: スタッフ
 - href: "/ja/code-of-conduct/"
   title: 行動規範
 - href: "/ja/candidates/"
   title: 応募セッション一覧
 - href: "/ja/travel/"
   title: トラベル情報
-- href: "/ja/extra-staff"
-  title: 当日スタッフ募集
+#- href: "/ja/extra-staff"
+#  title: 当日スタッフ募集
 # - href: "/ja/sponsors/"
 #  title: スポンサー募集
