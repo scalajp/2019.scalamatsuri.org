@@ -2,10 +2,10 @@
 #   title: セッション募集
 - href: "/#info"
   title: 開催概要
-- href: "/#schedule"
-  title: プログラム
 - href: "/#tickets"
   title: チケット
+- href: "/#schedule"
+  title: プログラム
 - href: "/#sp"
   title: スポンサー
 - href: "/notice/"

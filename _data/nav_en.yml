@@ -2,10 +2,10 @@
 #   title: CFP
 - href: "/index_en.html#info"
   title: Event Info
-- href: "/index_en.html#schedule"
-  title: Schedule
 - href: "/index_en.html#tickets"
   title: Tickets
+- href: "/index_en.html#schedule"
+  title: Schedule
 # - href: "/index_en.html#sp"
 #   title: Sponsors
 - href: "/en/commercial"
