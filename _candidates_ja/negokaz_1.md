@@ -19,7 +19,7 @@ speaker_experience:
   - ScalaMatsuri 2016： <a href='https://www.slideshare.net/kazukinegoro5/akka-streams-100-scalamatsuri'>https://www.slideshare.net/kazukinegoro5/akka-streams-100-scalamatsuri</a>
   - 第3回Reactive System Meetup in 西新宿：<a href='https://www.slideshare.net/negokaz/lagom-reactive-microservices-architecture'>https://www.slideshare.net/negokaz/lagom-reactive-microservices-architecture</a>
 slide_url: https://speakerdeck.com/negokaz/using-akka-cluster-for-a-payment-service
-youtube:
+youtube: https://youtu.be/UTGuj4U6QYk
 ---
 Akka Cluster を採用した決済サービスをリリースしました。
 このセッションでは、Akka Cluster を使った開発で苦労した点や、従来の RDB を用いた CRUD ベースのシステムから、どのようにしてアクターモデルやイベントソーシング・CQRS といったモデルを用いたシステムへと変化させたのかなど、本プロジェクトで Akka Cluster を採用するにあたり我々が取り組んだ内容について話します。

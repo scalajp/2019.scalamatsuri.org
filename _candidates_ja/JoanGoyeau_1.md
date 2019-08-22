@@ -18,7 +18,7 @@ contributes:
 speaker_experience:
   - "ScalaWave and ScalaUpNorth: <a href='https://docs.google.com/presentation/d/1S-EWGtg5ljvNpCbR0l--Morscz0-B9u7zycpuE4Qjmw'>https://docs.google.com/presentation/d/1S-EWGtg5ljvNpCbR0l--Morscz0-B9u7zycpuE4Qjmw</a>"
 slide_url: https://www.slideshare.net/scalaconfjp/scala-3-what-does-it-means-for-me-scala-3-by-joan-goyeau
-youtube: 
+youtube: https://youtu.be/bf_1PnfO2Dg
 ---
 
 Martin Oderskyさんの素晴らしい講演やDottyのウェブサイトを通じて、私達はDottyやScala3について聞いたことがあるでしょう。

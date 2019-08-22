@@ -29,7 +29,7 @@ speaker_experience:
   - 様々な組織間のセッション。例えば "Using Antlr With Scala"。
     <a href='https://www.youtube.com/watch?v=9SYTPcj6ic8'>https://www.youtube.com/watch?v=9SYTPcj6ic8</a>
 slide_url: https://www.slideshare.net/scalaconfjp/monitoring-reactive-architecture-like-never-before-by-sahil-sawhney
-youtube: 
+youtube: https://youtu.be/-31YjUKQcq4
 ---
 Scala, Akka-Http, Lagom, Cassandra, Kafkaなどのような技術で構成されていたリアクティブなエコシステムにおいて、監視が必要不可欠となってくるが、素朴な監視では、網羅されたリアクティブなシステムを保証するには全く足りない。
 

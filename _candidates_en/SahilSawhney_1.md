@@ -29,6 +29,6 @@ speaker_experience:
   - Various inter-organization sessions like "Using Antlr With Scala"
     <a href='https://www.youtube.com/watch?v=9SYTPcj6ic8'>https://www.youtube.com/watch?v=9SYTPcj6ic8</a>
 slide_url: https://www.slideshare.net/scalaconfjp/monitoring-reactive-architecture-like-never-before-by-sahil-sawhney
-youtube: 
+youtube: https://youtu.be/-31YjUKQcq4
 ---
 It is critical to monitor your reactive ecosystem consisting of technologies like Scala, Akka-Http, Lagom, Cassandra, Kafka etc and plain vanilla monitoring is just not enough to ensure your reactive system is well covered. An approach, PreMonR (premonition based reactive ecosystem monitoring), was thus fabricated to ensure that the monitoring pipeline must itself be reactive and injected with premonition based anomaly detection which could aid in much advance detection of any threats to the smooth functioning of the reactive system especially running on distributed systems like Kubernetes.

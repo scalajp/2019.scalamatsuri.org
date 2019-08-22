@@ -16,6 +16,8 @@ contributes:
   -
 speaker_experience:
   -
+slide_url: https://www.slideshare.net/scalaconfjp/run-scala-faster-with-graalvm-on-any-platform-graalvmscala-by-amitpal-singh
+youtube: https://youtu.be/C3OQxco1KtA
 ---
 GraalVMはユニバーサルな仮想マシンです。JavaScript, Python, Ruby, R, JVM-based languages like Java, Scala, Kotlin, Clojureや、CやC++などのLLVMベースの言語で書かれたアプリケーションを実行することができます。
 

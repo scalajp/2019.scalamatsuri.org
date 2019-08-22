@@ -16,7 +16,7 @@ contributes:
 speaker_experience:
   - 
 slide_url: https://speakerdeck.com/kumagoro_alice/understanding-the-vulnerabilities-of-play-through-its-code-base
-youtube:
+youtube: https://youtu.be/sjbqNG-Qut4
 ---
 Webフレームワークの脆弱性、気になりませんか？  
 

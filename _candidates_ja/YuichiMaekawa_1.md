@@ -24,7 +24,7 @@ speaker_experience:
   - そのほか勉強会などでの発表資料
     <a href='https://speakerdeck.com/kaelaela'>https://speakerdeck.com/kaelaela</a>
 slide_url: https://speakerdeck.com/kaelaela/konnaniwei-u-scalatokotlin
-youtube:
+youtube: https://youtu.be/WlxgbRiPpu0
 ---
 みんなが口を揃えていう「ScalaとKotlinは似てる」は本当でしょうか？
 確かに文法が似ている部分は多いですが、本質的には違う部分も多いです。

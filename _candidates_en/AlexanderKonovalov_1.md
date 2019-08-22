@@ -18,7 +18,7 @@ contributes:
 speaker_experience:
   - I have presented an academic paper at WWW2017, <a href='https://www.slideshare.net/AlexanderKonovalov13/learning-event-extractors-from-knowledge-base-revisions'>https://www.slideshare.net/AlexanderKonovalov13/learning-event-extractors-from-knowledge-base-revisions</a> and presented <a href='https://alexknvl.com/docs/scalaz_summit_presentation.pdf'>https://alexknvl.com/docs/scalaz_summit_presentation.pdf</a> at Lambdaconf 2018 but in an informal setting during scalaz summit and without much preparation.
 slide_url: https://slides.com/alexanderkonovalov-1/recursion-1/
-youtube:
+youtube: https://youtu.be/q_xPKaAcWtI
 ---
 In this talk I will derive the core ideas behind recursion
 schemes and finally tagless encoding starting from scratch.

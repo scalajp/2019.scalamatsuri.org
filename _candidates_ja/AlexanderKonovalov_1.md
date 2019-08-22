@@ -19,7 +19,7 @@ speaker_experience:
   - WWW2017において学術論文の発表をしています。 <a href='https://www.slideshare.net/AlexanderKonovalov13/learning-event-extractors-from-knowledge-base-revisions'>https://www.slideshare.net/AlexanderKonovalov13/learning-event-extractors-from-knowledge-base-revisions</a> 
   - Lambdaconf 2018でも発表しましたが、Scalaz summitの合間で非公式に設定されたものだっため、十分な準備の時間を取れませんでした。 <a href='https://alexknvl.com/docs/scalaz_summit_presentation.pdf'>https://alexknvl.com/docs/scalaz_summit_presentation.pdf</a> 
 slide_url: https://slides.com/alexanderkonovalov-1/recursion-1/
-youtube:
+youtube: https://youtu.be/q_xPKaAcWtI
 ---
 このトークでは、再帰スキームやfinally taglessエンコーディングの裏にある中心的概念をゼロから導出します。
 

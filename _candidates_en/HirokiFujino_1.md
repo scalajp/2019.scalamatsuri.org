@@ -19,7 +19,7 @@ speaker_experience:
   - <a href="https://speakerdeck.com/hiroki6/strategy-for-concurrency-and-parallel-by-scala">Scala Kansai summit 2018</a>
   - '<a href="https://speakerdeck.com/hiroki6/gae-bq-load-strategy">bq_sushi #7</a>'
 slide_url: https://speakerdeck.com/hiroki6/high-performance-scala
-youtube:
+youtube: https://youtu.be/JMGKA85qGkQ
 ---
 Scala is said to have good performance because it runs on Java Virtual Machine (JVM).
 But, like any other languages, I suspect many of you have had performance issues during actual development.

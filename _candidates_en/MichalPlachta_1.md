@@ -23,7 +23,7 @@ speaker_experience:
   - "Devoxx PL: <a href='https://www.youtube.com/watch?v=0o3yJ5HbkAU'>https://www.youtube.com/watch?v=0o3yJ5HbkAU</a>"
   - "Lambda Days: <a href='https://www.youtube.com/watch?v=oMfF9V52DT4'>https://www.youtube.com/watch?v=oMfF9V52DT4</a>"
 slide_url: https://speakerdeck.com/miciek/fast-and-functional-scala-matsuri-jp
-youtube:
+youtube: https://youtu.be/L9-C33sHIhU
 ---
 In this talk we are going to create a functional and blazingly fast microservice. We will use functional programming abstractions to quickly mix & match different HTTP libraries, state implementations and concurrency configurations. Each step will be followed by a performance analysis using different tools from JVM toolbox.
 

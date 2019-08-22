@@ -21,7 +21,7 @@ speaker_experience:
   - Ichigaya Geek Night
   - SRE Lounge
 slide_url: https://speakerdeck.com/mshibuya/scalaraiburariwozuo-ruqian-nizhi-tuteokitaimentenansufalsekoto
-youtube:
+youtube: https://youtu.be/Aagcg8VXrX4
 ---
 Code reuse is a powerful notion. We don't have to repeatedly solve problems which many predecessors have already solved. A library is a realization of such code reuse; once created libraries need to be maintained properly in order to not annoy users and to keep solving problems.
 

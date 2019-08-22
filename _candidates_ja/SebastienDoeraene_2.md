@@ -20,7 +20,7 @@ speaker_experience:
   - Scala Days 2013-2017
   - Scala Matsuri 2017
 slide_url: https://www.slideshare.net/scalaconfjp/functional-objectoriented-imperative-scala-scala-by-sbastien-doeraene
-youtube: 
+youtube: https://youtu.be/HPUYcuJ1ZJs
 ---
 Scala は、オブジェクト指向、関数型プログラミング、命令型プログラミングといった複数のパラダイムを組み合わせます。
 

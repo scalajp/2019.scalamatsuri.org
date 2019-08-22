@@ -21,6 +21,6 @@ speaker_experience:
   - <a href="https://speakerdeck.com/j5ik2o/scaladefalsedomeinmoderingufalseyarikata">https://speakerdeck.com/j5ik2o/scaladefalsedomeinmoderingufalseyarikata</a>
   - <a href="https://speakerdeck.com/j5ik2o/scalakodototomonikao-erudomeinmoderingu">https://speakerdeck.com/j5ik2o/scalakodototomonikao-erudomeinmoderingu</a>
 slide_url: https://speakerdeck.com/j5ik2o/how-to-build-an-event-sourcing-system-using-akka-with-eks
-youtube:
+youtube: https://youtu.be/sKdOsJCxOAQ
 ---
 海外では、Kubernetes上にAkka-Clusterを構成し、耐障害性やスケラビリティに優れたシステムを構築しようというムーブメントがあります。Akkaはノードを跨がるような分散型アプリケーションを開発するためのツールキットであるため、コンテナレベルでのデプロイ・スケーリングなどのオーケストラレーション機能が必要です。そういう意味では、Kubernetesはもはや現実的な選択肢です。つい最近、東京リージョンにEKSがきましたので、このような関心は高まってくると思います。今回は、EKS上で本格的にEvent Sourcingをするにはどうしたらよいか、またどんな問題点があるのかなど、実際に動くコードを見ながら議論したいと思います。
