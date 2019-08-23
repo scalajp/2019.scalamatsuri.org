@@ -18,7 +18,7 @@ contributes:
 speaker_experience:
   - 
 slide_url: https://speakerdeck.com/atty303/case-of-ad-delivery-system-is-implemented-by-scala-and-ddd
-youtube:
+youtube: https://youtu.be/89L0iZeLbio
 ---
 The transactions of online advertisement, sometimes described with a "chaos map", is a complex domain involving various players. CyberAgent has built ad distribution systems many times, but we have recently adopted Domain Driven Design (DDD) for the first time.
 

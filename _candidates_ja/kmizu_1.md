@@ -24,6 +24,6 @@ speaker_experience:
   - ScalaMatsuri 2018
   - Scala福岡2019
 slide_url: https://kmizu.github.io/ScalaMatsuri2019/
-youtube: 
+youtube: https://youtu.be/JO9_tQ2fZD4
 ---
 DOT計算とは、処理系Dotty（Scala 3.0になる予定です）の基礎となる理論です。DOT計算とは、Scalaの本質的な部分を抽出して、理論的に取扱いやすくしたモデルです。このようなモデルを核言語（core calculus）といい、プログラミング言語の性質を検証するために使われます。このセッションでは、DOT計算についてやさしく説明します。

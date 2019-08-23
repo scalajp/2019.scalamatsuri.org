@@ -21,7 +21,7 @@ speaker_experience:
   - <a href="https://speakerdeck.com/petitviolet/meta-programming-scala">Scala Kansai summit 2017</a>
   - <a href="https://speakerdeck.com/petitviolet/real-world-graphql-on-scala">Scala Kansai summit 2018</a>
 slide_url: https://speakerdeck.com/petitviolet/pure-domain-model-and-the-technology-behind-it
-youtube:
+youtube: https://youtu.be/FgN6Q3FbOSo
 ---
 Domain Driven Design (DDD) has been drawing people's attention; however, when implementing DDD in Scala, it's often difficult to keep the implementation concerns apart from the domain model. ExecutionContext for asynchronous processing and transaction information for database connections are some of the examples we might wish to keep out of the domain model.
 

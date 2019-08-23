@@ -21,7 +21,7 @@ speaker_experience:
   - <a href="https://speakerdeck.com/petitviolet/meta-programming-scala">Scala関西2017</a>
   - <a href="https://speakerdeck.com/petitviolet/real-world-graphql-on-scala">Scala関西2018</a>
 slide_url: https://speakerdeck.com/petitviolet/pure-domain-model-and-the-technology-behind-it
-youtube:
+youtube: https://youtu.be/FgN6Q3FbOSo
 ---
 昨今注目を集めているドメイン駆動設計をScalaで実装するにあたり、どうしても実装や技術の都合がドメインに入り込んでしまうことがよくあります。  
 たとえば非同期処理のためのExecutionContextや、DB接続のためのトランザクション情報などがよくある例かと思います。  

@@ -303,6 +303,7 @@ day2:
           title: Dotty Cats
           speaker: ""
           slide: ""
+          youtube: https://youtu.be/p9pn5Blfg04
 #        c:
 #          title: TBD
 #          speaker: ""
@@ -333,13 +334,14 @@ day2:
           speaker: LarsHupel_2
         b:
           title: Programming with Algebraic Data Types
-          speaker: ""
+          speaker: Jiří Jakeš
           slide: ""
-          youtube: ""
+          youtube: https://youtu.be/KG1XvPH-8rw
         c:
           title: DOT Calculus I didn't explain yesterday
           speaker: ""
           slide: ""
+          youtube: https://youtu.be/b4UBSkKI3M0
         d:
           title: VS Rust
           speaker: ""
@@ -366,13 +368,14 @@ day2:
           speaker: MichalPlachta_1
         b:
           title: A story about scratch development of GAN with scala
-          speaker: ""
+          speaker: Nagisa Oniki
           slide: ""
-          youtube: ""
+          youtube: https://youtu.be/x5JntANVPj4
         c:
           title: Understanding the vulnerabilities of Play through its code base Part.2
           speaker:
           slide: ""
+          youtube: https://youtu.be/qV3y0rdgTpY
         d:
           title: Scala scripts(Ammonite)
           speaker: ""
@@ -402,19 +405,22 @@ day2:
 #          youtube: ""
         b:
           title: Phil Bagwell Award Kenji's Pull Request tutorial
-          speaker: ""
+          speaker: xuwei_k
           slide: ""
-          youtube: ""
+          youtube: https://youtu.be/vpyYU6rh6II
         c:
           - title: Wifi and Scala
             speaker: kuro_m88
             slide: https://speakerdeck.com/kurochan/wifi-x-scala-implementing-captive-portal-in-scala-and-deploy-into-number-scalamatsuri
+            youtube: https://youtu.be/AZU8hZ-MW-I
           - title: Write stacksafe non-tailrec recursions
             speaker: jooohn1234
             slide: https://speakerdeck.com/jooohn/write-stack-safe-non-tailrec-recursive-functions
+            youtube: https://youtu.be/-6nnjdtnEJ0
           - title: Fujitask meets Extensible Effects
             speaker: y-yu
             slide: https://y-yu.github.io/fujitask-eff-slide/fujitask_without_animation.pdf
+            youtube: https://youtu.be/AMuU02dZBEw
         d:
           title: grpc gateway with Scala
           speaker: ""
@@ -424,7 +430,7 @@ day2:
           speaker: ""
           slide: ""
         f:
-          title: TBD
+          title: "-"
           speaker: ""
           slide: ""
 
@@ -441,23 +447,24 @@ day2:
           speaker: JunichiKato_1
         b:
           title: 9M measurements per sec with Scala
-          speaker: ""
+          speaker: Richard Tarczaly
           slide: ""
-          youtube: ""
+          youtube: https://youtu.be/E7Pa04AsxHQ
         c:
           title: From Go To Scala Easy vs Simple
           speaker: ""
           slide: ""
+          youtube: https://youtu.be/y46ZYuNC7c8
         d:
           title: Practice Reactive Systems in the Cloud
           speaker: ""
           slide: ""
         e:
-          title: TBD
+          title: "-"
           speaker: ""
           slide: ""
         f:
-          title: TBD
+          title: "-"
           speaker: ""
           slide: ""
 
@@ -480,24 +487,24 @@ day2:
             Applicative Functor<br>
             - Selective Functor<br>
             - Monad
-          speaker:
+          speaker: Thomas Sutton
           slide: ""
-          youtube: ""
+          youtube: https://youtu.be/gs7MNm6YMX4
         c:
           title: Introduce interesting papers
           speaker: "@kmizu"
           slide: ""
-          youtube: ""
+          youtube: https://youtu.be/MfkXwhgWWDg
         d:
           title: Finagle(thrift) admin-page problem
           speaker:
           slide: ""
         e:
-          title: TBD
+          title: "-"
           speaker:
           slide: ""
         f:
-          title: TBD
+          title: "-"
           speaker:
           slide: ""
 

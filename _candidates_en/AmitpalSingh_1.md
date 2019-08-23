@@ -16,6 +16,8 @@ contributes:
   -
 speaker_experience:
   -
+slide_url: https://www.slideshare.net/scalaconfjp/run-scala-faster-with-graalvm-on-any-platform-graalvmscala-by-amitpal-singh
+youtube: https://youtu.be/C3OQxco1KtA
 ---
 GraalVM is a universal virtual machine for running applications written in JavaScript, Python, Ruby, R, JVM-based languages like Java, Scala, Kotlin, Clojure, and LLVM-based languages such as C and C++. GraalVM removes the isolation between programming languages and enables interoperability in a shared runtime. It can run either standalone or in the context of OpenJDK, Node.js, Oracle Database, or MySQL.
 

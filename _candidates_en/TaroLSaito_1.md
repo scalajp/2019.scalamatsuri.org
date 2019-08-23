@@ -23,6 +23,6 @@ speaker_experience:
   - SIGMOD
   - Presto Meetup
 slide_url: https://www.slideshare.net/taroleo/how-to-use-scala-at-work-airframe-in-action-at-arm-treasure-data
-youtube:
+youtube: https://youtu.be/ir5CGnJgy_M
 ---
 Even if you want to use Scala at work, it might be difficult to convince your managers and other engineers to do so. Our strategy is accumulating our code assets and design patterns into the Airframe OSS project, and operating it until it can produce values for production services. In this talk, I will show how I introduced Scala to Arm Treasure Data, even though there were no other Scala engineers in the company at the beginning. I will also show how we can use Airframe to quickly build production-quality services, along with the actual examples at Arm Treasure Data.

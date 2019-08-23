@@ -19,6 +19,6 @@ speaker_experience:
   - AdTech Tokyo 2018 <a href='http://adtech-tokyo.com/ja/session/session.html?num=B-2'>http://adtech-tokyo.com/ja/session/session.html?num=B-2</a>
   - SENDAI IT Commune Meetup <a href='https://techplay.jp/eventreport/663733'>https://techplay.jp/eventreport/663733</a>
 slide_url: https://speakerdeck.com/hiraiva/scala-driven-management
-youtube:
+youtube: https://youtu.be/xGd9aJvFQ8U
 ---
 関数型、型安全、型推論、Java資産活用など、Scalaのプログラミング言語としての性質は、しばしば開発プロセスそのものに様々な影響を与えます。その結果、各エンジニアが業務での開発にどう向き合うか、育成していくか、といったエンジニアリングマネジメントのプロセスにも影響があることがあるでしょう。業務での実例を交えながら、Scalaを開発言語として選択することがエンジニアリングマネージメントにどのように影響するかを説明します。

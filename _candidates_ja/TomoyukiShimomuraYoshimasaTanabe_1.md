@@ -22,7 +22,7 @@ speaker_experience:
   - 市ヶ谷 Geek Night
   - JJUG
 slide_url: https://gitpitch.com/s10myk4/scalamaturi2019-slide#/
-youtube:
+youtube: https://youtu.be/Qg93ACduEnU
 ---
 あなたはチーム開発の中で、要件の曖昧さを感じたり、モデリングがしっくりこないといった感じることはないだろうか？
 個人のセンスやスキルによってモデリングや設計がなされているような現場をよく耳にする。このような状態が続くと、新機能の追加コストが高くなるなど、負債となりえる様々な悪影響をもたらすことは想像に難くないだろう。

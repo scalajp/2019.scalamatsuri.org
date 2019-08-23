@@ -21,7 +21,7 @@ speaker_experience:
   - Scala福岡2019 資料非公開
   - Scala関西Summit 2018 <a href='http://gakuzzzz.github.io/slides/error_handling_practice/#1'>http://gakuzzzz.github.io/slides/error_handling_practice/#1</a>
 slide_url: https://gakuzzzz.github.io/slides/cps_or_di/
-youtube:
+youtube: https://youtu.be/0zjet7sadqI
 ---
 情報システムが解決しようとする問題はますます複雑化しています。
 複雑な問題に解決するには、問題を分割し解を合成する分割統治のアプローチが必要です。

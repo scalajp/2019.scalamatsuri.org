@@ -19,7 +19,7 @@ speaker_experience:
   - AdTech Tokyo 2018 <a href='http://adtech-tokyo.com/ja/session/session.html?num=B-2'>http://adtech-tokyo.com/ja/session/session.html?num=B-2</a>
   - SENDAI IT Commune Meetup <a href='https://techplay.jp/eventreport/663733'>https://techplay.jp/eventreport/663733</a>
 slide_url: https://speakerdeck.com/hiraiva/scala-driven-management
-youtube:
+youtube: https://youtu.be/xGd9aJvFQ8U
 ---
 
 The language features of Scala, such as function type, type safety, type inference, and Java codebase utilization, often have a variety of impacts on the development process itself. As a result, it may affect development management practices such as how to train different engineers to tackle development tasks at work. In this talk, I will explain how the selection of Scala as a development language affects development management, with real-life examples.

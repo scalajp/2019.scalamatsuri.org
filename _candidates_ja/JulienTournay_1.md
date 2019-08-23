@@ -19,6 +19,6 @@ speaker_experience:
   - scala.io
   - scale by the bay
 slide_url: https://docs.google.com/presentation/d/14NQDO8Taw3-tO34_seR_ki2_9OYAPpsBcTvB9bsn078/edit?usp=sharing
-youtube: 
+youtube: https://youtu.be/CNPjgN2eQ34
 ---
 2年前、Spotify はデータパイプラインを開発し Google Dataflow へとデプロイするために、オープンソースの Scala フレームワーク Scio を導入しました。本セッションでは、Scio の進化について議論し、2年間の Scio のプロダクションでの運用の要点を共有します。また、Spotify で運用されている興味深いデータ処理ワークフローをいくつかと、これを実運用することで得られた知見、そしてどのようにこの知見を活用して Scio をより速く、より安全に、かつより使いやすくしたのかをご紹介します。

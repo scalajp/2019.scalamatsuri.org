@@ -18,6 +18,6 @@ contributes:
 speaker_experience:
   - 
 slide_url: https://speakerdeck.com/atty303/case-of-ad-delivery-system-is-implemented-by-scala-and-ddd
-youtube:
+youtube: https://youtu.be/89L0iZeLbio
 ---
 ネット広告の取引は「カオスマップ」で示されるように、様々なプレイヤーが関わってくる複雑なドメインです。私達は以前より何度も広告配信システムを構築してきましたが、今回は初めて DDD を設計の根底に置いてシステムを構築しました。そのアーキテクチャやドメインモデリングの実態、また何を重視し何を妥協したのか、本物のドメインとコードをもとに事例を紹介します。
